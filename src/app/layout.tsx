@@ -6,8 +6,29 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ToolsRated — Honest Reviews of the Best Productivity & Business Tools",
-  description: "In-depth reviews and comparisons of the best productivity tools, business software, and SaaS products. Find the perfect tool for your workflow.",
-  keywords: "productivity tools, business software reviews, best SaaS tools, tool comparisons, software reviews",
+  description:
+    "We test and compare the top productivity tools, invoicing software, project management apps, and business SaaS so you don't have to. Unbiased ratings, real-world testing, and clear recommendations for freelancers and small teams.",
+  keywords:
+    "productivity tools, business software reviews, best SaaS tools, tool comparisons, software reviews, invoicing software, project management, CRM",
+  metadataBase: new URL("https://toolsrated.vercel.app"),
+  openGraph: {
+    title: "ToolsRated — Honest Reviews of the Best Business Tools",
+    description:
+      "In-depth, hands-on reviews and side-by-side comparisons of productivity tools, invoicing software, and business SaaS. Find the right tool for your workflow.",
+    url: "https://toolsrated.vercel.app",
+    siteName: "ToolsRated",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ToolsRated — Honest Tool Reviews",
+    description:
+      "We test productivity tools, invoicing software, and business SaaS so you don't have to. Real ratings, no fluff.",
+  },
+  alternates: {
+    canonical: "https://toolsrated.vercel.app",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -19,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="/" className="font-bold text-xl text-gray-900">Tools<span className="text-blue-600">Rated</span></a>
             <div className="flex gap-6 text-sm text-gray-600">
               <a href="/reviews" className="hover:text-gray-900">Reviews</a>
+              <a href="/compare" className="hover:text-gray-900">Compare</a>
               <a href="/blog" className="hover:text-gray-900">Blog</a>
               <a href="/about" className="hover:text-gray-900">About</a>
             </div>

@@ -1,6 +1,7 @@
 import { articles } from "@/lib/articles";
 import { articleContent } from "@/lib/content";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -290,6 +291,65 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
           </div>
         </article>
       )}
+
+      {/* InvoiceQuick CTA — shown on invoicing article */}
+      {params.slug === "best-invoicing-software" && (
+        <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-center text-white">
+          <div className="text-sm font-medium uppercase tracking-wide text-blue-200 mb-2">
+            Our Top Free Pick
+          </div>
+          <h3 className="text-2xl font-bold mb-3">
+            InvoiceQuick — Free Invoicing, No Sign-Up Required
+          </h3>
+          <p className="text-blue-100 mb-6 max-w-lg mx-auto">
+            Create professional invoices in under 60 seconds. No account needed,
+            no credit card, no hidden fees. Used by thousands of freelancers.
+          </p>
+          <a
+            href="https://invoicequick-phi.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition text-lg"
+          >
+            Try InvoiceQuick Free &rarr;
+          </a>
+        </div>
+      )}
+
+      {/* Related Reviews */}
+      {(() => {
+        const currentIndex = articles.findIndex((a) => a.slug === params.slug);
+        const others = articles.filter((a) => a.slug !== params.slug);
+        const related = [
+          others[currentIndex % others.length],
+          others[(currentIndex + 1) % others.length],
+          others[(currentIndex + 2) % others.length],
+        ].filter((v, i, arr) => arr.indexOf(v) === i);
+        return (
+          <div className="mt-12">
+            <h3 className="text-xl font-bold mb-4">Related Reviews</h3>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {related.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/reviews/${r.slug}`}
+                  className="group block p-4 rounded-xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition"
+                >
+                  <span className="text-xs font-medium text-blue-600 uppercase tracking-wide">
+                    {r.category}
+                  </span>
+                  <h4 className="font-semibold text-sm mt-1 group-hover:text-blue-600 transition">
+                    {r.title}
+                  </h4>
+                  <div className="text-xs text-gray-400 mt-2">
+                    {r.readTime} read
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
 
       <div className="mt-12 p-6 bg-gray-50 rounded-xl border text-center">
         <h3 className="font-bold text-lg mb-2">
