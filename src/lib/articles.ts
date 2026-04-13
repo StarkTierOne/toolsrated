@@ -76,4 +76,13 @@ export const articles: Article[] = [
     date: "2026-03-15",
     readTime: "12 min",
   },
+  {
+    slug: "best-ai-automation-tools-solopreneurs",
+    title: "7 Best AI Automation Tools for Solopreneurs in 2026 (Ranked)",
+    description: "Zapier, Make, n8n, and more — we ranked the top AI-powered automation platforms that let solopreneurs reclaim hours every week without hiring.",
+    category: "AI & Automation",
+    date: "2026-04-13",
+    readTime: "13 min",
+    featured: true,
+  },
 ];
