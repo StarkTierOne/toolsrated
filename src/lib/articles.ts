@@ -65,8 +65,8 @@ export const articles: Article[] = [
     title: "Best Accounting Software for Freelancers & Self-Employed (2026)",
     description: "QuickBooks, FreshBooks, Wave, and more — we compare the top accounting tools for solopreneurs and freelancers.",
     category: "Finance",
-    date: "2026-03-20",
-    readTime: "10 min",
+    date: "2026-04-15",
+    readTime: "12 min",
   },
   {
     slug: "best-crm-small-business",

@@ -862,11 +862,15 @@ Pick the builder that matches your technical comfort level and the complexity of
   },
 
   "best-accounting-software-freelancers": {
-    intro: `Tax season should not mean a week of panic, receipt-hunting, and spreadsheet wrangling. The right accounting software keeps your finances organized year-round, automates expense categorization, and gives you a clear picture of your business health at any moment.
+    intro: `If you have ever tried to reconstruct twelve months of expenses two weeks before a tax deadline, you already know: bad accounting habits cost more than accounting software ever will.
+
+The right tool keeps your finances clean all year — automating expense categorization, tracking what clients owe you, and generating the reports your accountant needs without you having to hunt down receipts at 11pm in April.
 
 We tested the five most popular accounting tools for freelancers and self-employed professionals, running real business finances through each platform for at least a month. We evaluated bookkeeping features, tax preparation tools, bank connectivity, invoicing, expense tracking, and the overall experience for someone who is not an accountant.
 
-Here is what we found: the best tool depends on your revenue, complexity, and whether you want to do your own books or hand them off to a professional.`,
+Here is what we found: the best tool depends on your revenue, complexity, and whether you want to do your own books or hand them off to a professional.
+
+**Quick answer:** If budget is your top priority, Wave is completely free with real double-entry bookkeeping. If you want the easiest experience, FreshBooks is built for freelancers who hate accounting. If your accountant already uses it, QuickBooks is the safe, standard choice.`,
     tools: [
       {
         name: "QuickBooks Self-Employed / Simple Start",
@@ -1000,6 +1004,22 @@ Whatever you choose, start tracking your finances now. The pain of setting up ac
       {
         q: "How do I track business expenses as a freelancer?",
         a: "Connect your business bank account and credit card to your accounting software. It will automatically import transactions, and you categorize them (office supplies, software, travel, etc.). Use the mobile app to photograph receipts immediately. The key is consistency -- categorize transactions weekly, not yearly."
+      },
+      {
+        q: "What is the best accounting software if I have multiple income streams?",
+        a: "Wave and QuickBooks both handle multiple income streams well. Wave lets you create multiple businesses under one account for free, making it ideal if you freelance and run a side business simultaneously. QuickBooks Self-Employed is designed for gig workers with multiple 1099 income sources and can auto-separate business from personal transactions across all streams."
+      },
+      {
+        q: "Do I need separate accounting software if I already use invoicing software?",
+        a: "It depends. Dedicated invoicing tools like InvoiceQuick handle billing and payment tracking but do not replace accounting software. You still need a way to track expenses, categorize transactions, and generate tax-ready reports. Wave is the best option if you want both invoicing and accounting in one free tool. FreshBooks combines both but at a monthly cost."
+      },
+      {
+        q: "How much should a freelancer expect to pay for accounting software?",
+        a: "Nothing, if you start with Wave. For paid options, expect $15-30/month for a solid solo freelancer plan (QuickBooks Simple Start, FreshBooks Lite, Xero Early). Full-service bookkeeping like Bench starts at $299/month but includes a human bookkeeper. The right spend depends on your revenue -- if you are earning over $5,000/month, accounting software pays for itself in time saved and tax deductions found."
+      },
+      {
+        q: "What accounting reports do I actually need as a freelancer?",
+        a: "At minimum: a Profit & Loss statement (shows revenue minus expenses, gives you your net income) and a summary of income by client (for 1099 reconciliation). If you have business assets or loans, a Balance Sheet is also useful. Wave, QuickBooks, FreshBooks, and Xero all generate these automatically. Your accountant will typically ask for P&L and bank statements when preparing your annual return."
       }
     ]
   },
