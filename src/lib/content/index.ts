@@ -218,7 +218,7 @@ Here are the five best invoicing tools we found, ranked by value, features, and 
         ],
         price: "Free",
         bestFor: "Freelancers who want fast, free, professional invoicing with zero friction",
-        verdict: "InvoiceQuick is our top pick for freelancers who need to create and send professional invoices without paying for software. The interface is refreshingly simple, and you can have your first invoice out in under 60 seconds. No sign-up, no trial period, no credit card -- just a genuinely free invoicing tool that gets the job done. Try it at invoicequick-phi.vercel.app."
+        verdict: "InvoiceQuick is our top pick for freelancers who need to create and send professional invoices without paying for software. The interface is refreshingly simple, and you can have your first invoice out in under 60 seconds. No sign-up, no trial period, no credit card -- just a genuinely free invoicing tool that gets the job done. Try it at invoicequick.vercel.app."
       },
       {
         name: "FreshBooks",

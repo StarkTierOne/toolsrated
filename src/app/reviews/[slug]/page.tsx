@@ -306,7 +306,7 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             no credit card, no hidden fees. Used by thousands of freelancers.
           </p>
           <a
-            href="https://invoicequick-phi.vercel.app"
+            href="https://invoicequick.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition text-lg"
