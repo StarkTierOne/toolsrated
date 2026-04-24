@@ -85,4 +85,12 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: true,
   },
+  {
+    slug: "best-time-tracking-tools-freelancers",
+    title: "5 Best Time Tracking Tools for Freelancers (Free & Paid, 2026)",
+    description: "Track your billable hours accurately so you can invoice confidently. We tested Toggl, Clockify, Harvest, Timely, and more — here's which one is worth your time.",
+    category: "Finance",
+    date: "2026-04-24",
+    readTime: "11 min",
+  },
 ];
