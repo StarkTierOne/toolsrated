@@ -93,4 +93,13 @@ export const articles: Article[] = [
     date: "2026-04-24",
     readTime: "11 min",
   },
+  {
+    slug: "best-ai-meeting-tools",
+    title: "6 Best AI Meeting Tools for Freelancers & Remote Teams (2026)",
+    description: "Stop taking notes and start closing deals. We tested the top AI meeting transcription and automation tools — Otter.ai, Fireflies, Fathom, and more — to find which ones actually save time.",
+    category: "AI & Automation",
+    date: "2026-05-01",
+    readTime: "13 min",
+    featured: true,
+  },
 ];
