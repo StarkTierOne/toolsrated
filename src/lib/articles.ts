@@ -126,4 +126,13 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: true,
   },
+  {
+    slug: "best-scheduling-booking-tools-freelancers",
+    title: "Best Scheduling & Booking Tools for Freelancers in 2026 (Calendly Alternatives Compared)",
+    description: "Calendly is expensive. We tested Cal.com, SavvyCal, TidyCal, Fantastical, and more to find the best scheduling tools for freelancers and solopreneurs — at every price point.",
+    category: "Productivity",
+    date: "2026-05-04",
+    readTime: "12 min",
+    featured: true,
+  },
 ];
