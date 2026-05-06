@@ -47,8 +47,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </nav>
         {children}
-        <footer className="border-t border-gray-100 mt-20 py-8">
-          <div className="max-w-5xl mx-auto px-4 text-center text-sm text-gray-500">
+        <footer className="border-t border-gray-100 mt-20 py-10">
+          <div className="max-w-5xl mx-auto px-4 text-center text-sm text-gray-500 space-y-3">
+            <p>
+              <span className="font-medium text-gray-700">Sister product:</span>{" "}
+              <a
+                href="https://invoicequick.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline font-medium"
+              >
+                InvoiceQuick
+              </a>{" "}
+              — Free invoice generator for freelancers. No sign-up required.
+            </p>
             <p>&copy; {new Date().getFullYear()} ToolsRated. Affiliate Disclosure: We may earn commissions from qualifying purchases.</p>
           </div>
         </footer>
