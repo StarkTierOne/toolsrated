@@ -292,29 +292,43 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
         </article>
       )}
 
-      {/* InvoiceQuick CTA — shown on invoicing article */}
-      {params.slug === "best-invoicing-software" && (
-        <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-center text-white">
-          <div className="text-sm font-medium uppercase tracking-wide text-blue-200 mb-2">
-            Our Top Free Pick
+      {/* InvoiceQuick CTA — shown on relevant articles */}
+      {(() => {
+        const iqCtaConfig: Record<
+          string,
+          { eyebrow: string; headline: string; body: string } | undefined
+        > = {
+          "best-invoicing-software": {
+            eyebrow: "Our Top Free Pick",
+            headline: "InvoiceQuick — Free Invoicing, No Sign-Up Required",
+            body: "Create professional invoices in under 60 seconds. No account needed, no credit card, no hidden fees. Used by thousands of freelancers.",
+          },
+          "best-scheduling-booking-tools-freelancers": {
+            eyebrow: "Complete the Workflow",
+            headline: "Booked the Call? Now Send the Invoice in 60 Seconds",
+            body: "Pair your scheduling tool with InvoiceQuick — free, no sign-up, and ready in under a minute. The zero-cost stack to book clients and get paid.",
+          },
+        };
+        const cta = iqCtaConfig[params.slug];
+        if (!cta) return null;
+        return (
+          <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-center text-white">
+            <div className="text-sm font-medium uppercase tracking-wide text-blue-200 mb-2">
+              {cta.eyebrow}
+            </div>
+            <h3 className="text-2xl font-bold mb-3">{cta.headline}</h3>
+            <p className="text-blue-100 mb-6 max-w-lg mx-auto">{cta.body}</p>
+            <a
+              href="https://invoicequick.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition text-lg"
+            >
+              Try InvoiceQuick Free &rarr;
+            </a>
           </div>
-          <h3 className="text-2xl font-bold mb-3">
-            InvoiceQuick — Free Invoicing, No Sign-Up Required
-          </h3>
-          <p className="text-blue-100 mb-6 max-w-lg mx-auto">
-            Create professional invoices in under 60 seconds. No account needed,
-            no credit card, no hidden fees. Used by thousands of freelancers.
-          </p>
-          <a
-            href="https://invoicequick.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition text-lg"
-          >
-            Try InvoiceQuick Free &rarr;
-          </a>
-        </div>
-      )}
+        );
+      })()}
 
       {/* Related Reviews */}
       {(() => {

@@ -2237,7 +2237,7 @@ If UX and booking experience are a priority — especially if you are booking hi
 
 For the one-time-fee crowd, TidyCal's lifetime deal makes it a no-brainer if you catch it on AppSumo. Calendly still wins for teams with enterprise CRM needs. And if you are already a Fantastical user on Apple, skip the dedicated tool — you already have what you need.
 
-The bottom line: stop emailing time options. Any of these tools will pay for themselves in the first week.`,
+The bottom line: stop emailing time options. Any of these tools will pay for themselves in the first week. And once a client books a paid consultation or follow-up project, send a polished invoice the same day — InvoiceQuick (invoicequick.vercel.app) is free, requires no sign-up, and lets you generate a professional PDF in under 60 seconds. Scheduling tool plus InvoiceQuick is the zero-cost stack for booking clients and getting paid.`,
     faq: [
       {
         q: "What is the best free Calendly alternative?",
@@ -2258,6 +2258,10 @@ The bottom line: stop emailing time options. Any of these tools will pay for the
       {
         q: "How do I embed a scheduling tool on my website?",
         a: "All six tools in this review support website embedding. Calendly and Appointlet have the most robust embed options (inline iframe, popup widget, and popup text). Cal.com's embed is clean and easy to implement with a script snippet. SavvyCal also provides inline and popup embed options. For most freelancer websites (Squarespace, Webflow, WordPress), any of these embed options work without technical expertise."
+      },
+      {
+        q: "After a client books a paid call or project, what is the fastest way to invoice them?",
+        a: "Once a scheduling tool confirms a paid consultation or follow-up engagement, send the invoice the same day — invoices sent within 24 hours of work being booked or completed are paid significantly faster than those sent later. The fastest free option is InvoiceQuick (invoicequick.vercel.app): no sign-up, no credit card, fill in your business and client details, add line items (e.g. 'Strategy session, 1 hour at $200/hr'), and download a polished PDF in under 60 seconds. Pair it with TidyCal, Cal.com, or any other scheduling tool for a complete book-to-paid workflow at zero recurring cost."
       }
     ]
   }
