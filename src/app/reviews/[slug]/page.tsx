@@ -308,6 +308,16 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             headline: "Booked the Call? Now Send the Invoice in 60 Seconds",
             body: "Pair your scheduling tool with InvoiceQuick — free, no sign-up, and ready in under a minute. The zero-cost stack to book clients and get paid.",
           },
+          "best-time-tracking-tools-freelancers": {
+            eyebrow: "Tracked the Hours? Now Bill For Them",
+            headline: "From Time Sheet to Invoice in Under a Minute",
+            body: "Once you've logged your hours, InvoiceQuick turns them into a professional invoice in 60 seconds — free, no sign-up, no credit card. The fastest path from tracked time to paid invoice.",
+          },
+          "best-accounting-software-freelancers": {
+            eyebrow: "Skip the Subscription for Invoicing",
+            headline: "InvoiceQuick — Free Invoicing That Works With Any Accounting Tool",
+            body: "Most accounting software charges $15–$60/month and locks invoicing behind a paywall. InvoiceQuick is free, requires no account, and exports clean PDFs that import into any bookkeeping workflow.",
+          },
         };
         const cta = iqCtaConfig[params.slug];
         if (!cta) return null;
