@@ -135,4 +135,13 @@ export const articles: Article[] = [
     readTime: "12 min",
     featured: true,
   },
+  {
+    slug: "best-ai-coding-assistants",
+    title: "7 Best AI Coding Assistants in 2026 (Cursor vs Copilot vs Claude Code, Tested)",
+    description: "We tested Cursor, GitHub Copilot, Claude Code, Cline, Windsurf, Cody, and Tabnine on real codebases. Here's which AI coding assistant is actually worth paying for in 2026.",
+    category: "AI & Automation",
+    date: "2026-05-11",
+    readTime: "14 min",
+    featured: true,
+  },
 ];
