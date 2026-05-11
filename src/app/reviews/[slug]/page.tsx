@@ -318,6 +318,11 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             headline: "InvoiceQuick — Free Invoicing That Works With Any Accounting Tool",
             body: "Most accounting software charges $15–$60/month and locks invoicing behind a paywall. InvoiceQuick is free, requires no account, and exports clean PDFs that import into any bookkeeping workflow.",
           },
+          "best-project-management-tools": {
+            eyebrow: "Closed the Project? Now Close the Loop",
+            headline: "Ship the Work, Send the Invoice — In Under a Minute",
+            body: "Your PM tool tracks what got done. InvoiceQuick turns that into a paid invoice in 60 seconds — free, no sign-up, no monthly fee. The fastest path from \"project complete\" to \"client paid\".",
+          },
         };
         const cta = iqCtaConfig[params.slug];
         if (!cta) return null;
