@@ -322,7 +322,7 @@ The bottom line: do not waste time with spreadsheets and Word documents. Any of 
       },
       {
         q: "Can I use invoicing software for recurring billing?",
-        a: "Yes. FreshBooks, Wave, and Zoho Invoice all support recurring invoices that automatically send at set intervals. This is ideal for retainer clients or subscription-based services. InvoiceQuick focuses on one-time invoices but lets you duplicate previous invoices quickly."
+        a: "Yes. FreshBooks, Wave, and Zoho Invoice all support fully automated recurring invoices that send at set intervals — ideal for retainer clients, subscription services, or any engagement billed on a fixed cadence. The standard pattern is to bill on the 1st of the month in advance, name the month explicitly on the invoice (\"Monthly retainer — May 2026\"), spell out reserved hours or deliverables, and put the overage rate on the invoice itself so there is no surprise the first time the client exceeds scope. On InvoiceQuick's free tier, duplicate last month's retainer invoice and update the month name — about 20 seconds per client per month, which is genuinely all you need for 1–5 retainer clients. InvoiceQuick Pro ($9/month) automates the cadence entirely with a 5-day pre-due reminder, which is the single highest-leverage retainer workflow you can build (see invoicequick.vercel.app/blog/recurring-invoices-for-freelancers for the full retainer billing guide)."
       }
     ]
   },
