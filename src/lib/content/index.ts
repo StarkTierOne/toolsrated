@@ -216,9 +216,9 @@ Here are the five best invoicing tools we found, ranked by value, features, and 
           "No built-in payment processing (uses external payment links)",
           "Limited reporting compared to full accounting suites"
         ],
-        price: "Free",
-        bestFor: "Freelancers who want fast, free, professional invoicing with zero friction",
-        verdict: "InvoiceQuick is our top pick for freelancers who need to create and send professional invoices without paying for software. The interface is refreshingly simple, and you can have your first invoice out in under 60 seconds. No sign-up, no trial period, no credit card -- just a genuinely free invoicing tool that gets the job done. Try it at invoicequick.vercel.app."
+        price: "Free forever; Pro $9/mo; Business $29/mo",
+        bestFor: "Freelancers who want fast, free, professional invoicing with zero friction — and a clear upgrade path once retainer volume grows",
+        verdict: "InvoiceQuick is our top pick for freelancers who need to create and send professional invoices without paying for software. The interface is refreshingly simple, and you can have your first invoice out in under 60 seconds. No sign-up, no trial period, no credit card -- just a genuinely free invoicing tool that gets the job done. The pricing is unusually honest about when each tier earns its keep: the free plan stays free (unlimited invoices, no watermarks, no caps), and the upgrade trigger is explicit — once you hit 5+ retainer or recurring clients, Pro ($9/mo) automates the cadence and pays for itself in the first week. Below that threshold, the free duplicate-previous-invoice workflow runs about 20 seconds per client per month. Business ($29/mo) only kicks in if you have a team or need API access. Try it at invoicequick.vercel.app, and see invoicequick.vercel.app/pricing for the full Free vs Pro vs Business breakdown by use case."
       },
       {
         name: "FreshBooks",
