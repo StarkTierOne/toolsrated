@@ -310,7 +310,7 @@ The bottom line: do not waste time with spreadsheets and Word documents. Any of 
     faq: [
       {
         q: "What is the best completely free invoicing software?",
-        a: "InvoiceQuick is the best free option for most freelancers -- it requires no account and has no limits. Wave is another excellent free choice if you also need accounting features. Zoho Invoice offers up to 1,000 free invoices per year."
+        a: "InvoiceQuick is the best free option for most freelancers — no account, no invoice cap, no watermarks, no credit card. Wave Starter is the better choice if you also need bookkeeping in the same tool, though Wave Pro is $16/mo for recurring billing and ACH (almost 2× InvoiceQuick Pro at $9/mo). Zoho Invoice is genuinely free with recurring billing and a 1,000-client database, but caps at 500 invoices/year and is best when you are already inside the Zoho ecosystem. Bonsai has no free tier ($19–$79/mo per user) and only makes sense if you are also using its proposals, CRM, contracts, and tasks. For a 10-row side-by-side comparison of all four — price, invoice cap, watermarks, branding, recurring, multi-currency, client DB, per-user pricing, and sign-up friction — see invoicequick.vercel.app/pricing."
       },
       {
         q: "How do online invoicing tools help me get paid faster?",
