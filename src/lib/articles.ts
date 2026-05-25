@@ -144,4 +144,22 @@ export const articles: Article[] = [
     readTime: "14 min",
     featured: true,
   },
+  {
+    slug: "best-ai-app-builders",
+    title: "6 Best AI App Builders in 2026 (Lovable vs Bolt vs v0 vs Replit, Tested)",
+    description: "We built the same SaaS MVP in Lovable, Bolt.new, v0, Replit Agent, Base44, and Mocha. Here's which AI app builder actually ships a production app in 2026 — and which ones quietly bleed your credit card.",
+    category: "AI & Automation",
+    date: "2026-05-18",
+    readTime: "14 min",
+    featured: true,
+  },
+  {
+    slug: "best-ai-presentation-makers",
+    title: "6 Best AI Presentation Makers in 2026 (Gamma vs Beautiful.ai vs Plus AI, Tested)",
+    description: "We generated the same investor deck in Gamma, Beautiful.ai, Plus AI, Decktopus, Canva Magic, and Pitch. Here's which AI presentation tool actually produces slides you'd send to a client in 2026 — and which ones still look like AI-generated PowerPoint.",
+    category: "AI & Automation",
+    date: "2026-05-25",
+    readTime: "13 min",
+    featured: true,
+  },
 ];
