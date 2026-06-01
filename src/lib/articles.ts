@@ -162,4 +162,13 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: true,
   },
+  {
+    slug: "best-ai-customer-service-tools",
+    title: "7 Best AI Customer Service Tools in 2026 (Intercom Fin vs Zendesk vs Tidio, Tested)",
+    description: "We tested the top AI customer service agents on real support tickets. Here's which one resolves the most conversations without a human, what per-resolution pricing actually costs, and which tool fits solopreneurs vs scaling teams in 2026.",
+    category: "AI & Automation",
+    date: "2026-06-01",
+    readTime: "14 min",
+    featured: true,
+  },
 ];
