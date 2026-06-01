@@ -323,6 +323,16 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             headline: "Ship the Work, Send the Invoice — In Under a Minute",
             body: "Your PM tool tracks what got done. InvoiceQuick turns that into a paid invoice in 60 seconds — free, no sign-up, no monthly fee. The fastest path from \"project complete\" to \"client paid\".",
           },
+          "best-esignature-software": {
+            eyebrow: "Contract Signed? Now Send the Invoice",
+            headline: "From Signature to Invoice in Under a Minute",
+            body: "The moment your client signs, send the first invoice. InvoiceQuick is free, needs no sign-up, and produces a professional PDF in 60 seconds — pair it with any e-signature tool for a complete sign-to-paid workflow.",
+          },
+          "best-online-course-platforms": {
+            eyebrow: "For Sponsorships & B2B Course Sales",
+            headline: "Invoice Sponsors and Corporate Clients in 60 Seconds",
+            body: "Your course platform handles student checkout — but not sponsorships or bulk licensing. InvoiceQuick is free, no sign-up required, and creates a professional invoice PDF in under a minute for every B2B deal you close.",
+          },
         };
         const cta = iqCtaConfig[params.slug];
         if (!cta) return null;
