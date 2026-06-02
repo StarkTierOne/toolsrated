@@ -344,7 +344,7 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             <h3 className="text-2xl font-bold mb-3">{cta.headline}</h3>
             <p className="text-blue-100 mb-6 max-w-lg mx-auto">{cta.body}</p>
             <a
-              href="https://invoicequick.vercel.app"
+              href="https://invoicequick-phi.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition text-lg"

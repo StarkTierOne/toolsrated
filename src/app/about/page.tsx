@@ -47,7 +47,7 @@ export default function AboutPage() {
         <ul className="list-disc pl-6 space-y-2">
           <li>
             <a
-              href="https://invoicequick.vercel.app"
+              href="https://invoicequick-phi.vercel.app"
               className="text-blue-600 hover:underline"
               target="_blank"
               rel="noopener noreferrer"

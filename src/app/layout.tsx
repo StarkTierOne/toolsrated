@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p>
               <span className="font-medium text-gray-700">Sister product:</span>{" "}
               <a
-                href="https://invoicequick.vercel.app"
+                href="https://invoicequick-phi.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline font-medium"

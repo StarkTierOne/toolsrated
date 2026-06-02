@@ -105,7 +105,7 @@ export default function BlogPage() {
           Our sister product InvoiceQuick lets you create professional invoices in under 60 seconds — free, no sign-up required.
         </p>
         <a
-          href="https://invoicequick.vercel.app"
+          href="https://invoicequick-phi.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-2.5 rounded-lg text-sm hover:bg-blue-50 transition"
