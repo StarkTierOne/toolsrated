@@ -101,40 +101,58 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             ))}
           </div>
 
-          {/* Quick Summary / Table of Contents */}
-          <div className="bg-gray-50 rounded-xl p-6 mb-10 border">
+          {/* Quick Comparison Table */}
+          <div className="mb-10">
             <h2 className="text-xl font-bold mb-4 mt-0">
-              Quick Summary
+              Quick Comparison
             </h2>
-            <div className="space-y-3">
-              {content.tools.map((tool, i) => (
-                <div
-                  key={tool.name}
-                  className="flex items-center justify-between text-sm"
-                >
-                  <span className="font-medium">
-                    {i + 1}. {tool.name}
-                  </span>
-                  <div className="flex items-center gap-2">
-                    <span className="text-gray-500 text-xs hidden sm:inline">
-                      {tool.bestFor.length > 50
-                        ? tool.bestFor.slice(0, 50) + "..."
-                        : tool.bestFor}
-                    </span>
-                    <span
-                      className={`text-xs font-bold px-2 py-0.5 rounded-full ${
-                        tool.rating >= 9
-                          ? "bg-green-100 text-green-800"
-                          : tool.rating >= 8
-                          ? "bg-blue-100 text-blue-800"
-                          : "bg-yellow-100 text-yellow-800"
-                      }`}
+            <div className="overflow-x-auto rounded-xl border">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-gray-50 text-left">
+                    <th className="p-3 font-semibold">#</th>
+                    <th className="p-3 font-semibold">Tool</th>
+                    <th className="p-3 font-semibold whitespace-nowrap">Rating</th>
+                    <th className="p-3 font-semibold">Price</th>
+                    <th className="p-3 font-semibold">Best for</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {content.tools.map((tool, i) => (
+                    <tr
+                      key={tool.name}
+                      className="border-t align-top hover:bg-gray-50/60"
                     >
-                      {tool.rating}/10
-                    </span>
-                  </div>
-                </div>
-              ))}
+                      <td className="p-3 text-gray-400 tabular-nums">{i + 1}</td>
+                      <td className="p-3">
+                        <a
+                          href={`#${tool.name
+                            .toLowerCase()
+                            .replace(/[^a-z0-9]+/g, "-")}`}
+                          className="font-semibold text-blue-600 hover:underline whitespace-nowrap"
+                        >
+                          {tool.name}
+                        </a>
+                      </td>
+                      <td className="p-3">
+                        <span
+                          className={`text-xs font-bold px-2 py-0.5 rounded-full whitespace-nowrap ${
+                            tool.rating >= 9
+                              ? "bg-green-100 text-green-800"
+                              : tool.rating >= 8
+                              ? "bg-blue-100 text-blue-800"
+                              : "bg-yellow-100 text-yellow-800"
+                          }`}
+                        >
+                          {tool.rating}/10
+                        </span>
+                      </td>
+                      <td className="p-3 text-gray-600">{tool.price}</td>
+                      <td className="p-3 text-gray-600">{tool.bestFor}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
 
