@@ -198,4 +198,13 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: false,
   },
+  {
+    slug: "best-ai-video-generators",
+    title: "7 Best AI Video Generators in 2026 (Veo vs Runway vs Kling, Tested)",
+    description: "We ran the same prompts through every major AI video generator. Here's which one produces the most usable clips for ads, social, and product demos in 2026 — which has the best native audio, which is the best value per video, and why Sora is no longer a safe bet.",
+    category: "AI & Automation",
+    date: "2026-06-08",
+    readTime: "14 min",
+    featured: true,
+  },
 ];
