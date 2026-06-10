@@ -3,6 +3,70 @@ import { articleContent } from "@/lib/content";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
+
+// Lightweight inline markdown for article body text: **bold** and [label](href).
+// Internal hrefs (starting with "/") become Next <Link>; external open in a new tab.
+const LINK_RE = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+const BOLD_RE = /\*\*([^*]+)\*\*/g;
+
+// Strip inline markdown to plain text (for JSON-LD, where markup is noise).
+function plain(text: string): string {
+  return text
+    .replace(LINK_RE, "$1")
+    .replace(BOLD_RE, "$1");
+}
+
+function renderBold(text: string, keyPrefix: string): ReactNode[] {
+  const out: ReactNode[] = [];
+  let last = 0;
+  let i = 0;
+  let m: RegExpExecArray | null;
+  BOLD_RE.lastIndex = 0;
+  while ((m = BOLD_RE.exec(text)) !== null) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push(<strong key={`${keyPrefix}b${i}`}>{m[1]}</strong>);
+    last = m.index + m[0].length;
+    i++;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
+function renderRich(text: string, keyPrefix: string): ReactNode[] {
+  const out: ReactNode[] = [];
+  let last = 0;
+  let i = 0;
+  let m: RegExpExecArray | null;
+  LINK_RE.lastIndex = 0;
+  while ((m = LINK_RE.exec(text)) !== null) {
+    if (m.index > last) out.push(...renderBold(text.slice(last, m.index), `${keyPrefix}t${i}`));
+    const [full, label, href] = m;
+    if (href.startsWith("/")) {
+      out.push(
+        <Link key={`${keyPrefix}l${i}`} href={href} className="text-blue-600 hover:underline">
+          {label}
+        </Link>,
+      );
+    } else {
+      out.push(
+        <a
+          key={`${keyPrefix}l${i}`}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          {label}
+        </a>,
+      );
+    }
+    last = m.index + full.length;
+    i++;
+  }
+  if (last < text.length) out.push(...renderBold(text.slice(last), `${keyPrefix}t${i}`));
+  return out;
+}
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -22,7 +86,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
           name: f.q,
           acceptedAnswer: {
             "@type": "Answer",
-            text: f.a,
+            text: plain(f.a),
           },
         })),
       }
@@ -96,7 +160,7 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
           <div className="space-y-4 mb-10">
             {content.intro.split("\n\n").map((p, i) => (
               <p key={i} className="text-lg text-gray-700 leading-relaxed">
-                {p}
+                {renderRich(p, `intro${i}-`)}
               </p>
             ))}
           </div>
@@ -250,7 +314,7 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             <div className="space-y-4">
               {content.conclusion.split("\n\n").map((p, i) => (
                 <p key={i} className="text-gray-700 leading-relaxed">
-                  {p}
+                  {renderRich(p, `concl${i}-`)}
                 </p>
               ))}
             </div>
@@ -266,7 +330,7 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
                 {content.faq.map((f, i) => (
                   <div key={i} className="border-b pb-5">
                     <h3 className="text-lg font-semibold mb-2 mt-0">{f.q}</h3>
-                    <p className="text-gray-700 text-sm mb-0">{f.a}</p>
+                    <p className="text-gray-700 text-sm mb-0">{renderRich(f.a, `faq${i}-`)}</p>
                   </div>
                 ))}
               </div>
@@ -286,7 +350,7 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
                     name: f.q,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: f.a,
+                      text: plain(f.a),
                     },
                   })),
                 }),
