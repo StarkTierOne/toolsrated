@@ -410,6 +410,11 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             headline: "From Signature to Invoice in Under a Minute",
             body: "The moment your client signs, send the first invoice. InvoiceQuick is free, needs no sign-up, and produces a professional PDF in 60 seconds — pair it with any e-signature tool for a complete sign-to-paid workflow.",
           },
+          "best-proposal-software-freelancers": {
+            eyebrow: "Proposal Signed? Now Get Paid",
+            headline: "From Signed Proposal to Sent Invoice in 60 Seconds",
+            body: "The moment a client signs, send the first invoice. InvoiceQuick is free, needs no sign-up, and turns a won deal into a professional invoice PDF in under a minute — the fastest path from \"signed\" to \"paid.\"",
+          },
           "best-online-course-platforms": {
             eyebrow: "For Sponsorships & B2B Course Sales",
             headline: "Invoice Sponsors and Corporate Clients in 60 Seconds",

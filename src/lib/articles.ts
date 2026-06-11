@@ -207,4 +207,13 @@ export const articles: Article[] = [
     readTime: "14 min",
     featured: true,
   },
+  {
+    slug: "best-proposal-software-freelancers",
+    title: "7 Best Proposal Software for Freelancers in 2026 (Compared)",
+    description: "We tested the top proposal tools on real client pitches. Here's which one wins more deals for freelancers, which is the best all-in-one value, and which is overkill — from $10/month budget picks to agency-grade platforms with e-sign and payments built in.",
+    category: "Productivity",
+    date: "2026-06-11",
+    readTime: "12 min",
+    featured: false,
+  },
 ];
