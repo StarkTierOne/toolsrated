@@ -216,4 +216,13 @@ export const articles: Article[] = [
     readTime: "12 min",
     featured: false,
   },
+  {
+    slug: "best-ai-note-taking-apps",
+    title: "7 Best AI Note-Taking Apps in 2026 (Notion AI vs Obsidian vs Mem, Tested)",
+    description: "We tested every major AI note-taking app on real knowledge work — capturing ideas, organizing research, and turning messy notes into something usable. Here's which one actually thinks with you in 2026, which is the best free pick, and which is worth paying for.",
+    category: "AI & Automation",
+    date: "2026-06-22",
+    readTime: "13 min",
+    featured: true,
+  },
 ];
