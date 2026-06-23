@@ -385,6 +385,11 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
             headline: "InvoiceQuick — Free Invoicing, No Sign-Up Required",
             body: "Create professional invoices in under 60 seconds. No account needed, no credit card, no hidden fees. Used by thousands of freelancers.",
           },
+          "best-free-invoice-generators": {
+            eyebrow: "Our #1 Free Invoice Generator",
+            headline: "InvoiceQuick — No Sign-Up, No Watermark, 0% Fees",
+            body: "Skip the account and the catches. Create, download, and email a professional invoice in about 60 seconds — free, no credit card, and you keep 100% of what you bill.",
+          },
           "best-scheduling-booking-tools-freelancers": {
             eyebrow: "Complete the Workflow",
             headline: "Booked the Call? Now Send the Invoice in 60 Seconds",

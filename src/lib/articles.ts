@@ -28,6 +28,15 @@ export const articles: Article[] = [
     featured: true,
   },
   {
+    slug: "best-free-invoice-generators",
+    title: "6 Best Free Invoice Generators in 2026 (No Sign-Up Needed, Tested)",
+    description: "Need an invoice right now without creating an account? We tested the best free invoice generators — no sign-up, no credit card, instant PDF. Here's which one to use and which to skip.",
+    category: "Finance",
+    date: "2026-06-23",
+    readTime: "11 min",
+    featured: true,
+  },
+  {
     slug: "notion-vs-obsidian",
     title: "Notion vs Obsidian: Which Note-Taking App Wins in 2026?",
     description: "A deep dive comparison of Notion and Obsidian — features, pricing, use cases, and which one suits your workflow.",
