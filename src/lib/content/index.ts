@@ -1610,11 +1610,11 @@ The best stack for most solopreneurs in 2026: Make for core data and app automat
     ]
   },
   "best-time-tracking-tools-freelancers": {
-    intro: `If you bill by the hour, your time tracker is directly connected to your income. An inaccurate or missing time log means either under-billing (leaving money on the table) or over-billing (which damages client trust). Yet most freelancers still rely on a notes app, a spreadsheet, or nothing at all.
+    intro: `Picture the last hour you worked but never logged -- the client call you took on your phone, the "quick" revision squeezed in before dinner, the forty minutes spent debugging something at 11pm. At a $75 rate, one forgotten hour a day is roughly $1,500 a month you earned and never billed. That is the real cost of loose time tracking: not messy reports, but invoices that quietly come in light. A good time tracker exists to make sure every billable minute survives the trip from work-done to invoice-sent.
 
-In 2026, the best time tracking tools are lightweight, automatic, and integrate with your invoicing workflow so you can go from tracked hours to professional invoice in minutes. We tested five leading options across six weeks of real freelance work to find which ones actually make billing easier -- not more complicated.
+We tested five leading time trackers across six weeks of real freelance work, judging each on ease of use, accuracy, invoicing integration, mobile experience, and how generous the free plan actually is -- because the best tracker is the one you are still using in month three, not the one with the longest feature list.
 
-We evaluated each tool on ease of use, accuracy, invoicing integration, mobile experience, and free plan generosity.`,
+**Quick answer:** **Toggl Track** is the best all-around pick for most freelancers -- one-click timers and clean reports that drop straight into an invoice. **Clockify** is the most generous genuinely-free option (unlimited projects, users, and entries). **Harvest** has the best built-in track-to-invoice flow if you want billing in the same tool. **Timely** runs automatically in the background for people who forget to hit start, and **RescueTime** is a productivity mirror to pair with a billable-hour tracker rather than a billing tool in its own right. Whichever you pick, the payoff only lands when those hours convert to a paid [invoice](https://invoicequick-phi.vercel.app) -- and many freelancers run a tracker for hours plus simple [accounting software](/reviews/best-accounting-software-freelancers) for the books.`,
     tools: [
       {
         name: "Toggl Track",
@@ -1746,6 +1746,18 @@ Whatever tool you choose, pair it with a fast, frictionless invoicing tool so tr
       {
         q: "Can I track time across multiple clients without getting confused?",
         a: "Yes -- use a project-based structure: create one project per client, and optionally add tasks within each project for different types of work (design, meetings, revisions). Toggl and Clockify support this on their free plans. At the end of each billing period, filter your report by client to see exact hours for each invoice."
+      },
+      {
+        q: "How do I bill clients for expenses, not just tracked hours?",
+        a: "Your time tracker captures the hours, but the materials, mileage, software seats, and travel you fronted for a project are billable too -- and they belong on the same invoice, itemized separately from your labor with receipts attached. Harvest tracks expenses alongside time in one tool; with a standalone tracker, log the cost as you incur it and add it as its own line item when you invoice. For the full breakdown of marking up vs. passing through at cost and getting expense lines approved on the first pass, see InvoiceQuick's guide on how to invoice a client for expenses and reimbursements (invoicequick-phi.vercel.app/blog/how-to-invoice-for-expenses-and-reimbursements)."
+      },
+      {
+        q: "What's the difference between billable hours and reimbursable expenses?",
+        a: "Billable hours are your time -- what you charge for the work itself, at your hourly or project rate. Reimbursable expenses are out-of-pocket costs you paid on the client's behalf (travel, materials, third-party licenses) that they agreed to pay back. Time trackers handle the first; they mostly don't handle the second, which is why freelancers forget to bill it. Track both: hours in your time tracker, expenses captured by photographing each receipt the moment you pay, then combine them as separate sections on one professional invoice so nothing you spent evaporates."
+      },
+      {
+        q: "How do I make sure I capture every billable minute?",
+        a: "Three habits close the leak: start the timer at the moment you switch tasks rather than reconstructing the day from memory (or use an automatic tracker like Timely that records in the background); do a two-minute review at the end of each day while the work is fresh; and pick a consistent rounding rule (most freelancers round to the nearest 6 or 15 minutes) and apply it the same way every time. The forgotten hours are almost always the small, off-computer ones -- phone calls, quick revisions, late-night fixes -- so those are the ones worth a deliberate habit to capture."
       }
     ]
   },
