@@ -37,6 +37,15 @@ export const articles: Article[] = [
     featured: true,
   },
   {
+    slug: "best-free-invoice-templates",
+    title: "7 Best Free Invoice Templates in 2026 (Google Docs, Word & Excel, Tested)",
+    description: "Looking for a free invoice template in Google Docs, Word, or Excel? We tested the most-downloaded ones for hidden math errors, reformatting pain, and watermarks — here's which to download and the faster way to skip the template entirely.",
+    category: "Finance",
+    date: "2026-06-25",
+    readTime: "11 min",
+    featured: true,
+  },
+  {
     slug: "notion-vs-obsidian",
     title: "Notion vs Obsidian: Which Note-Taking App Wins in 2026?",
     description: "A deep dive comparison of Notion and Obsidian — features, pricing, use cases, and which one suits your workflow.",
