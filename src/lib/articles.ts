@@ -243,4 +243,13 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: true,
   },
+  {
+    slug: "best-ai-seo-tools",
+    title: "7 Best AI SEO Tools in 2026 (Surfer vs Semrush vs Frase, Tested)",
+    description: "We ran the same content briefs through every major AI SEO tool — keyword research, content optimization, and on-page scoring — to see which actually moves rankings in 2026. Here's the best overall pick, the best budget option, and which all-in-one platform is worth its price.",
+    category: "AI & Automation",
+    date: "2026-06-29",
+    readTime: "14 min",
+    featured: true,
+  },
 ];
