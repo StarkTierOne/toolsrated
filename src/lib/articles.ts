@@ -279,4 +279,13 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: true,
   },
+  {
+    slug: "best-ai-agent-builders",
+    title: "7 Best AI Agent Builders in 2026 (Lindy vs Gumloop vs Relay, Tested)",
+    description: "2026 is the year AI stopped answering and started doing. We tested the top AI agent builders — Lindy, Gumloop, Relay.app, Relevance AI, n8n, Zapier Agents, and Bardeen — on real work: handling email, running multi-step workflows, and making decisions without you. Here's which one to start with, the best no-code pick, and the cheapest way in.",
+    category: "AI & Automation",
+    date: "2026-07-13",
+    readTime: "14 min",
+    featured: true,
+  },
 ];
