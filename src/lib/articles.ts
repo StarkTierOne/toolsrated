@@ -203,7 +203,7 @@ export const articles: Article[] = [
     title: "6 Best E-Signature Software Tools in 2026 (DocuSign Alternatives, Tested)",
     description: "DocuSign isn't the only option — and it's far from the cheapest. We tested the top e-signature tools on real contracts to find the best value for freelancers, small teams, and high-volume sales.",
     category: "Productivity",
-    date: "2026-06-01",
+    date: "2026-07-22",
     readTime: "12 min",
     featured: false,
   },
