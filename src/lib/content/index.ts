@@ -2548,7 +2548,9 @@ If UX and booking experience are a priority — especially if you are booking hi
 
 For the one-time-fee crowd, TidyCal's lifetime deal makes it a no-brainer if you catch it on AppSumo. Calendly still wins for teams with enterprise CRM needs. And if you are already a Fantastical user on Apple, skip the dedicated tool — you already have what you need.
 
-The bottom line: stop emailing time options. Any of these tools will pay for themselves in the first week. And once a client books a paid consultation or follow-up project, send a polished invoice the same day — InvoiceQuick (invoicequick-phi.vercel.app) is free, requires no sign-up, and lets you generate a professional PDF in under 60 seconds. Scheduling tool plus InvoiceQuick is the zero-cost stack for booking clients and getting paid.`,
+The bottom line: stop emailing time options. Any of these tools will pay for themselves in the first week. And once a client books a paid consultation or follow-up project, send a polished invoice the same day — **[InvoiceQuick](https://invoicequick-phi.vercel.app)** is free, requires no sign-up, and lets you generate a professional PDF in under 60 seconds. Scheduling tool plus InvoiceQuick is the zero-cost stack for booking clients and getting paid.
+
+One thing no scheduling tool solves for you: a booked slot that empties at the last minute cannot be resold, so the cancellation policy behind the booking link is what actually decides what your calendar earns. If you sell recurring sessions — tutoring, coaching, lessons — [how to invoice for tutoring and test prep](https://invoicequick-phi.vercel.app/blog/how-to-invoice-for-tutoring) covers the 24-to-48-hour no-show policy that holds up, and how to bill prepaid session packages so a client can see sessions used and sessions remaining on the invoice itself.`,
     faq: [
       {
         q: "What is the best free Calendly alternative?",
@@ -3828,7 +3830,9 @@ The single most important number, and the one creators most often miss, is trans
 
 Run the fee math before committing. A platform taking 5–10% of every sale can quietly cost more than a higher flat monthly fee once you're earning real money — so the "cheapest" platform changes as your revenue grows. Pick the one that's cheapest at the revenue level you expect 12 months from now, not today.
 
-And whether your students pay through the platform or you invoice partners, sponsors, and B2B clients directly, get those invoices out fast: InvoiceQuick (invoicequick-phi.vercel.app) is free, needs no sign-up, and produces a professional invoice PDF in under 60 seconds.`,
+And whether your students pay through the platform or you invoice partners, sponsors, and B2B clients directly, get those invoices out fast: **[InvoiceQuick](https://invoicequick-phi.vercel.app)** is free, needs no sign-up, and produces a professional invoice PDF in under 60 seconds.
+
+Worth knowing if your teaching isn't all self-paced: the moment you take on live students, a school, or a district alongside the course, you're in a different billing world than platform checkout. Prepaid session packages are money you haven't earned until you teach them, and district work will not be paid at all without a purchase order raised before the first session, no matter how many hours you actually worked. [How to invoice for tutoring and test prep](https://invoicequick-phi.vercel.app/blog/how-to-invoice-for-tutoring) covers both, plus the sales-tax edge where a recorded digital course is treated differently from live instruction.`,
     faq: [
       {
         q: "What is the best online course platform in 2026?",
