@@ -288,4 +288,22 @@ export const articles: Article[] = [
     readTime: "14 min",
     featured: true,
   },
+  {
+    slug: "best-expense-tracker-apps-freelancers",
+    title: "7 Best Expense Tracker Apps for Freelancers in 2026 (Tested & Compared)",
+    description: "Every missed receipt is money you hand back to the IRS. We tested the top expense trackers on OCR accuracy, mileage, Schedule C categorization, and real cost per month — including which one is genuinely free and which $20/mo app pays for itself in one deduction.",
+    category: "Finance",
+    date: "2026-08-12",
+    readTime: "13 min",
+    featured: true,
+  },
+  {
+    slug: "best-ai-browsers",
+    title: "7 Best AI Browsers in 2026 (Comet vs Atlas vs Dia, Tested)",
+    description: "AI browsers can book, buy, and email on your behalf — and every one of them can be hijacked by text on a web page. We tested the top agentic browsers on capability, platform support, price, and the prompt-injection risk nobody puts in the marketing. Here's which to use, and what to never let it touch.",
+    category: "AI & Automation",
+    date: "2026-08-12",
+    readTime: "14 min",
+    featured: true,
+  },
 ];
