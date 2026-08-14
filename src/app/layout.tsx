@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@/components/Analytics";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p>&copy; {new Date().getFullYear()} ToolsRated. Affiliate Disclosure: We may earn commissions from qualifying purchases.</p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
