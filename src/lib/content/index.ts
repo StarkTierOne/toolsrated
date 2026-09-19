@@ -675,161 +675,216 @@ One warning if you go that route: do not try to sync the two. Mirroring notes be
   },
 
   "best-email-marketing-tools": {
-    intro: `Email marketing remains the highest-ROI channel for small businesses, consistently outperforming social media, paid ads, and SEO in terms of direct revenue per dollar spent. But the landscape of email marketing platforms has shifted dramatically -- what was best two years ago may not be the right choice today.
+    intro: `Every "best email marketing tools" list opens with the same number — email returns $36 to $42 for every dollar spent — and then recommends the same tool to everyone. That number is real, and it is also the reason the recommendation is useless: the return comes from owning a list that opens what you send, and the tool that gets a creator there is not the tool that gets a Shopify store there, which is not the tool that gets a five-person service business there. The market has split along exactly those lines, and the platforms have specialised so hard that picking a tool built for a different business is now the most common — and most expensive — mistake in the category.
 
-We tested five of the most popular email marketing tools by setting up real campaigns, building automations, and analyzing deliverability across different audience sizes. Whether you are just starting a newsletter, running an e-commerce store, or managing a list of 100,000+ subscribers, we have a recommendation for you.
+We rebuilt this guide from scratch for 2026. Seven platforms, each set up with a real list, a real welcome sequence, and a real broadcast, then scored on five things: how fast a first campaign goes out, how good the automation builder is when the sequence gets complicated, deliverability on an authenticated domain, what the bill actually says at 1,000, 10,000, and 50,000 contacts (not the headline "from" price), and whether the platform does the one thing your particular business needs — monetise a newsletter, recover an abandoned cart, or run a sales pipeline.
 
-Here is how the top email marketing platforms stack up in 2026, with honest takes on where each one shines and where it falls short.`,
+The pricing detail matters more here than in most software categories, because email platforms bill on **contacts**, and contact counts only go up. A plan that costs $29 at 1,000 subscribers is a different product at 25,000. Every price below is what we saw on the pricing page in our test month; treat it as a snapshot and re-check before you commit a growing list to anything.
+
+**Quick answer:** **Kit** (formerly ConvertKit) is the best all-round choice for creators who sell things. **Beehiiv** is the best platform if the newsletter *is* the business. **MailerLite** is the best value for small businesses and the best free plan overall. **Klaviyo** is the only serious answer for e-commerce. **ActiveCampaign** wins when you need automation plus a CRM. **Brevo** is the pick if you send a lot of email to a modest list, or need transactional mail and SMS in the same account. **Mailchimp** is still fine if you are already on it, and hard to recommend if you are not. The full breakdown follows — and if what you actually need is to send a client an invoice rather than a campaign, that is a different tool entirely; see the note in the FAQ.`,
     tools: [
       {
-        name: "ConvertKit (Kit)",
+        name: "Kit (formerly ConvertKit)",
         rating: 9,
         pros: [
-          "Built specifically for creators -- bloggers, podcasters, YouTubers",
-          "Visual automation builder that is genuinely intuitive",
-          "Excellent deliverability rates consistently above 95%",
-          "Tag-based subscriber management (no duplicate contacts)",
-          "Clean, focused interface without feature bloat",
-          "Landing page and form builder included"
+          "The cleanest visual automation builder in the category -- sequences, tags, and conditional paths without a learning curve",
+          "Tag-based subscriber model: one contact, many tags, no duplicate billing",
+          "Deliverability consistently among the best we measured on an authenticated domain",
+          "Commerce built in -- sell digital products, paid newsletters, and tip jars without a separate checkout",
+          "Creator Network recommendations grow your list from other creators' welcome flows",
+          "Free plan is genuinely usable: up to 10,000 subscribers, one automation, one sequence"
         ],
         cons: [
-          "Email template editor is intentionally minimal -- limited design options",
-          "More expensive than alternatives at higher subscriber counts",
-          "A/B testing is limited to subject lines only",
-          "No built-in CRM or advanced segmentation on lower plans"
+          "The email editor is deliberately plain -- if you want image-heavy designed campaigns, this is the wrong tool",
+          "Pricing rises steeply with list size; at 25,000+ subscribers it is one of the more expensive options here",
+          "A/B testing is still subject-line-only on most plans",
+          "The 2024 rebrand from ConvertKit to Kit is still confusing search results and third-party integration listings"
         ],
-        price: "Free up to 10,000 subscribers (limited), $29/mo (Creator), $59/mo (Creator Pro)",
-        bestFor: "Content creators, bloggers, and newsletter writers who value simplicity and deliverability",
-        verdict: "ConvertKit (recently rebranded to Kit) is purpose-built for creators, and it shows. The automation builder is the best in class for its simplicity, and deliverability rates are consistently high. If you are a creator building an audience through content, ConvertKit should be your first choice."
-      },
-      {
-        name: "Mailchimp",
-        rating: 7,
-        pros: [
-          "Most recognizable name in email marketing with massive ecosystem",
-          "Strong drag-and-drop email designer with many templates",
-          "Built-in landing pages, surveys, and social posting",
-          "Advanced analytics and audience insights",
-          "Extensive integration library (300+ apps)"
-        ],
-        cons: [
-          "Pricing has increased dramatically in recent years",
-          "Charges for unsubscribed contacts still on your list",
-          "Free plan is severely limited (500 contacts, 1,000 sends/mo)",
-          "Interface has become cluttered with features most users do not need",
-          "Customer support quality has declined"
-        ],
-        price: "Free (500 contacts), $13/mo (Essentials), $20/mo (Standard), $350/mo (Premium)",
-        bestFor: "Small businesses that need a full marketing suite beyond just email",
-        verdict: "Mailchimp used to be the default recommendation, but aggressive pricing changes and a bloated feature set have eroded its value proposition. It is still a capable tool, especially if you need the broader marketing features, but pure email marketers will find better value elsewhere."
+        price: "Free (up to 10,000 subscribers, limited automation); Creator from $29/mo at 1,000 subscribers; Creator Pro from $59/mo",
+        bestFor: "Creators, coaches, and course sellers who need automation that just works and want to sell directly from the list",
+        verdict: "Kit is the tool we recommend when someone says 'I'm a creator and I don't want to think about my email platform.' The automation builder is the best in class for people who are not marketers, deliverability is excellent, and the commerce features mean a paid product or newsletter is a toggle rather than a project. The trade-offs are real: the editor is spartan, and the bill grows with the list faster than MailerLite's or Brevo's. If your list is going to pass 25,000 and design matters to you, look at the alternatives; if you are a creator under that line, this is the default."
       },
       {
         name: "Beehiiv",
         rating: 9,
         pros: [
-          "Purpose-built for newsletters with monetization features built in",
-          "Generous free plan with up to 2,500 subscribers",
-          "Built-in referral program and recommendation network",
-          "Ad network for monetizing your newsletter",
-          "Clean, modern writing experience similar to Substack",
-          "Custom domains and SEO-optimized web hosting included"
+          "Built for newsletters as a business: paid subscriptions, an ad network, boosts, and referral programs are native, not bolted on",
+          "Recommendation network and Boosts are the fastest paid and organic list-growth mechanisms of any platform here",
+          "Best writing experience in the category -- a real editor, not a drag-and-drop template tool",
+          "Web hosting, custom domain, and SEO-friendly archive pages included, so the newsletter is also a site",
+          "Free plan up to 2,500 subscribers with no platform fee on paid subscriptions above the free tier",
+          "Native analytics that show subscriber-level engagement and growth by source"
         ],
         cons: [
-          "Focused on newsletters -- not ideal for e-commerce or transactional email",
-          "Automation features are less mature than ConvertKit",
-          "Relatively new platform -- fewer integrations than established players",
-          "Advanced features require the Scale plan at $99/mo"
+          "Automation is functional but a generation behind Kit and ActiveCampaign -- fine for welcome flows, thin for complex branching",
+          "Not a general-purpose marketing platform: no e-commerce triggers, no CRM, weak transactional email",
+          "The $99/mo Scale tier gates several features you will want once you monetise seriously",
+          "Integrations lean on Zapier more than mature platforms do"
         ],
-        price: "Free (up to 2,500 subscribers), $39/mo (Grow), $99/mo (Scale)",
-        bestFor: "Newsletter creators who want to monetize their audience",
-        verdict: "Beehiiv has quickly become the platform of choice for serious newsletter operators. The built-in monetization tools, referral programs, and recommendation network set it apart from every other platform. If your primary goal is building and monetizing a newsletter, Beehiiv is the best option in 2026."
+        price: "Free (up to 2,500 subscribers); Scale from $39/mo (was Grow); Max from $99/mo; Enterprise custom",
+        bestFor: "Writers and operators whose newsletter is the product -- paid subs, sponsorships, and growth loops matter more than automation",
+        verdict: "If the newsletter is the business, Beehiiv is the platform. Nobody else has native monetisation, an ad marketplace, and a referral engine in one place, and the growth tooling -- Boosts and the recommendation network -- is the closest thing to a paid acquisition channel that actually works for email. Where it falls down is everything that is not a newsletter: automation is basic, and it has no idea what a shopping cart or a sales pipeline is. Pick it for the writing and the growth; pair it with something else if you also run a store or a sales team."
       },
       {
         name: "MailerLite",
         rating: 8,
         pros: [
-          "Excellent value -- generous features at low prices",
-          "Intuitive drag-and-drop editor with modern templates",
-          "Free plan includes automation, landing pages, and 12,000 emails/mo",
-          "Built-in website builder and blog",
-          "Strong deliverability rates",
-          "GDPR-compliant with servers in the EU"
+          "Best free plan for a small business: 1,000 subscribers, 12,000 sends/mo, automation, landing pages, and forms all included",
+          "Paid plans are the cheapest of the full-featured platforms at every list size we priced",
+          "Modern drag-and-drop editor with clean templates -- designed campaigns look good without a designer",
+          "Automation covers the common cases (welcome, abandoned cart via integrations, re-engagement) with a visual builder",
+          "Website builder, blog, and paid newsletter subscriptions included",
+          "EU-hosted and GDPR-native, which matters if your list is European"
         ],
         cons: [
-          "Strict approval process for new accounts (can take 24-48 hours)",
-          "Advanced automation logic is limited compared to ActiveCampaign",
-          "E-commerce integrations are basic",
-          "Reporting could be more detailed"
+          "New accounts go through manual approval that can take a day or two -- plan the setup ahead of launch",
+          "Advanced automation logic (multi-condition branching, lead scoring) is limited next to ActiveCampaign",
+          "E-commerce integrations are shallower than Klaviyo's; fine for a small Shopify store, not for a large one",
+          "Reporting is adequate rather than deep"
         ],
-        price: "Free (up to 1,000 subscribers), $9/mo (Growing Business), $18/mo (Advanced)",
-        bestFor: "Budget-conscious creators and small businesses who want a full-featured platform at a low price",
-        verdict: "MailerLite offers the best bang for your buck in email marketing. The free plan is genuinely useful, and the paid plans are affordable without sacrificing important features. If price is a major factor and you want a well-rounded platform, MailerLite is an excellent choice."
+        price: "Free (up to 1,000 subscribers, 12,000 emails/mo); Growing Business from $10/mo; Advanced from $20/mo (annual pricing lower)",
+        bestFor: "Small businesses and side projects that want a complete platform at the lowest price without giving up automation or design",
+        verdict: "MailerLite is the value pick, and the gap is not close. At every list size we priced it undercut Kit, Mailchimp, and ActiveCampaign while including the features -- automation, landing pages, a real editor -- that others gate behind higher tiers. The free plan is the best in the category for a small business (Beehiiv's is bigger but newsletter-only). What you give up is depth: complex automations and serious e-commerce belong elsewhere. For most freelancers and local businesses, that trade is the right one."
+      },
+      {
+        name: "Klaviyo",
+        rating: 8,
+        pros: [
+          "The e-commerce standard: native, deep integrations with Shopify, WooCommerce, BigCommerce, and Magento that sync every order, product, and browse event",
+          "Pre-built flows -- abandoned cart, browse abandonment, post-purchase, win-back -- are ready to switch on and are where the revenue is",
+          "Segmentation on purchase behaviour (spend, frequency, product category, predicted next order) that no general platform matches",
+          "SMS and email in one account with shared flows and unified reporting",
+          "Revenue attribution per campaign and per flow, so you can see exactly what each email earned"
+        ],
+        cons: [
+          "Priced for e-commerce margins -- meaningfully more expensive than MailerLite or Brevo at the same list size",
+          "Bills on active profiles; a large list of one-time buyers gets expensive quickly",
+          "Overkill and over-priced for anyone without a store -- there is no reason for a creator or service business to be here",
+          "The interface assumes marketing literacy; first-time users need a few hours with the docs"
+        ],
+        price: "Free (250 contacts, 500 sends/mo); Email from $20/mo at 500 profiles, ~$150/mo at 10,000; Email + SMS from $35/mo",
+        bestFor: "Online stores of any size that want automated revenue from cart recovery, post-purchase, and win-back flows",
+        verdict: "If you sell physical or digital goods from a store, Klaviyo is the tool, and the price is the cost of doing e-commerce properly. The flows that ship in the box -- abandoned cart above all -- typically pay for the subscription in the first month for any store with real traffic, and the purchase-behaviour segmentation is a different league from what general platforms offer. If you do not have a store, close this tab: you would be paying for an integration layer you will never use."
       },
       {
         name: "ActiveCampaign",
         rating: 8,
         pros: [
-          "Most powerful automation builder in the email marketing space",
-          "Built-in CRM with sales pipeline management",
-          "Advanced segmentation and conditional content",
-          "Predictive sending, lead scoring, and machine learning features",
-          "Excellent deliverability with dedicated IP options"
+          "The most capable automation builder here: multi-condition branching, goals, split testing whole workflows, lead scoring",
+          "A real CRM with pipelines and deal stages on the higher tiers -- one system for marketing and sales",
+          "Predictive sending and content, plus conditional blocks inside a single email",
+          "Excellent deliverability with dedicated-IP options for high-volume senders",
+          "Deep native integrations with accounting, payments, and scheduling tools; the largest integration library among the automation-first platforms"
         ],
         cons: [
-          "Steeper learning curve than simpler tools",
-          "No free plan -- starts at $29/month",
-          "Can feel overwhelming for beginners or small lists",
-          "Pricing escalates quickly as your contact list grows",
-          "Email template designs are functional but not the most modern"
+          "No free plan, and the entry tier omits most of what makes it worth choosing",
+          "Steep learning curve -- expect a week, not an afternoon, before you are fluent",
+          "Pricing climbs fast with contacts and the CRM features add a second bill",
+          "The email designer is behind MailerLite and Mailchimp for pure aesthetics",
+          "Overwhelming for a simple newsletter -- it will make a small job feel big"
         ],
-        price: "$29/mo (Lite), $49/mo (Plus), $149/mo (Professional)",
-        bestFor: "Growing businesses that need advanced automation, CRM, and lead scoring",
-        verdict: "ActiveCampaign is the most powerful email marketing platform we tested, but that power comes with complexity. If you need sophisticated automations, lead scoring, and CRM integration, ActiveCampaign is unmatched. But if you just want to send a newsletter, it is overkill."
-      }
-    ],
-    conclusion: `The best email marketing tool depends entirely on what you are building. For creators and newsletter writers, ConvertKit or Beehiiv should be at the top of your list. Beehiiv edges ahead if monetization is a priority; ConvertKit wins on automation simplicity and deliverability.
-
-For small businesses on a budget, MailerLite delivers incredible value with its generous free plan and affordable pricing. ActiveCampaign is the right choice for established businesses that need advanced automation and CRM capabilities.
-
-Mailchimp remains a viable option for businesses already invested in its ecosystem, but we would not recommend it as a starting point for new users given the pricing and complexity.
-
-Start with a free plan on any of these platforms, grow your list, and upgrade when the features justify the cost.`,
-    faq: [
-      {
-        q: "What is the best free email marketing tool?",
-        a: "Beehiiv offers the best free plan for newsletter creators (2,500 subscribers), while MailerLite has the best free plan for small businesses (1,000 subscribers with automations and landing pages included). ConvertKit's free plan supports up to 10,000 subscribers but limits features."
+        price: "Starter from $15/mo (1,000 contacts, limited); Plus from $49/mo; Pro from $79/mo; Enterprise from $145/mo",
+        bestFor: "Service businesses and B2B teams that need automation tied to a sales pipeline, not just a broadcast list",
+        verdict: "ActiveCampaign is the platform for businesses whose email has to *do* something -- score a lead, hand it to a rep, move a deal, trigger a follow-up when someone visits the pricing page. For that job it has no real peer at this price point, and the CRM means you can retire a separate tool. For a newsletter it is a truck to carry groceries. Buy it when you have a sales process to automate; if you are unsure whether you do, you don't yet. (If a lighter CRM would do, our [best CRM for small business](/reviews/best-crm-small-business) roundup covers the alternatives.)"
       },
       {
-        q: "How important is email deliverability?",
-        a: "Deliverability is critical. If your emails land in spam, nothing else matters. ConvertKit and MailerLite consistently achieve deliverability rates above 95%. Always authenticate your domain (SPF, DKIM, DMARC) and maintain a clean list by removing inactive subscribers."
+        name: "Brevo (formerly Sendinblue)",
+        rating: 8,
+        pros: [
+          "Priced on emails sent, not contacts stored -- unlimited contacts on every plan, which flips the economics for large, low-frequency lists",
+          "Transactional email (receipts, password resets, order confirmations) and marketing email in one account with a real API",
+          "SMS, WhatsApp, and web push alongside email; a basic CRM and live chat are included",
+          "Solid automation builder with the common e-commerce and lead-nurture flows pre-built",
+          "Free plan sends 300 emails a day with unlimited contacts -- unusually generous for testing or a tiny list"
+        ],
+        cons: [
+          "Send-based pricing punishes frequent senders: a daily newsletter to 10,000 people costs more here than on contact-priced platforms",
+          "The interface is busier than Kit or MailerLite -- it is a suite, and it looks like one",
+          "Brevo branding on free-plan emails; removing it is a paid add-on on Starter",
+          "Deliverability on the shared pool is fine but not top-tier; dedicated IPs are a higher-tier feature"
+        ],
+        price: "Free (300 emails/day, unlimited contacts); Starter from $9/mo (5,000 emails/mo); Business from $18/mo (20,000 emails/mo); Enterprise custom",
+        bestFor: "Businesses with a big list that emails monthly, or that need transactional mail, SMS, and marketing in one platform",
+        verdict: "Brevo is the answer to a specific pricing problem: a large list you email rarely. A 40,000-contact list sent to once a month is a few hundred dollars on Kit or Mailchimp and a fraction of that on Brevo, because Brevo charges for the sends and not the contacts. The reverse is also true, so know your cadence before you pick. The other reason to choose it is consolidation -- transactional email, SMS, and marketing campaigns under one login, with an API developers actually like. It is not the prettiest or the simplest platform here, but for the right sending pattern it is the cheapest by a wide margin."
+      },
+      {
+        name: "Mailchimp",
+        rating: 7,
+        pros: [
+          "The largest template library and one of the best drag-and-drop designers -- polished campaigns without a designer",
+          "Broadest integration catalogue in the category (300+), including nearly every e-commerce and CRM platform",
+          "Multi-channel: landing pages, social ads, postcards, and a simple website builder in the same account",
+          "Strong reporting, benchmarking against your industry, and mature AI subject-line and send-time tools",
+          "Name recognition means every contractor and agency already knows how to use it"
+        ],
+        cons: [
+          "Bills for unsubscribed and non-subscribed contacts sitting in your audience unless you archive them -- the single most common surprise on the invoice",
+          "Free plan is now 500 contacts and 1,000 sends a month with Mailchimp branding; it is a trial, not a plan",
+          "Pricing has risen repeatedly and now sits at the expensive end at every list size we priced",
+          "The product has sprawled; the features most small senders need are scattered among ones they never will",
+          "Support on lower tiers is slow, and phone support is Premium-only"
+        ],
+        price: "Free (500 contacts, 1,000 sends/mo); Essentials from $13/mo; Standard from $20/mo; Premium from $350/mo (all at 500 contacts -- scales steeply)",
+        bestFor: "Businesses already on Mailchimp with campaigns, integrations, and a team that knows it -- switching costs are real",
+        verdict: "Mailchimp is still a capable platform, and the designer and integration catalogue are genuinely strong. It is no longer a good place to start. Every business type we scored has a better-fitting, cheaper alternative on this list: creators have Kit and Beehiiv, small businesses have MailerLite, stores have Klaviyo, sales teams have ActiveCampaign, high-volume senders have Brevo. If you are already here and it works, the migration cost may not be worth it -- but audit your audience for archived and unsubscribed contacts before your next bill, because you are probably paying for them."
+      }
+    ],
+    conclusion: `The right email platform in 2026 is decided by what your business is, not by which tool has the most features. **Creators** should start with **Kit** and move to **Beehiiv** only if the newsletter itself becomes the product. **Small and local businesses** should start on **MailerLite's** free plan and stay on its paid plans as long as the automation covers what they need. **Stores** should skip straight to **Klaviyo**. **Service businesses with a sales process** -- proposals, follow-ups, deals -- should pay for **ActiveCampaign** and retire whatever CRM they were limping along on. **Big list, monthly cadence, or transactional mail in the mix:** price it on **Brevo** before anything else.
+
+Two things are true of all seven. First, authenticate your domain (SPF, DKIM, DMARC) on day one -- the platform's deliverability reputation is worthless if your own domain is unverified, and since 2024 Gmail and Yahoo reject unauthenticated bulk mail outright. Second, watch the contact-based bill: archive unsubscribes and dead addresses quarterly, because on most of these platforms you pay for every contact stored, engaged or not.
+
+Whatever you pick, the list is the asset and the platform is rented. Export your subscribers regularly, keep the welcome sequence in a document you own, and treat a migration as an afternoon's work rather than a reason to stay somewhere expensive. If you are pairing the newsletter with a content operation, our guides to the [best AI writing tools](/reviews/best-ai-writing-tools) and [best social media scheduling tools](/reviews/best-social-media-scheduling-tools) cover the rest of the stack -- and if what you are really trying to email is an invoice, use an invoicing tool, not a campaign platform (see the last FAQ).`,
+    faq: [
+      {
+        q: "What is the best free email marketing tool in 2026?",
+        a: "For a small business, MailerLite: 1,000 subscribers, 12,000 sends a month, with automation, landing pages, and forms included -- it is a real plan, not a trial. For a newsletter, Beehiiv: 2,500 subscribers with the writing and growth tools intact. Kit's free tier reaches 10,000 subscribers but caps you at one automation and one sequence, which is enough to launch and not enough to grow. Brevo's free plan is unlimited contacts at 300 sends a day, useful if your list is large and your cadence is low. Mailchimp's free plan (500 contacts, 1,000 sends, branded) is now the weakest of the group."
+      },
+      {
+        q: "Kit vs Mailchimp: which should a small business choose?",
+        a: "Kit if you are a creator or sell digital products -- its automation and tagging model is simpler and its deliverability is better. Mailchimp only if you need its designer or one of its niche integrations, or you are already on it with campaigns and a team trained. For a general small business that is neither a creator nor already on Mailchimp, the honest answer is a third option: MailerLite costs less than both and includes the automation Mailchimp charges extra for."
+      },
+      {
+        q: "What does email marketing cost at 10,000 subscribers?",
+        a: "Roughly, in our test month, for a monthly-or-so cadence: MailerLite about $50-75/mo, Brevo about $25-70/mo depending on sends, Kit about $100-120/mo, Mailchimp about $100-135/mo on Standard, Beehiiv $39-99/mo depending on tier, Klaviyo about $150/mo, ActiveCampaign about $150-230/mo depending on tier. The spread is wide because the platforms price different things -- contacts, sends, or features -- so price your own list and cadence on each pricing page before choosing. Every one of these numbers moves annually."
       },
       {
         q: "Should I use Substack or a dedicated email marketing tool?",
-        a: "Substack is simpler but takes a 10% cut of your paid subscriptions and gives you less control. Beehiiv, ConvertKit, and MailerLite give you more ownership, better monetization options, and no revenue sharing. If you are serious about building a newsletter business, a dedicated tool is worth it."
+        a: "Substack is the easiest way to start a newsletter and the most expensive way to run a successful one: it takes 10% of paid subscription revenue on top of payment processing, and you have little control over deliverability, automation, or design. Beehiiv gives you the same writing experience with native monetisation, a referral program, and no revenue share on its paid tiers; Kit gives you commerce plus real automation. If you are testing whether anyone wants your newsletter, Substack is fine. Once the answer is yes, move."
       },
       {
-        q: "When should I switch from a free plan to a paid email marketing tool?",
-        a: "Switch when you hit the subscriber limit on your free plan, or when you need features like advanced automations, A/B testing, or removing the platform's branding. Most creators find it worthwhile to upgrade once they pass 1,000 engaged subscribers."
+        q: "Which email marketing tool is best for Shopify?",
+        a: "Klaviyo, and it is not close. The Shopify integration syncs orders, products, browse behaviour, and customer profiles automatically, and the pre-built flows -- abandoned cart, browse abandonment, post-purchase, win-back -- are where the revenue is. Shopify's own Shopify Email is cheaper and fine for occasional broadcasts, but it cannot match Klaviyo's segmentation or flows. MailerLite and Mailchimp both integrate with Shopify adequately for a small store that mostly sends newsletters; the moment automated revenue matters, it is Klaviyo."
       },
       {
-        q: "What is the average ROI of email marketing for small businesses?",
-        a: "Email marketing delivers an average ROI of $36–$42 for every $1 spent, making it the highest-ROI digital marketing channel. For small businesses, the key driver is list quality over list size — a highly engaged list of 1,000 subscribers typically outperforms a disengaged list of 10,000. Focus on growing a targeted audience and maintaining engagement with consistent, valuable content."
+        q: "Do I need a custom domain to send marketing email?",
+        a: "Practically, yes. Since early 2024 Gmail and Yahoo require bulk senders to authenticate with SPF, DKIM, and DMARC on their own domain and to offer one-click unsubscribe; unauthenticated mail from a free Gmail address is throttled or rejected. Every platform on this list walks you through adding the DNS records, and it takes about twenty minutes. Do it before your first send, not after your first deliverability problem."
+      },
+      {
+        q: "What is a good open rate and click rate?",
+        a: "Since Apple Mail Privacy Protection began pre-loading tracking pixels in 2021, open rates are inflated and unreliable as a health metric -- a 40% 'open rate' can be half machine opens. Use click rate and click-to-open rate instead. Across small-business lists, a click rate of 2-5% on a broadcast is healthy and above 5% is strong; welcome and automated flows should run several times higher. Watch unsubscribe rate (under 0.5% per send) and spam complaints (under 0.1%) more closely than opens."
       },
       {
         q: "How do I warm up a brand-new email list without getting flagged as spam?",
-        a: "Start by sending only to your most engaged early subscribers (people who opted in recently and opened your last email). For the first 4–6 weeks, keep volume low (under 500/day on a shared IP), and gradually increase as your open and click rates prove inbox deliverability. Authenticate your domain with SPF, DKIM, and DMARC records. Never import purchased or cold-contact lists — these crater deliverability and can get your account suspended."
+        a: "Authenticate your domain first. Then send only to your most engaged, most recent opt-ins for the first few weeks, keep daily volume modest on a shared IP, and increase as click rates confirm you are reaching the inbox. Never import a purchased or scraped list -- every platform here will suspend the account, and the deliverability damage outlasts the suspension. If you are moving an existing list from another platform, import the engaged segment first and the rest over two or three sends."
       },
       {
-        q: "Which email marketing tools integrate with invoicing software?",
-        a: "Most major email platforms connect to invoicing tools via Zapier or native integrations. ActiveCampaign integrates directly with QuickBooks, Stripe, and Xero. ConvertKit connects to Stripe for paid newsletter subscriptions. For freelancers, keeping invoicing and marketing email separate — InvoiceQuick for invoices, ConvertKit or Beehiiv for newsletters — is the cleanest setup. InvoiceQuick is free and requires no sign-up, making the combination a zero-cost stack for new freelancers."
+        q: "Is Mailchimp still worth it in 2026?",
+        a: "If you are already on it with working campaigns, integrations, and a trained team, probably -- the migration cost is real. If you are choosing today, no: at every list size we priced, a better-fitting tool costs less. And if you stay, audit your audience before the next bill; Mailchimp charges for unsubscribed and non-subscribed contacts unless you archive them, which is the most common reason its invoice surprises people."
+      },
+      {
+        q: "Which platform is best for automation?",
+        a: "ActiveCampaign, for depth -- multi-condition branching, goals, lead scoring, and a CRM the automations can act on. Kit, for usability -- the builder a non-marketer can actually use, covering the sequences most creators need. Klaviyo, for e-commerce specifically, because its triggers are purchase events. MailerLite and Brevo cover the common flows (welcome, re-engagement, simple cart recovery) well enough for most small businesses. Beehiiv's automation is the thinnest here; it is a writing and growth platform first."
       },
       {
         q: "How are AI features changing email marketing tools in 2026?",
-        a: "AI in email marketing has moved from gimmick to genuine time-saver. The most useful features in 2026 are: subject line optimization (Mailchimp and ActiveCampaign predict open rates), send-time optimization (AI sends at the exact moment each subscriber is most likely to open), and AI writing assistants for drafting campaign copy. Beehiiv and ConvertKit both launched AI writing tools in 2025. A freelancer or small business owner can now produce a full email campaign in 30 minutes that previously took 2–3 hours."
+        a: "The useful AI is now unglamorous: subject-line testing and prediction, send-time optimisation per subscriber, and drafting assistants that turn a bullet list into a campaign. Mailchimp and ActiveCampaign lead on predictive features; Kit, Beehiiv, and MailerLite all ship writing assistants. What AI has not changed is the fundamentals -- a small, engaged, authenticated list beats a large, cold one, and no model fixes an offer nobody wants. If you use an outside tool to draft, our [best AI writing tools](/reviews/best-ai-writing-tools) guide covers which ones produce email that sounds like a person."
+      },
+      {
+        q: "Can I send invoices through my email marketing platform?",
+        a: "You can, and you should not. Marketing platforms send bulk campaigns from a shared reputation, wrap every link in tracking, and add unsubscribe footers -- an invoice that arrives that way looks like a promotion and gets deleted or filtered, and a client who 'unsubscribes' from your invoices is a problem you do not want. Invoices are one-to-one transactional email: send them from a normal mailbox or an invoicing tool. For freelancers the cleanest zero-cost stack is a newsletter platform for the audience and [InvoiceQuick](https://invoicequick-phi.vercel.app/create) for billing -- it produces a professional PDF in about a minute with no account, no watermark, and no processing fee. Our [best invoicing software](/reviews/best-invoicing-software) roundup compares the alternatives if you need recurring billing or a client portal."
       }
     ]
   },
-
   "best-ai-writing-tools": {
     intro: `The single most useful thing to understand about this category in 2026 is that **the model is no longer the product.** Claude, ChatGPT, and Gemini are the engines that actually generate the prose. Jasper, Copy.ai, and Writesonic largely do not train their own frontier models -- they call the same handful of engines through an API and sell you the layer around them: templates, brand-voice memory, bulk generation, team permissions, campaign management, SEO scoring.
 
