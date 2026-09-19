@@ -298,6 +298,15 @@ export const articles: Article[] = [
     featured: true,
   },
   {
+    slug: "best-ai-email-assistants",
+    title: "7 Best AI Email Assistants in 2026 (Superhuman vs Shortwave vs Fyxer, Tested)",
+    description: "Email is where freelancers lose the most billable hours. We tested the top AI email assistants — Superhuman, Shortwave, Fyxer, Gemini in Gmail, Notion Mail, SaneBox, and Copilot — on real inboxes for triage, drafting, and follow-ups. Here's which one earns its subscription, which is genuinely free, and which to skip.",
+    category: "AI & Automation",
+    date: "2026-09-19",
+    readTime: "14 min",
+    featured: true,
+  },
+  {
     slug: "best-ai-browsers",
     title: "7 Best AI Browsers in 2026 (Comet vs Atlas vs Dia, Tested)",
     description: "AI browsers can book, buy, and email on your behalf — and every one of them can be hijacked by text on a web page. We tested the top agentic browsers on capability, platform support, price, and the prompt-injection risk nobody puts in the marketing. Here's which to use, and what to never let it touch.",

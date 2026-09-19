@@ -5903,5 +5903,191 @@ Used with those guardrails, the productivity is real -- research that took an af
         a: "It comes down to platform, budget, and how much autonomy you want. Choose Perplexity Comet if you want the best free option and the widest device support -- it's the only one of the three on Windows, iOS, and Android, and its cited research is the strongest reason to use an AI browser at all. Choose ChatGPT Atlas if you're on an Apple silicon Mac, already pay for ChatGPT Plus, and want the most capable agent for genuinely complex multi-step tasks -- accepting that you're Mac-locked and paying $20/mo for the good part. Choose Dia ($20/mo) if you want the most refined interface, the best cross-tab reasoning, and a browser that deliberately assists rather than acts autonomously -- which is also the more conservative security posture. If you're undecided, start with Comet since it costs nothing, and only pay for Atlas or Dia if you hit a specific limit that one of them solves."
       }
     ]
+  },
+  "best-ai-email-assistants": {
+    intro: `Email is the one tool every freelancer and small business owner uses all day and almost nobody has optimized. The average knowledge worker spends roughly two and a half hours a day in the inbox, and for a solo operator that time comes straight out of billable work: every "just checking in" you write by hand, every thread you re-read to find the decision, every client follow-up you forget to send is an hour you don't invoice. AI email assistants promise to give that time back -- triaging what matters, drafting replies in your voice, summarizing long threads, and in the newest generation, handling routine mail without you.
+
+The category split hard in 2026. On one side are full AI-native email *clients* -- Superhuman (now the flagship of the company formerly called Grammarly), Shortwave, and Notion Mail -- that replace your inbox app. On the other are *layers* that sit on top of the Gmail or Outlook you already use: Fyxer, SaneBox, and the built-in assistants from Google and Microsoft. The right answer depends less on which AI is smartest and more on whether you're willing to switch clients, and whether you need drafting, filtering, or both.
+
+We ran each tool for two weeks on real freelance and small-business inboxes -- client threads, vendor mail, newsletters, invoice back-and-forth -- and scored them on triage accuracy, draft quality in our own voice, follow-up automation, platform support, and honest cost per month.
+
+**Quick answer:** **Superhuman** is the best AI email client if speed is your bottleneck and you'll pay for it. **Shortwave** is the best AI-native pick for Gmail users at half the price. **Fyxer** is the best "do it for me" layer -- it drafts replies to everything before you open the inbox. **Gemini in Gmail** is the default for most people because it's already there. **Notion Mail** is the best free client, **SaneBox** is the best pure filter, and **Copilot in Outlook** is the Microsoft-shop answer. The full breakdown below -- including the one email job no assistant does yet.`,
+    tools: [
+      {
+        name: "Superhuman",
+        rating: 9,
+        pros: [
+          "The fastest email client we've used -- keyboard-driven, sub-100ms interactions, split inbox that actually sticks",
+          "Write with AI drafts in your voice from a few words, and Auto Drafts pre-writes replies on the Business tier",
+          "Instant thread summaries, Ask AI across your whole mailbox, and Auto Labels that sort by intent",
+          "Works with both Gmail and Outlook, on desktop, web, iOS, and Android",
+          "Now part of the Superhuman suite (formerly Grammarly) -- bundled tone and writing tools if you already pay for Grammarly"
+        ],
+        cons: [
+          "$25/mo annual ($30 monthly) for Mail; the Business tier with the best AI is $33/mo annual ($40 monthly)",
+          "Onboarding assumes you'll learn the shortcuts -- the payoff is real but it takes a week",
+          "Built for individuals; shared-inbox and team workflows are thin",
+          "The Grammarly rebrand means the roadmap now serves a four-product suite, not just email"
+        ],
+        price: "Mail $25/mo annual ($30 monthly); Business $33/mo annual ($40 monthly)",
+        bestFor: "High-volume solo operators and founders for whom inbox speed is the actual problem",
+        verdict: "Superhuman is still the benchmark, and the AI layer finally justifies the price for people who were on the fence. The speed was always the pitch; what changed is that Auto Drafts and Ask AI mean you open the inbox to *approve* replies, not write them. It is expensive for what is technically a Gmail or Outlook front-end, and if your inbox is forty messages a day you will not feel the difference. At two hundred, you will feel it in the first hour. The Grammarly-turned-Superhuman merger is worth watching -- so far the email app has only gained features."
+      },
+      {
+        name: "Shortwave",
+        rating: 9,
+        pros: [
+          "The most AI-first client here -- the assistant is the interface, not a sidebar",
+          "Best search in the category: ask a plain-English question and it finds the thread, the attachment, and the decision",
+          "Bundles related mail automatically and turns threads into a to-do list without leaving the inbox",
+          "Excellent AI summaries and draft replies, with a free tier that includes core AI features",
+          "Pro at $14/mo annual is roughly half of Superhuman for most of the same daily wins"
+        ],
+        cons: [
+          "Gmail and Google Workspace only -- no Outlook, no IMAP",
+          "Free tier limits AI usage; heavy users hit the ceiling within days",
+          "Smaller company than the big two, so support and mobile polish lag",
+          "The bundling can hide a message you were waiting for if you don't tune it early"
+        ],
+        price: "Free tier; Pro $14/mo annual; Business $24/mo annual",
+        bestFor: "Gmail users who want a genuinely AI-native inbox at a defensible price",
+        verdict: "Shortwave is the client we'd tell most Gmail users to try first. Its search alone is worth the switch -- 'what did the client say about the deposit in March?' returns the right sentence, not twelve threads. The AI summary and draft quality matched Superhuman in our testing, and the task view means unpaid invoices and unanswered proposals stop hiding in the archive. The only reasons not to pick it are Outlook (unsupported) and a preference for Superhuman's raw speed."
+      },
+      {
+        name: "Fyxer AI",
+        rating: 8,
+        pros: [
+          "Drafts a reply to every email that needs one before you open the inbox -- you edit and send, or delete",
+          "Sorts mail into To Respond, FYI, Newsletters, and more with the best triage accuracy we measured",
+          "Learns your voice from sent mail within days; drafts stopped sounding generic by week two",
+          "Joins meetings and turns the notes into follow-up emails automatically",
+          "Runs server-side on Gmail or Outlook -- you keep your existing client and phone app"
+        ],
+        cons: [
+          "Starter is $22.50/mo annual and Professional is $37.50/mo -- more than Superhuman at the top tier",
+          "Overage fees above the plan's draft and meeting limits",
+          "It sometimes drafts confident replies to threads that needed a 'let me check' -- always read before sending",
+          "Integrations are shallow outside HubSpot"
+        ],
+        price: "Starter $22.50/mo annual; Professional $37.50/mo annual; overages apply",
+        bestFor: "Consultants and founders who want email handled, not just organized",
+        verdict: "Fyxer is the closest thing to an assistant who has already answered your mail. The first morning it's uncanny: every message that needs a reply has one waiting in your drafts, in your tone, and most are right. That's a different product from Superhuman or Shortwave -- they make you faster at email; Fyxer tries to do it for you. The cost is real, the overages sting, and you cannot skip the read-before-send step, because a confidently wrong draft to a client is worse than no draft. For a solo operator whose day is meetings and replies, it pays for itself."
+      },
+      {
+        name: "Gemini in Gmail",
+        rating: 8,
+        pros: [
+          "Already in Gmail for Google Workspace plans and most personal accounts -- nothing to install, no client switch",
+          "Solid Help Me Write drafting and thread summarization, plus natural-language search across Gmail",
+          "Reaches into Drive, Docs, and Calendar for context when you ask",
+          "Included at no extra charge on most current Workspace tiers after Google folded the AI add-on into base plans",
+          "Google's security and admin controls apply -- the easiest tool for a small business to approve"
+        ],
+        cons: [
+          "It assists rather than acts -- no auto-drafting of your whole inbox, no follow-up automation",
+          "Drafts are competent but generic; it doesn't learn your voice the way Fyxer or Superhuman do",
+          "Feature availability still varies by region and account type",
+          "You're handing more of your business context to the company that already has most of it"
+        ],
+        price: "Included with most Google Workspace plans; free Gmail accounts get a subset of features",
+        bestFor: "Anyone on Google Workspace who wants AI help without changing tools or adding a bill",
+        verdict: "For most small businesses, this is the right starting point simply because it's already there. Summarize this thread, draft a polite decline, find the invoice the client sent in April -- Gemini handles the 80% case well, and it costs nothing extra on Workspace. What it won't do is run your inbox: it won't sort by priority overnight or leave drafts waiting. If you try Gemini for a month and still feel behind on email, that's your signal to pay for Fyxer or switch to Shortwave. If you don't, you've saved $300 a year."
+      },
+      {
+        name: "Notion Mail",
+        rating: 8,
+        pros: [
+          "Free for Gmail users, with AI auto-labeling and drafting included",
+          "Custom views built like Notion databases -- a 'clients awaiting reply' view takes thirty seconds",
+          "Snippets, scheduling links, and a clean keyboard-first interface",
+          "The obvious pick if your projects and docs already live in Notion",
+          "Fast and stable; it has matured a lot since the 2025 launch"
+        ],
+        cons: [
+          "Gmail only, and desktop-first -- mobile is behind the competition",
+          "AI drafting is good but less voice-aware than Superhuman or Fyxer",
+          "Notion AI features beyond mail require the paid Notion AI plan",
+          "No shared-inbox or team email features"
+        ],
+        price: "Free with Gmail; advanced AI tied to Notion AI subscription",
+        bestFor: "Notion users and anyone who wants a capable AI email client for $0",
+        verdict: "Notion Mail is the best free AI email client, full stop. The views are the killer feature: instead of folders, you build filtered slices of your inbox -- unanswered client mail, anything mentioning an invoice, everything from a specific project -- and they update live. Drafting and labeling are solid if not best-in-class. If you already run your business in Notion, the fit is obvious; if you don't, it's still the cheapest way to get an AI-organized inbox without touching your Gmail account."
+      },
+      {
+        name: "SaneBox",
+        rating: 7,
+        pros: [
+          "The best pure filter: moves low-priority mail out of your inbox so only what matters is left",
+          "Works with any email -- Gmail, Outlook, Apple Mail, Fastmail, anything IMAP -- and any client you already use",
+          "SaneBlackHole (never see a sender again) and SaneReminders (nudge you if a reply doesn't come) are genuinely useful",
+          "Cheapest entry point in the roundup at $7/mo",
+          "Ten years of accuracy tuning -- it very rarely hides something important"
+        ],
+        cons: [
+          "No generative AI -- it doesn't draft, summarize, or answer anything",
+          "Value drops sharply if your inbox is already low-volume",
+          "The plan structure (Snack/Lunch/Dinner) is confusing and the top tier gets expensive",
+          "Feels like a 2016 product next to Shortwave or Fyxer"
+        ],
+        price: "From $7/mo; mid and top tiers to ~$36/mo",
+        bestFor: "People drowning in volume who don't want AI writing anything, on any email provider",
+        verdict: "SaneBox solves one problem -- too much mail -- and solves it better than anything else here. It's the pick if you're on Outlook or Apple Mail and don't want to switch clients, or if the idea of an AI drafting replies to your clients makes you uneasy. But it's a filter, not an assistant: you still write everything. Pair it with Gemini or Copilot for drafting and you have a competent stack for under $10/mo. On its own, it's a tidier inbox, not a faster one."
+      },
+      {
+        name: "Microsoft Copilot in Outlook",
+        rating: 7,
+        pros: [
+          "Native to Outlook and the Microsoft 365 apps most businesses already run",
+          "Good thread summaries, coaching on tone, and draft generation inside the compose window",
+          "Pulls context from Teams, SharePoint, and your calendar",
+          "Enterprise-grade data handling and admin controls IT will sign off on",
+          "Now included in many Microsoft 365 business bundles rather than a separate $30 add-on"
+        ],
+        cons: [
+          "Drafting is single-message: no inbox-wide auto-drafts, no learned voice",
+          "Triage is weak compared to Fyxer or SaneBox -- Focused Inbox is the same as it was",
+          "If you're not in a Microsoft shop, there's no reason to be here",
+          "Bundle inclusion varies by plan; check before assuming it's free"
+        ],
+        price: "Included in select Microsoft 365 business plans; otherwise the Copilot add-on (~$30/user/mo)",
+        bestFor: "Businesses standardized on Microsoft 365 and Outlook",
+        verdict: "Copilot in Outlook is the Microsoft equivalent of Gemini in Gmail, and the same logic applies: if you're already there, use it. Summaries are reliable and the tone coaching is a nice touch for client-facing mail. It's a step behind Gemini on search and well behind the AI-native clients on doing anything unprompted. Outlook users who want more should look at Fyxer, which layers on top of Outlook without replacing it -- Superhuman also supports Outlook if speed is the goal."
+      }
+    ],
+    conclusion: `If you want one recommendation, it depends on one question: **do you want email done faster, or done for you?** For faster, **Superhuman** is the benchmark if the price doesn't scare you and **Shortwave** is the smarter buy for Gmail users at $14/mo. For done-for-you, **Fyxer** is the only tool here that has replies waiting before you wake up. **Gemini in Gmail** and **Copilot in Outlook** are the free-with-your-plan defaults that most people should try for a month first. **Notion Mail** is the best free client, and **SaneBox** is the best filter for anyone who wants their inbox quieter without AI writing a word.
+
+Two things to hold onto. First, none of these fixes a broken process -- if clients don't know when to expect a reply, an AI drafting faster just makes you faster at reacting. Set expectations once and let the assistant enforce them. Second, read every AI draft before it goes to a client. Fyxer and Superhuman are good enough that you'll be tempted to bulk-approve; the one confidently wrong reply about a deadline or a price will cost more than the hour you saved. If you want the assistant to take on meeting notes as well, see our [AI meeting tools](/reviews/best-ai-meeting-tools) roundup, and for the broader picture of assistants that act across apps, [AI agent builders](/reviews/best-ai-agent-builders).
+
+The email job no assistant does yet is the one that costs freelancers the most: turning finished work into money. Every tool above will draft "attached is the invoice for September" beautifully -- none of them makes the invoice. **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) does that part in under a minute, free and with no sign-up: a professional invoice PDF you attach to the AI-drafted email and send. And when the payment is late, the follow-up your assistant writes is only as good as the invoice number and due date it can find in the thread -- so send a clean one the first time.`,
+    faq: [
+      {
+        q: "What is the best AI email assistant in 2026?",
+        a: "For most people, the honest answer is the one already in your email: Gemini in Gmail or Copilot in Outlook, because they cost nothing extra on most business plans and handle summaries, search, and drafting well. If you want a real step up, Superhuman is the best AI email client for speed and polish ($25/mo annual), Shortwave is the best AI-native client for Gmail at $14/mo, and Fyxer is the best assistant that actually handles mail for you -- it drafts replies to everything that needs one before you open the inbox ($22.50/mo annual). The right pick depends on volume: under fifty emails a day, the free built-ins are enough; over a hundred and fifty, Superhuman or Fyxer pays for itself in the first week."
+      },
+      {
+        q: "Is Superhuman worth $30 a month?",
+        a: "It's worth it for a specific person: someone who handles a high volume of email and treats inbox speed as a competitive edge. Superhuman Mail is $25/mo billed annually or $30 monthly, and the Business tier with Auto Drafts and the most advanced AI is $33/mo annual or $40 monthly. At that price, the math works if the tool saves you more than an hour a month of billable time -- which, at two hundred messages a day, it easily does. If your inbox is forty messages a day, you won't feel the speed and Shortwave at $14/mo or the free Gemini in Gmail will serve you just as well. Also note that Superhuman is now the flagship of the company formerly called Grammarly, so if you already pay for Grammarly, check the bundled pricing."
+      },
+      {
+        q: "Which AI email assistant is free?",
+        a: "Notion Mail is the best fully free AI email client -- it works with Gmail, includes AI auto-labeling and drafting, and its database-style custom views are excellent. Gemini in Gmail is included at no extra cost on most Google Workspace plans, and free Gmail accounts get a subset of features. Shortwave has a free tier with limited AI usage, which is enough to evaluate it. Copilot in Outlook is included in some Microsoft 365 business bundles. SaneBox starts at $7/mo, and Superhuman and Fyxer have no free plan beyond a trial. If your budget is zero, start with Notion Mail if you're on Gmail, or whichever built-in assistant comes with your existing plan."
+      },
+      {
+        q: "Do AI email assistants work with Outlook?",
+        a: "Some do, and the gap matters. Superhuman supports both Gmail and Outlook. Fyxer runs server-side on Gmail or Outlook, so you keep your existing Outlook client and phone app. SaneBox works with any IMAP account, including Outlook and Apple Mail. Microsoft's own Copilot is Outlook-native. The AI-native clients are the ones that don't: Shortwave and Notion Mail are Gmail-only. So if you're on Outlook and want an AI that does more than Copilot, the realistic choices are Superhuman (switch clients, gain speed), Fyxer (keep Outlook, gain auto-drafts), or SaneBox (keep Outlook, gain filtering)."
+      },
+      {
+        q: "Fyxer vs Superhuman -- which should I choose?",
+        a: "They solve different problems, which makes the choice clearer than the price comparison suggests. Superhuman makes you faster at email: a keyboard-driven client with AI drafting, summaries, and search, priced at $25 to $33/mo annually. Fyxer tries to do email for you: it sorts your inbox by priority and writes a draft reply to every message that needs one, in your voice, priced at $22.50 to $37.50/mo annually with overage fees. Choose Superhuman if you enjoy being in your inbox and want it to feel instant. Choose Fyxer if you'd rather open the inbox to approve replies than write them -- and if you have the discipline to read every draft before sending, because Fyxer will occasionally answer confidently when the right reply was 'let me check.' Fyxer also works on top of Outlook without switching clients, which decides it for many Microsoft users."
+      },
+      {
+        q: "Are AI email assistants safe for client and business email?",
+        a: "Generally yes, with two caveats. First, every tool here reads your mail to work, so check where the processing happens and what's retained: Gemini and Copilot stay inside Google's and Microsoft's existing security and admin controls, which is why they're the easiest for a small business to approve; Superhuman, Shortwave, Fyxer, and Notion Mail each publish their data-handling policies and most offer a no-training commitment on business plans. Second, the practical risk isn't a data leak -- it's a confidently wrong AI draft going to a client. Treat auto-drafts as suggestions: read anything that mentions money, dates, scope, or commitments before it sends. If your industry has confidentiality obligations (legal, healthcare, finance), prefer the built-in assistants or a tool with a signed data agreement over a startup client."
+      },
+      {
+        q: "Can an AI email assistant send invoice reminders and follow up on late payments?",
+        a: "Partly. Fyxer and Superhuman can draft a polite payment follow-up in your voice once you ask, and SaneBox's SaneReminders will nudge you when a reply hasn't arrived by a date you set -- but none of them tracks which invoices are unpaid, because the invoice isn't in the email, only the attachment is. The workable setup is to make the invoice itself clean and unambiguous so the follow-up writes itself: a clear invoice number, an explicit due date, and the amount in the subject line. [InvoiceQuick](https://invoicequick-phi.vercel.app) generates that as a PDF free with no sign-up, and once the number and due date are in the original thread, any of these assistants can draft an accurate reminder from the context. If you want the reminders fully automated, that's an invoicing-software feature rather than an email one -- see our roundup of the [best invoicing software for freelancers](/reviews/best-invoicing-software)."
+      }
+    ]
   }
 };
