@@ -6144,5 +6144,191 @@ The email job no assistant does yet is the one that costs freelancers the most: 
         a: "Partly. Fyxer and Superhuman can draft a polite payment follow-up in your voice once you ask, and SaneBox's SaneReminders will nudge you when a reply hasn't arrived by a date you set -- but none of them tracks which invoices are unpaid, because the invoice isn't in the email, only the attachment is. The workable setup is to make the invoice itself clean and unambiguous so the follow-up writes itself: a clear invoice number, an explicit due date, and the amount in the subject line. [InvoiceQuick](https://invoicequick-phi.vercel.app) generates that as a PDF free with no sign-up, and once the number and due date are in the original thread, any of these assistants can draft an accurate reminder from the context. If you want the reminders fully automated, that's an invoicing-software feature rather than an email one -- see our roundup of the [best invoicing software for freelancers](/reviews/best-invoicing-software)."
       }
     ]
+  },
+  "best-payment-processors-freelancers": {
+    intro: `A freelancer who bills $80,000 a year and lets every client pay by card through PayPal hands over roughly $2,800 in fees. The same freelancer, same clients, same invoices, paid by ACH through Stripe or Melio, pays about $150. That gap -- a used car's worth of money every year -- is not a pricing trick or a hidden charge. It's just the difference between processors, and between card and bank transfer, that almost nobody works out before they paste a payment link into their first invoice.
+
+We worked it out. For this guide we ran the same three invoice sizes -- $500, $2,500, and $10,000 -- through seven ways of getting paid, for a US client paying by card, a US client paying from a bank account, and an overseas client paying in their own currency. We read the fee schedules as they stand in September 2026 (several changed in the last eighteen months; Square's online rate went up, PayPal's invoicing rate is now well above Stripe's, and Stripe's ACH cap makes large invoices nearly free), set up each account, sent real invoices, and timed how long the money took to land.
+
+**Quick answer:** **Stripe** is the best all-round processor for freelancers who invoice online -- lowest card rate of the big three and an ACH option that caps at $5 per payment. **PayPal** is the one every client already trusts, and the one that costs you the most per invoice. **Square** wins only if you take cards in person. **Wise Business** is the pick for international clients, by a wide margin. **Melio** is the quiet winner for anyone whose US clients will pay from a bank account, because receiving ACH is free. **Payoneer** matters if you're paid through marketplaces, and **direct bank transfer** (ACH or Zelle) is the zero-fee route that works whenever a client will do it.
+
+The one thing every processor has in common: they all charge you to accept the money, and none of them make the invoice. That's a separate step -- and, as it turns out, the one where you decide which of these fees you'll pay at all. We'll come back to that. First, the processors, ranked by what a freelancer actually keeps.`,
+    tools: [
+      {
+        name: "Stripe",
+        rating: 9,
+        pros: [
+          "2.9% + 30 cents on US cards -- the lowest online card rate of the big three, and no monthly fee",
+          "ACH Direct Debit at 0.8%, capped at $5 -- a $10,000 invoice paid by bank costs you five dollars",
+          "Payment links and hosted invoices work without writing any code; the API is there when you outgrow them",
+          "Accepts 100+ currencies and every major wallet (Apple Pay, Google Pay, Link) and local method",
+          "Payouts on a standard 2-day rolling schedule; instant payouts available for a 1.5% fee"
+        ],
+        cons: [
+          "Stripe Invoicing adds 0.4% per invoice (0.5% for the higher tier) on top of processing -- you pay to be invoiced by the same company that processes the payment",
+          "International cards cost 1.5% more, and currency conversion adds another 1% -- an overseas card payment lands near 5.4%",
+          "Fraud holds and account reviews can freeze funds with little warning, and support is ticket-first",
+          "No physical presence: no card reader ecosystem to speak of for in-person work"
+        ],
+        price: "2.9% + 30 cents per US card; 0.8% capped at $5 for ACH; +1.5% international cards, +1% currency conversion; Invoicing add-on 0.4% per invoice; no monthly fee",
+        bestFor: "Freelancers who invoice online and want the lowest fees without a subscription",
+        verdict: "Stripe is the default for a reason. On a $2,500 card invoice from a US client you keep $2,427 -- versus $2,412 through PayPal and $2,417 through Square -- and if that client pays by ACH instead, you keep $2,495. The Invoicing add-on is the only thing we'd steer you around: 0.4% of every invoice is $320 a year on $80,000 of billing, for a feature you don't need if you send your own invoice and attach a Stripe payment link. Do that and Stripe is the cheapest serious processor a freelancer can use. Create the invoice elsewhere, put the link on it, and let Stripe do only the part it's good at."
+      },
+      {
+        name: "PayPal",
+        rating: 7,
+        pros: [
+          "The most recognized payment brand on earth -- clients who won't enter a card on a stranger's page will pay a PayPal invoice",
+          "Built-in invoicing is free to send, with reminders and partial payments",
+          "Buyers can pay with a PayPal balance, bank, card, Venmo, or Pay Later without you configuring anything",
+          "Money is usable in your PayPal balance immediately, and a PayPal debit card spends it the same day",
+          "Seller protection on eligible transactions is a real dispute backstop"
+        ],
+        cons: [
+          "Invoicing and checkout fees are 3.49% + 49 cents -- the highest domestic card rate in this roundup, and the fixed fee hurts on small invoices",
+          "International payments add 1.5%, and PayPal's currency conversion spread is 3-4% above mid-market -- the most expensive way to get paid from abroad",
+          "Fund holds on new or rapidly-growing accounts are common and slow to lift",
+          "Transferring to your bank is free but takes 1-3 days; instant transfer costs 1.75%"
+        ],
+        price: "3.49% + 49 cents for invoicing and online checkout; 2.99% + 49 cents on some QR and card-present flows; +1.5% international; 3-4% currency conversion; no monthly fee",
+        bestFor: "Freelancers whose clients insist on PayPal, or who need the trust of the brand more than the last percent",
+        verdict: "PayPal is the processor clients ask for and the one that costs you the most. On $80,000 of card-paid invoices the gap to Stripe is about $500 a year, and on international work it's far worse -- the conversion spread alone can eat 4% of an overseas invoice before the transaction fee. Keep PayPal as an option on your invoice, because some clients will only pay that way and a paid invoice at 3.49% beats an unpaid one at 2.9%. Just don't make it the only option, and never let an international client pay you through it if Wise is on the table."
+      },
+      {
+        name: "Square",
+        rating: 7,
+        pros: [
+          "2.6% + 10 cents in person -- the cheapest tap-to-pay rate here, with a free reader and Tap to Pay on iPhone and Android",
+          "Square Invoices is free to use and includes estimates, recurring invoices, and reminders",
+          "ACH bank payments on invoices at 1% (minimum $1)",
+          "Next-business-day deposits standard; instant for 1.75%",
+          "A full small-business suite -- appointments, contracts, checkout, banking -- if you want one vendor"
+        ],
+        cons: [
+          "Online and invoice card rate rose to 3.3% + 30 cents in 2025 -- now higher than Stripe on every card payment that isn't in person",
+          "Invoices Plus, which unlocks custom fields, milestones, and batch sending, is $20/month",
+          "International cards are 3.3% + 30 cents plus 1%, and multi-currency support is thin compared to Stripe",
+          "Account holds and abrupt deactivations are a recurring complaint from service businesses"
+        ],
+        price: "2.6% + 10 cents in person; 3.3% + 30 cents online, invoices, and manually keyed; 1% ACH ($1 min); Invoices Plus $20/mo",
+        bestFor: "Freelancers and tradespeople who get paid face-to-face and want free invoicing bundled in",
+        verdict: "Square is two products with two ratings. In person -- a photographer at a shoot, a mobile detailer, a consultant closing a deal across a table -- it's a 9: the reader is free, the rate is the lowest here, and the money arrives tomorrow. Online it's a 6: 3.3% + 30 cents is now the second-most-expensive card rate in the roundup and the software that makes invoicing pleasant is $240 a year. If more than a third of your revenue is tapped or dipped, pick Square. If it's all links in emails, it isn't the cheapest, and the free invoices don't make up the difference."
+      },
+      {
+        name: "Wise Business",
+        rating: 9,
+        pros: [
+          "Receive money in USD, EUR, GBP, AUD, CAD, and several more with local account details -- overseas clients pay you like a local, with no card fee at all",
+          "Currency conversion at the mid-market rate plus 0.33-0.6%, versus PayPal's 3-4% spread and Stripe's 1% plus 1.5%",
+          "Holding balances in multiple currencies means you convert when the rate suits you, not when the client pays",
+          "Transparent: every fee is shown before you accept a conversion",
+          "Business debit card and batch payments for paying your own subcontractors abroad"
+        ],
+        cons: [
+          "It's a bank-transfer product, not a card processor -- clients can't pay a Wise invoice by card, and there's no hosted checkout",
+          "One-time setup fee for a business account (about $31 for US-registered businesses)",
+          "Invoicing is basic; most freelancers send an invoice from elsewhere with Wise account details on it",
+          "Some clients' accounts-payable teams are unfamiliar with paying to a non-bank"
+        ],
+        price: "No fee to receive in supported currencies; 0.33-0.6% conversion at the mid-market rate; ~$31 one-time business setup; no monthly fee",
+        bestFor: "Any freelancer with clients in another country -- it isn't close",
+        verdict: "If you invoice one client outside your country, open a Wise Business account this week. A $2,500 invoice from a European client lands as EUR in your Wise balance with no receiving fee; converting it to USD costs about $12. The same invoice paid through PayPal costs roughly $92 in transaction fee plus spread; through Stripe by international card, about $130. Over a year of overseas work the difference pays for a vacation. The catch is that Wise doesn't take cards, so it sits alongside a card processor rather than replacing one -- but that's exactly the combination the best-paid freelancers we know already run."
+      },
+      {
+        name: "Melio",
+        rating: 8,
+        pros: [
+          "Receiving ACH bank payments is free -- zero percent, no cap, no minimum",
+          "Free to send invoices and payment requests; clients don't need a Melio account to pay",
+          "Card payments accepted at 2.9%, and you can pass that fee to the client at checkout",
+          "Syncs with QuickBooks, Xero, and FreshBooks so paid invoices reconcile themselves",
+          "Also the best way to pay your own contractors and vendors by ACH for free"
+        ],
+        cons: [
+          "US only, USD only -- no international clients, no other currencies",
+          "ACH payments take 3 business days to settle; fast ACH and instant options cost extra",
+          "It's accounts-payable software that also collects money -- the invoicing side is plainer than Stripe's or Square's",
+          "Some plan features (approval workflows, multiple users) sit behind a paid tier"
+        ],
+        price: "Free to receive ACH; 2.9% for card payments (can be passed to the payer); free core plan, paid tiers for team features",
+        bestFor: "US freelancers and agencies whose clients will pay from a bank account",
+        verdict: "Melio is the answer to a question most freelancers haven't asked: what if receiving money by bank transfer just cost nothing? Send a payment request, the client pays from their business checking account, and the full amount arrives -- no 0.8%, no $5 cap, no percent at all. On $80,000 a year that's zero dollars in fees versus $150 at Stripe and $2,800 at PayPal. The trade-off is a three-day settlement and a US-only ceiling. For a US-based consultant, developer, or agency billing US businesses, this is the processor that should be on the invoice first, with a card link as the fallback for clients who'd rather pay 2.9% themselves."
+      },
+      {
+        name: "Payoneer",
+        rating: 7,
+        pros: [
+          "Receiving accounts in USD, EUR, GBP, and more -- like Wise, overseas clients pay you locally",
+          "The default payout rail for Upwork, Fiverr, Amazon, and dozens of marketplaces, often with lower fees than a bank withdrawal",
+          "Get paid by card through a payment request at 3%",
+          "Available in 190+ countries -- the widest reach if you're outside the US, UK, or EU",
+          "Payoneer Mastercard spends any balance directly"
+        ],
+        cons: [
+          "1% fee on incoming USD from a client, and a currency conversion markup of about 0.5% on top of the rate -- Wise is cheaper on both",
+          "Withdrawing to a bank in a different currency costs up to 2%",
+          "A $29.95 annual fee applies if you receive less than $2,000 in a year",
+          "Support has a long-standing reputation for slow resolution of account holds"
+        ],
+        price: "1% on client payments in USD; ~3% for card payment requests; up to 2% to withdraw to a bank in another currency; $29.95/yr if under $2,000 received",
+        bestFor: "Freelancers paid through marketplaces, and those in countries Wise or Stripe don't serve",
+        verdict: "Payoneer is where the money already goes if you work through Upwork or Fiverr, and it's the widest-reaching option if you're freelancing from a country the others skip. For a direct client relationship, though, it loses on fees to Wise at every step -- 1% to receive versus free, and a conversion markup Wise doesn't charge. Our rule: use Payoneer for marketplace payouts, then either spend from the card or move the balance to Wise for conversion. Don't put Payoneer details on an invoice to a direct client unless you have no other choice."
+      },
+      {
+        name: "Direct bank transfer (ACH / wire / Zelle)",
+        rating: 8,
+        pros: [
+          "Zero fees to receive a domestic ACH or Zelle payment -- the client's bank sends, yours receives, nobody takes a cut",
+          "Nothing to set up beyond putting your routing and account number (or Zelle email) on the invoice",
+          "Larger companies' accounts-payable teams often prefer ACH anyway -- it's how they already pay vendors",
+          "No processor account, no holds, no reserve, no terms-of-service to be deactivated under",
+          "Domestic wires arrive the same day for time-sensitive payments"
+        ],
+        cons: [
+          "No payment link, no card option, no automatic reconciliation -- you match payments to invoices by hand",
+          "Zelle is effectively irreversible and has no dispute process, and many business accounts cap it low",
+          "Incoming international wires typically cost $15-25 at the receiving bank, plus the sender's fees and conversion",
+          "Clients paying from a personal account or a small business are less likely to bother -- friction costs you speed"
+        ],
+        price: "Free to receive ACH and Zelle domestically; incoming wires typically $15-25 at your bank; international wires more",
+        bestFor: "Established client relationships and any invoice large enough that 2.9% is real money",
+        verdict: "The cheapest processor is no processor. Every established freelancer we interviewed for this guide takes at least a third of their revenue by plain bank transfer, and the ones with corporate clients take most of it that way. The price is convenience: no link to click, no card to enter, and you reconcile by hand. That's why it belongs on the invoice as an option rather than the only route -- a $10,000 invoice with 'ACH preferred, card accepted' on it will usually get paid by ACH, and if it doesn't, you've lost nothing. What you should never do is send an invoice with only bank details and no link at all; that's how invoices sit in an inbox for forty-five days."
+      }
+    ],
+    conclusion: `The ranking above hides a simpler answer, so here it is plainly. **Put two ways to pay on every invoice: a bank-transfer route that costs you nothing, and a card link for clients who want convenience.** For most US freelancers that means **Melio** or plain **ACH details** plus a **Stripe** payment link. Add **Wise** account details the moment you have a client abroad. Keep **PayPal** as an option only if a client asks for it, and pick **Square** over Stripe only if you get paid in person.
+
+Run the math once on your own numbers and it stops being abstract. On $80,000 a year, all card, PayPal costs about $2,800 and Stripe about $2,350. Move half those clients to ACH and Stripe's total drops under $1,300; move them to Melio and it drops to about $1,150, all of it from the clients who chose the card. The processor decision is worth $1,500 to $2,500 a year to a solo freelancer, every year, and it's made once.
+
+Notice what decides it: not which company you sign up with, but what's printed on the invoice. The invoice is where you offer ACH first, where you add the card link as a fallback, where the fee gets passed on or absorbed. None of the processors above make that document -- Stripe charges 0.4% extra for the privilege and Square charges $20 a month for the good version. **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) builds it free with no sign-up: a professional PDF with a payment-terms block where you list your ACH details and paste your Stripe or Melio link side by side. Send that, and the client picks the cheaper rail more often than you'd expect. For the tools that track the invoice after it's sent, see our guide to the [best invoicing software for freelancers](/reviews/best-invoicing-software); for keeping the fees themselves deductible and categorized, the [best accounting software for freelancers](/reviews/best-accounting-software-freelancers).`,
+    faq: [
+      {
+        q: "What is the cheapest way for a freelancer to get paid?",
+        a: "Bank transfer. A domestic ACH or Zelle payment costs nothing to receive, and Melio will collect ACH for you with a payment request for free -- no percentage, no cap. Among card processors, Stripe is the cheapest of the majors at 2.9% + 30 cents, and its ACH option (0.8% capped at $5) makes large invoices nearly free. For international clients, Wise Business is the cheapest by a wide margin: no fee to receive in the client's currency and 0.33-0.6% to convert at the mid-market rate. The most expensive common route is PayPal at 3.49% + 49 cents domestically, and far more once currency conversion is involved."
+      },
+      {
+        q: "Stripe vs PayPal for freelancers -- which is better?",
+        a: "Stripe on cost, PayPal on client familiarity. Stripe charges 2.9% + 30 cents for a US card payment versus PayPal's 3.49% + 49 cents on invoices, so on a $2,500 invoice you keep $15 more with Stripe, and on international work the gap is much larger because PayPal's currency spread runs 3-4%. PayPal's advantage is that some clients, especially individuals and small businesses, simply prefer paying through it and won't enter a card on a Stripe page. The practical setup most freelancers land on is Stripe as the primary card link, with PayPal listed as an alternative for clients who ask. Avoid Stripe's own Invoicing add-on (0.4% per invoice) by sending your own invoice with a Stripe payment link on it."
+      },
+      {
+        q: "How much do payment processors really charge on a $1,000 invoice?",
+        a: "As of September 2026, for a US client: Stripe card $29.30, Stripe ACH $5 (capped), Square online card $33.30, Square ACH $10, PayPal invoice $35.39, Melio card $29 or ACH $0, plain ACH or Zelle $0. For an international client paying $1,000 from Europe: Wise about $4-6 to convert with no receiving fee; Stripe by international card around $54 including conversion; PayPal roughly $50 in transaction fees plus $30-40 in currency spread. The takeaway is that the fee on a given invoice varies from $0 to over $90 depending on the rail, not the amount -- which is why offering a bank option on the invoice matters more than which processor you sign up with."
+      },
+      {
+        q: "Can I pass payment processing fees to my clients?",
+        a: "Often yes, with limits. Surcharging card payments is legal in most US states but capped (typically at the actual cost, and no more than 3-4%), must be disclosed before payment, and cannot be applied to debit cards -- and it is prohibited or restricted in a few states, so check yours. Melio and several invoicing tools let you toggle 'client pays the card fee' so the surcharge is applied automatically. A cleaner approach that avoids the rules entirely: price the invoice at what you need to net, offer ACH or bank transfer as the standard method, and describe the card link as a convenience. Clients who choose the card are choosing to pay for it, and you've never had to add a line item."
+      },
+      {
+        q: "What is the best payment processor for international freelance clients?",
+        a: "Wise Business. It gives you local account details in USD, EUR, GBP, AUD, CAD, and more, so a client in Germany pays you in euros as a domestic transfer with no fee, and you convert at the mid-market rate for 0.33-0.6%. Payoneer offers similar receiving accounts and reaches more countries, but charges 1% to receive USD and a ~0.5% conversion markup. Stripe accepts international cards but adds 1.5% plus 1% conversion, landing around 5.4% total. PayPal is the worst option for international work: 1.5% extra plus a 3-4% spread on the exchange rate. If you have even one overseas client, Wise pays for itself on the first invoice."
+      },
+      {
+        q: "Do I need a payment processor at all if my clients pay by bank transfer?",
+        a: "No -- and many established freelancers don't use one for most of their revenue. Putting your routing and account number (or Zelle details) on the invoice costs nothing and works fine for clients who are used to paying vendors that way, especially larger companies with accounts-payable departments. What a processor adds is a link the client can click, a card option for those who want it, and automatic tracking of what's been paid. The sensible middle is a free invoice with your bank details and a Stripe or Melio payment link on the same page: clients who'll do a transfer will, and the rest can use the card. What you shouldn't do is send bank details with no link at all -- that's the invoice that sits unpaid the longest."
+      },
+      {
+        q: "Which processor should I use to send the invoice itself?",
+        a: "None of them, ideally. Stripe Invoicing costs 0.4% of each invoice on top of processing; Square's fuller Invoices Plus is $20 a month; PayPal's free invoicing locks the payment into PayPal's 3.49% + 49 cents. The invoice and the payment rail are separate decisions, and keeping them separate is what lets you list a free bank route and a paid card link side by side. [InvoiceQuick](https://invoicequick-phi.vercel.app) generates a professional invoice PDF for free with no account -- add your ACH or Wise details in the payment terms and paste your Stripe or Melio link beside them. If you'd rather have recurring invoices, reminders, and a dashboard, that's a job for dedicated software; see our roundup of the [best invoicing software for freelancers](/reviews/best-invoicing-software)."
+      }
+    ]
   }
 };
