@@ -6412,5 +6412,199 @@ Notice what decides it: not which company you sign up with, but what's printed o
         a: "None of them, ideally. Stripe Invoicing costs 0.4% of each invoice on top of processing; Square's fuller Invoices Plus is $20 a month; PayPal's free invoicing locks the payment into PayPal's 3.49% + 49 cents. The invoice and the payment rail are separate decisions, and keeping them separate is what lets you list a free bank route and a paid card link side by side. [InvoiceQuick](https://invoicequick-phi.vercel.app) generates a professional invoice PDF for free with no account -- add your ACH or Wise details in the payment terms and paste your Stripe or Melio link beside them. If you'd rather have recurring invoices, reminders, and a dashboard, that's a job for dedicated software; see our roundup of the [best invoicing software for freelancers](/reviews/best-invoicing-software)."
       }
     ]
+  },
+  "best-ai-research-tools": {
+    intro: `Every AI chatbot now has a button labelled "Deep Research," and they do not all mean the same thing. Some search the open web and write you a cited report. Some only read the documents you hand them. Some search nothing but peer-reviewed papers. Pick the wrong kind and you get a confident, well-formatted answer built on the wrong sources -- which is worse than no answer, because it looks finished.
+
+So this guide sorts the category by *where the answers come from* before it ranks anything. There are three kinds of AI research tool in 2026:
+
+**Web research engines** -- Perplexity, ChatGPT deep research, Gemini Deep Research -- search the live internet and cite what they find. Best for market research, competitor checks, pricing scans, and "what changed this year" questions. Their weakness is the web itself: they will cite a vendor blog as readily as a primary source.
+
+**Source-grounded notebooks** -- NotebookLM is the category leader -- answer only from files and links you upload. Best when you already have the material (contracts, transcripts, reports, a client's documentation) and need to understand it fast. Their strength is that they rarely invent facts outside your sources; their limit is that they know nothing else.
+
+**Academic search engines** -- Elicit, Consensus, Semantic Scholar -- search scholarly papers only. Best when the question is "what does the evidence say," not "what does the internet say." Slower and narrower, and far more trustworthy for anything health, science, or policy related.
+
+We assessed each tool against four jobs freelancers and small businesses actually do -- a market-sizing question, a competitor pricing scan, digesting a long client report, and an evidence question with a published answer -- and checked every price and limit against the vendor's current plans (September 2026).
+
+**Quick answer:** **Perplexity** is the best everyday research tool -- fast, cited, and good on the free plan. **NotebookLM** is the best free tool on this list and the one to use whenever the answer is in documents you already have. **ChatGPT deep research** writes the most complete long-form reports. **Elicit** is the pick for serious literature reviews, and **Consensus** for quick "is this true?" evidence checks. Full breakdown, current pricing, and the one habit that makes all of them safer, below.`,
+    tools: [
+      {
+        name: "Perplexity",
+        rating: 9,
+        pros: [
+          "Every answer is cited inline, so checking a claim takes one click instead of a new search",
+          "Fast -- most answers arrive in seconds, and Deep Research reports in a few minutes",
+          "The free plan is genuinely useful for everyday questions, not a teaser",
+          "Pro lets you choose between several frontier models inside one subscription",
+          "Focus modes narrow the search to academic sources, discussions, or specific sites"
+        ],
+        cons: [
+          "Cites whatever ranks -- vendor blogs and SEO pages show up next to primary sources",
+          "Deep Research reports are shorter and shallower than ChatGPT's on complex topics",
+          "Max at $200/mo is priced for heavy users only; most people never need it",
+          "Answers can blend two sources into one claim neither actually makes -- click through on anything that matters"
+        ],
+        price: "Free; Pro $20/mo ($200/yr); Max $200/mo",
+        bestFor: "Everyday research, fact checks, and fast market or competitor scans with sources you can verify",
+        verdict: "Perplexity is the research tool most people should start with, and for many it is the only one they need. It answers the way a good research assistant would: short, sourced, and quick, with the citations sitting right next to the claims. Its one real weakness is shared with the whole web category -- it trusts search rankings -- so treat a Perplexity answer as a reading list with a summary on top, and open the two or three sources your decision actually rests on. Pro at $20/mo is worth it the week you use it daily; the free plan covers occasional use."
+      },
+      {
+        name: "NotebookLM",
+        rating: 9,
+        pros: [
+          "Answers only from the sources you upload, which sharply cuts made-up facts",
+          "Every answer links to the exact passage in your document it came from",
+          "The free plan is generous: 100 notebooks, 50 sources each, and 50 chats a day",
+          "Audio and Video Overviews turn a stack of documents into a briefing you can listen to on the road",
+          "Handles PDFs, Google Docs, Slides, web pages, YouTube videos, and audio"
+        ],
+        cons: [
+          "Knows nothing beyond your sources -- the wrong tool for questions the documents don't answer",
+          "Built-in Deep Research for finding new sources is capped at 10 reports a month on the free plan",
+          "Higher limits require a Google AI subscription ($4.99 Plus, $19.99 Pro, Ultra from $99.99)",
+          "Notebooks don't export cleanly to other tools -- your notes live inside Google"
+        ],
+        price: "Free; higher limits with Google AI Plus ($4.99/mo) or Pro ($19.99/mo); Ultra from $99.99/mo",
+        bestFor: "Digesting documents you already have -- client reports, contracts, transcripts, course material, RFPs",
+        verdict: "NotebookLM is the best free tool on this list. Give it a 60-page client report and ask what it says about budget, and it answers with a link to the paragraph it used -- which makes it the safest AI tool here for work where a wrong fact costs you. The limit is the same thing that makes it safe: it only knows what you gave it. Pair it with Perplexity (find the sources) and you have a complete research setup for $0."
+      },
+      {
+        name: "ChatGPT deep research",
+        rating: 8,
+        pros: [
+          "Produces the most complete long-form reports -- structured, sectioned, and thorough",
+          "Asks clarifying questions before it starts, which noticeably improves the result",
+          "Reads uploaded files alongside web sources in the same report",
+          "Available to anyone already paying for ChatGPT Plus, with no second subscription",
+          "Strong at synthesis: comparing many sources and explaining where they disagree"
+        ],
+        cons: [
+          "Slow -- a full report can take 10 minutes or more",
+          "Free and Go plans get only a limited number of runs; heavy use pushes you toward Pro at $200/mo",
+          "Long reports make it easy to miss a weak citation buried in the middle",
+          "OpenAI no longer publishes exact monthly run counts per plan, so limits are hard to plan around"
+        ],
+        price: "Limited on Free and Go; expanded on Plus ($20/mo); highest limits on Pro ($200/mo)",
+        bestFor: "Big questions that deserve a full written report -- market entry, vendor selection, background briefs",
+        verdict: "When the question is large and you want a document back, not an answer, ChatGPT deep research is the strongest tool here. It plans before it searches, reads widely, and writes a report you could hand to a client with light editing. That polish is also the risk: a 4,000-word report reads as authoritative, and one weak source in section three is easy to miss. Spot-check the citations behind any number you plan to repeat. If you already pay for Plus, this is included -- try it before paying for anything else."
+      },
+      {
+        name: "Elicit",
+        rating: 8,
+        pros: [
+          "Searches 138 million+ academic papers, not the open web",
+          "Extracts findings into a table -- sample size, method, outcome -- across dozens of papers at once",
+          "Research Agent and Reports automate the first pass of a literature review",
+          "Free plan includes unlimited search, summaries, and chat with papers",
+          "Built for systematic reviews, with screening for thousands of papers on paid plans"
+        ],
+        cons: [
+          "Pro is $49/mo -- far more than the $10 figure still quoted in older roundups",
+          "Useless for non-academic questions: no news, no pricing, no company research",
+          "Coverage is thinner in fields that publish mostly in books or behind paywalls",
+          "The table-extraction workflow takes an hour to learn before it saves time"
+        ],
+        price: "Free (Basic); Pro $49/mo ($588/yr); Scale $169/mo; Enterprise custom",
+        bestFor: "Literature reviews, grant writing, and anyone who needs to summarize what published research found",
+        verdict: "Elicit is the professional's academic tool. Its extraction table -- one row per paper, one column per question you care about -- turns a week of literature review into an afternoon, and nothing else here does it as well. Two warnings: it only knows papers, so it cannot help with business questions, and the price has moved. Many comparison sites still list Elicit at $10 a month; the current Pro plan is $49. The free plan is strong enough to decide whether you need it."
+      },
+      {
+        name: "Consensus",
+        rating: 8,
+        pros: [
+          "Answers yes/no evidence questions directly -- 'Does X help with Y?' -- from peer-reviewed research",
+          "The Consensus Meter shows how many studies say yes, no, or possibly at a glance",
+          "Flags study type and quality, so a single small study doesn't read like settled science",
+          "Easiest academic tool for non-academics to use -- it reads like a search engine",
+          "Pro includes a monthly allowance of Deep reviews for longer, structured summaries"
+        ],
+        cons: [
+          "Best at narrow evidence questions; weaker for open-ended exploration",
+          "Free plan limits the AI summary features that make it worth using",
+          "Paid pricing is on the high side for occasional use (Pro about $20/mo monthly, less billed yearly)",
+          "Academic-only, so it has the same blind spot as Elicit for business research"
+        ],
+        price: "Free (limited); Pro about $20/mo or $144/yr; Deep plan for heavy users",
+        bestFor: "Quick evidence checks -- health, nutrition, productivity, and business-practice claims you want to verify",
+        verdict: "Consensus is the tool to open when someone tells you a study proved something. Ask the question plainly and it shows you what the body of research says, with the Meter summarizing agreement and each paper labelled by type. It is the fastest way to separate 'one study suggested' from 'the evidence shows' -- a distinction most AI chatbots blur. For deep literature work, Elicit goes further; for a two-minute sanity check, Consensus is better."
+      },
+      {
+        name: "Gemini Deep Research",
+        rating: 7,
+        pros: [
+          "Reads a very large number of web sources per report -- often more than rivals",
+          "Exports reports straight into Google Docs, ready to edit and share",
+          "Shows its research plan first, so you can edit the plan before it runs",
+          "Included in Google AI Pro ($19.99/mo), which also raises your NotebookLM limits",
+          "Can draw on your Gmail and Drive when you allow it"
+        ],
+        cons: [
+          "Reading more sources does not always mean better sources -- reports can feel padded",
+          "Writing is flatter and more repetitive than ChatGPT's reports",
+          "Free-tier access is limited",
+          "Best value only if you live in Google Workspace already"
+        ],
+        price: "Limited free access; full use with Google AI Pro ($19.99/mo); Ultra from $99.99/mo",
+        bestFor: "Google Workspace users who want research reports that land in Docs and share with a client",
+        verdict: "Gemini Deep Research is capable and wide-reaching, and its Google Docs export is a real time-saver if your deliverables live there. It ranks below ChatGPT on the quality of the writing and below Perplexity on speed, but the bundle is its strongest argument: Google AI Pro at $19.99 gets you this plus higher NotebookLM limits, which together cover most research needs for one price."
+      },
+      {
+        name: "Semantic Scholar",
+        rating: 7,
+        pros: [
+          "Completely free, with no paid tier -- run by the nonprofit Allen Institute for AI",
+          "Covers 200 million+ papers across every field",
+          "One-line TLDR summaries make scanning a results page fast",
+          "Research Feeds recommend new papers based on what you save",
+          "Citation graphs show which later papers built on (or challenged) a result"
+        ],
+        cons: [
+          "A search engine with AI features, not an AI that writes answers for you",
+          "No report writing or cross-paper synthesis like Elicit or Consensus",
+          "Interface is functional rather than friendly",
+          "Full text depends on whether the paper itself is open access"
+        ],
+        price: "Free",
+        bestFor: "Students, researchers, and budget-conscious users who want academic search at no cost",
+        verdict: "Semantic Scholar is the free foundation under a lot of academic AI tooling, and it deserves to be used directly. It won't write your literature review, but it will find the papers, summarize each in a line, and show you who cited them -- which is the part of research AI tools most often get wrong. Use it to check that the papers an AI tool cited actually exist and say what the tool claimed."
+      }
+    ],
+    conclusion: `The most useful thing to understand about these tools is that **the source decides the answer more than the model does.** A brilliant model searching the open web will still cite a vendor's marketing page; a modest one reading only your documents will stay accurate. So choose by where the answer lives, not by which company has the best benchmark this month.
+
+For most freelancers and small businesses, the setup that works costs nothing: **Perplexity** (free) to find and scan sources, **NotebookLM** (free) to understand the documents that matter, and **Consensus** or **Semantic Scholar** (free) when a claim needs evidence behind it. Add **ChatGPT Plus** or **Google AI Pro** at about $20/mo only when you regularly need long written reports. Elicit Pro at $49/mo is for people whose job is literature review.
+
+One habit makes every tool on this list safer: **before you repeat a number, open the source it came from.** All of them occasionally merge two sources into one claim, or cite a page that says something slightly different. It takes thirty seconds and it is the difference between research and a confident guess. If these assistants are reading your web pages as well as searching, the risks change again -- see [best AI browsers](/reviews/best-ai-browsers). For general-purpose assistants beyond research, see [best AI chatbots](/reviews/best-ai-chatbots), and for capturing what you learn, [best AI note-taking apps](/reviews/best-ai-note-taking-apps).
+
+And if research is part of what you sell -- market scans, competitor reports, background briefs for clients -- bill for it like the professional work it is. Research hours are the easiest to under-bill because the tool did "most of it." It didn't: you chose the sources, checked them, and turned them into a decision. **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) turns that into a clear invoice in under a minute, free and with no sign-up -- and the [consulting invoice template](https://invoicequick-phi.vercel.app/invoice-template/consulting) already has line items for research, analysis, and out-of-scope hours.`,
+    faq: [
+      {
+        q: "What is the best AI tool for research in 2026?",
+        a: "Perplexity for most people -- it is fast, cites every answer, and the free plan is useful on its own. If your answer lives in documents you already have, NotebookLM is better and also free. For academic research, use Elicit for literature reviews and Consensus for quick evidence checks. ChatGPT deep research writes the most complete long-form reports if you already pay for ChatGPT Plus."
+      },
+      {
+        q: "Perplexity vs ChatGPT deep research -- which is better?",
+        a: "Perplexity for speed and everyday questions; ChatGPT deep research for big questions that deserve a full report. Perplexity answers in seconds with inline citations. ChatGPT asks clarifying questions, takes 10 minutes or more, and returns a long structured report. Both cost $20/mo at the standard paid tier, and both have limited free use."
+      },
+      {
+        q: "Is NotebookLM really free?",
+        a: "Yes. As of September 2026 the free plan includes 100 notebooks, 50 sources per notebook, 50 chat questions a day, daily Audio and Video Overviews, and 10 Deep Research reports a month. Paid Google AI plans (Plus $4.99/mo, Pro $19.99/mo, Ultra from $99.99/mo) raise those limits. Most individual users never need to pay."
+      },
+      {
+        q: "Can I trust AI research tools not to make things up?",
+        a: "Not fully, but some are much safer than others. Source-grounded tools like NotebookLM, which answer only from documents you upload, rarely invent facts. Web research tools cite their sources but can misread them or merge two sources into one claim. Academic tools like Elicit and Consensus only cite real papers, but can still summarize them loosely. The fix is the same for all of them: open the source behind any fact you plan to repeat or act on."
+      },
+      {
+        q: "What is the best free AI research tool?",
+        a: "NotebookLM for documents you have, Perplexity for web research, and Semantic Scholar for academic papers -- all free, and together they cover most research needs. Elicit and Consensus also have useful free plans for academic questions."
+      },
+      {
+        q: "Elicit vs Consensus -- which should I use?",
+        a: "Elicit for depth, Consensus for speed. Elicit is built for literature reviews: it pulls findings from many papers into a comparison table and supports systematic reviews, with Pro at $49/mo. Consensus answers a direct question -- does X affect Y? -- and shows how much of the research agrees, with Pro around $20/mo. Researchers often use both."
+      },
+      {
+        q: "How should freelancers bill for AI-assisted research?",
+        a: "Bill for the outcome and the judgment, not the minutes the tool ran. Choosing sources, checking citations, and turning findings into a recommendation is the skilled part, and it is what the client is paying for. List research as its own line item -- or scope it as a fixed-price deliverable -- so it doesn't disappear into general hours. A free generator like InvoiceQuick (invoicequick-phi.vercel.app) lets you add research, analysis, and revisions as separate lines and download a PDF without signing up."
+      }
+    ]
   }
 };

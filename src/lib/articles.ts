@@ -324,4 +324,13 @@ export const articles: Article[] = [
     readTime: "15 min",
     featured: true,
   },
+  {
+    slug: "best-ai-research-tools",
+    title: "7 Best AI Research Tools in 2026 (Perplexity vs NotebookLM vs ChatGPT Deep Research vs Elicit)",
+    description: "Every chatbot now has a Deep Research button, and they don't search the same things. We compared Perplexity, NotebookLM, ChatGPT deep research, Gemini, Elicit, Consensus, and Semantic Scholar by where their answers come from — the web, your documents, or peer-reviewed papers — with current pricing and the free setup that covers most research.",
+    category: "AI & Automation",
+    date: "2026-09-28",
+    readTime: "13 min",
+    featured: true,
+  },
 ];
