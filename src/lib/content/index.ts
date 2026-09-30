@@ -332,6 +332,10 @@ Wave is the best option if you want free invoicing combined with real accounting
 The bottom line: do not waste time with spreadsheets and Word documents. Any of these tools will save you hours each month and help you look more professional to clients. If you want the shortest path from "work finished" to "invoice sent," start with [InvoiceQuick](https://invoicequick-phi.vercel.app) — it is free, needs no sign-up, and produces a send-ready PDF in about a minute — then add a real [accounting tool](/reviews/best-accounting-software-freelancers) on the books side once your volume grows.`,
     faq: [
       {
+        q: "Is ToolsRated connected to InvoiceQuick?",
+        a: "Yes. InvoiceQuick is made by the same people who run ToolsRated, and we rank it first for freelancers who want a free, no-account invoice generator. That is a real conflict of interest, so here is how to check us: open InvoiceQuick and one of the alternatives above, make the same invoice in both, and compare the PDF, the time it took, and what each one asked you for before you could download. If you need bookkeeping or time tracking in the same tool, one of the other tools here will serve you better — InvoiceQuick doesn't do either.",
+      },
+      {
         q: "What is the best completely free invoicing software?",
         a: "InvoiceQuick is the best free option for most freelancers — no account, no invoice cap, no watermarks, no credit card. Wave Starter is the better choice if you also need bookkeeping in the same tool, though Wave Pro is $16/mo for recurring billing and ACH (almost 2× InvoiceQuick Pro at $9/mo). Zoho Invoice is genuinely free with recurring billing and a 1,000-client database, but caps at 500 invoices/year and is best when you are already inside the Zoho ecosystem. Bonsai has no free tier ($19–$79/mo per user) and only makes sense if you are also using its proposals, CRM, contracts, and tasks. For a 10-row side-by-side comparison of all four — price, invoice cap, watermarks, branding, recurring, multi-currency, client DB, per-user pricing, and sign-up friction — see invoicequick-phi.vercel.app/pricing."
       },

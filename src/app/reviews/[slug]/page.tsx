@@ -132,6 +132,11 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
   if (!article) notFound();
 
   const content = articleContent[params.slug];
+  // Derived from the article text rather than a hand-kept list, so a future
+  // article that recommends our own product can't ship without the disclosure.
+  const mentionsOwnProduct = content
+    ? JSON.stringify(content).includes("InvoiceQuick")
+    : false;
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-12">
@@ -148,10 +153,19 @@ export default function ReviewPage({ params }: { params: { slug: string } }) {
         </div>
       </div>
 
-      <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8 text-sm text-blue-800">
-        <strong>Affiliate Disclosure:</strong> Some links in this article are
-        affiliate links. We may earn a commission if you make a purchase, at no
-        extra cost to you. We only recommend tools we&apos;ve personally tested.
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8 text-sm text-blue-800 space-y-2">
+        <p>
+          <strong>Disclosure:</strong> This article has no affiliate links, and
+          ToolsRated earns no commission from any tool reviewed here.
+        </p>
+        {mentionsOwnProduct && (
+          <p>
+            <strong>Ownership:</strong> InvoiceQuick, which appears in this
+            article, is made by the same people who run ToolsRated. Weigh our
+            opinion of it with that in mind, and compare it against the other
+            tools here yourself.
+          </p>
+        )}
       </div>
 
       {content ? (
