@@ -6610,5 +6610,484 @@ And if research is part of what you sell -- market scans, competitor reports, ba
         a: "Bill for the outcome and the judgment, not the minutes the tool ran. Choosing sources, checking citations, and turning findings into a recommendation is the skilled part, and it is what the client is paying for. List research as its own line item -- or scope it as a fixed-price deliverable -- so it doesn't disappear into general hours. A free generator like InvoiceQuick (invoicequick-phi.vercel.app) lets you add research, analysis, and revisions as separate lines and download a PDF without signing up."
       }
     ]
+  },
+  "best-llc-formation-services": {
+    intro: `Forming an LLC takes the state anywhere from a $0 fee (Kentucky) to roughly $500 (Massachusetts) -- that part is fixed and no formation company can change it. What they can change is everything stacked on top: whether registered agent service is free for one year or billed immediately, whether the EIN and operating agreement cost extra, and what the renewal looks like once the first-year promo ends. Compare only the homepage price and you'll pick the company with the best marketing, not the best deal.
+
+We priced seven services two ways -- what you pay to form the LLC today, and what you pay in year two once the discounts end -- because that second number is where most people get surprised.
+
+**Quick answer:** **Northwest Registered Agent** is the best long-term value and the most privacy-protective -- a flat $39 formation fee and a genuinely flat $125/year registered agent fee that doesn't balloon later. **ZenBusiness** is the best full-service option if you want a dashboard that tracks your compliance deadlines for you. **Bizee** is the cheapest if you only need registered agent coverage for the first year. **doola** is built specifically for non-US founders who need an EIN without a Social Security number. Full pricing, including what each one charges you in year two, below.`,
+    tools: [
+      {
+        name: "Northwest Registered Agent",
+        rating: 9,
+        pros: [
+          "$39 flat formation fee -- one of the lowest all-in paid prices in the category",
+          "Registered agent renews at a genuinely flat $125/year (drops to $100/state at 5+ states), no surprise jump",
+          "Uses its own address instead of your home address on public filings by default -- real privacy, not an upsell",
+          "Known for responsive support from actual staff rather than a call-center script"
+        ],
+        cons: [
+          "No free tier -- Bizee and ZenBusiness both undercut it on sticker price for formation alone",
+          "Dashboard and add-on ecosystem (EIN help, compliance tools) are more basic than ZenBusiness's",
+          "Operating agreement template is included but less guided for total beginners"
+        ],
+        price: "Formation from about $39 + state fee; registered agent about $125/yr",
+        bestFor: "Anyone who wants the honest long-term price and real privacy protection over a flashy dashboard",
+        verdict: "Northwest built its reputation on the thing everyone else hides: the renewal price. About $125 a year for registered agent service is what you'll actually still be paying three years in, while several competitors' teaser rates roughly double. Add that its default is to shield your home address from public filings, and it's the service a privacy-conscious or genuinely budget-minded founder should start with. It won't hold your hand through onboarding the way ZenBusiness does, but it won't nickel-and-dime you either."
+      },
+      {
+        name: "ZenBusiness",
+        rating: 9,
+        pros: [
+          "Starter plan is $0 + state fee for plain formation, so there's a true free-to-start option",
+          "Pro (about $199) bundles EIN, operating agreement, registered agent, and expedited filing in one price",
+          "Compliance dashboard tracks state deadlines (annual reports, franchise tax) and nudges you before you miss one",
+          "Worry-Free Compliance add-on actually files the paperwork for you, not just reminds you"
+        ],
+        cons: [
+          "The $0 Starter plan does not include registered agent service -- you need Pro or an add-on to get it",
+          "Upsells appear throughout checkout (business license research, website, domain) and add up fast if you say yes to all of them",
+          "Premium at about $399 is expensive for what amounts to faster processing and a document template library"
+        ],
+        price: "Starter $0; Pro about $199; Premium about $399 (all + state fee); registered agent about $199/yr after any included period",
+        bestFor: "First-time founders who want one dashboard that tracks deadlines so nothing lapses by accident",
+        verdict: "ZenBusiness earns its popularity by being the easiest service to actually finish setting up alone -- the dashboard tells you what's done, what's next, and what's coming due months from now. Pro is the plan most people should buy; the free Starter looks cheaper but doesn't include what you need to stay compliant. Decline most of the checkout upsells and it's a fair price for the hand-holding."
+      },
+      {
+        name: "Bizee",
+        rating: 8,
+        pros: [
+          "Basic plan is $0 + state fee and includes a free first year of registered agent service",
+          "Standard (about $199) and Premium (about $299) add EIN, operating agreement, and banking resolution",
+          "Long track record (formerly Incfile) with over a million businesses formed",
+          "Straightforward checkout with fewer upsell prompts than ZenBusiness"
+        ],
+        cons: [
+          "The free registered agent year renews at standard market pricing, not a flat guaranteed rate like Northwest's",
+          "Customer support reviews are more mixed than ZenBusiness's or Northwest's",
+          "Fewer ongoing compliance tools than ZenBusiness's dashboard"
+        ],
+        price: "Basic $0; Standard about $199; Premium about $299 (all + state fee); first year registered agent included",
+        bestFor: "Budget formations where you plan to re-shop registered agent service after year one",
+        verdict: "Bizee's pitch is honest: free formation, free registered agent for twelve months, no games. That makes it one of the cheapest ways to get an LLC on paper today. The catch shows up entirely in year two, when the registered agent bill arrives at standard pricing -- so this is the right pick if you're comfortable re-shopping registered agent service annually, and a worse one if you want to set it and forget it."
+      },
+      {
+        name: "LegalZoom",
+        rating: 7,
+        pros: [
+          "The most recognized brand in the category, which matters if a bank or partner wants to verify you used a known service",
+          "Pro and Premium plans include access to attorney consultations, not just templates",
+          "Broad ecosystem beyond formation -- trademarks, contracts, compliance -- if you'll need those later anyway",
+          "Polished account dashboard and mobile app"
+        ],
+        cons: [
+          "Pro (about $249/yr) and Premium (about $299/yr) are billed annually for services that are one-time events at other providers",
+          "Registered agent renews at roughly $249/year, among the highest in this list",
+          "You're paying a brand premium -- the underlying filing work is the same as cheaper competitors"
+        ],
+        price: "Basic $0; Pro about $249/yr; Premium about $299/yr (all + state fee); registered agent about $249/yr",
+        bestFor: "Founders who want brand recognition and occasional attorney access bundled with formation",
+        verdict: "LegalZoom is the safe, expensive choice -- the one your accountant or a loan officer has definitely heard of. That recognition is worth something if you're building toward raising money or need a partner's confidence, but on pure formation value it loses to Northwest and ZenBusiness on nearly every line item, especially the recurring registered agent fee. Use it if the brand itself is doing work for you; skip it if cost is the deciding factor."
+      },
+      {
+        name: "Swyft Filings",
+        rating: 7,
+        pros: [
+          "Basic is $0 + state fee, undercutting LegalZoom at the entry tier",
+          "Premium (about $269) often includes same-day filing in supported states",
+          "Clean, fast online checkout with fewer forced add-ons than some rivals",
+          "Includes a business name availability check and basic compliance reminders"
+        ],
+        cons: [
+          "Registered agent is billed separately at roughly $149 per quarter once any free period ends -- confirm the annualized cost before you commit",
+          "Smaller company with less brand recognition than ZenBusiness or LegalZoom",
+          "Narrower support options on lower tiers (primarily phone and email, no live chat)"
+        ],
+        price: "Basic $0; Standard about $169; Premium about $269 (all + state fee); registered agent roughly $149/quarter after any free period",
+        bestFor: "Founders who want fast, same-day filing in states that support it without LegalZoom's price tag",
+        verdict: "Swyft's selling point is speed -- same-day filing is a real advantage if you need the LLC to exist by Friday for a contract or a bank appointment. Do the registered agent math carefully, though: roughly $149 a quarter works out to around $596 a year if you don't switch, dramatically more than Northwest's flat rate. Fine for fast formation; plan to re-shop the registered agent separately once the free period ends."
+      },
+      {
+        name: "doola",
+        rating: 8,
+        pros: [
+          "Built specifically for non-US founders -- EIN registration without a Social Security number",
+          "Starter at about $297/year is one flat, upfront price covering formation, EIN, registered agent, virtual address, and BOI filing",
+          "Includes an introduction to Mercury for US business banking, otherwise hard for non-residents to open",
+          "Handles Form 5472 foreign-owned-LLC compliance filing on its Total Compliance plan -- most generalist services don't even mention it"
+        ],
+        cons: [
+          "Priced and positioned for non-US founders -- a US resident will find cheaper, equally capable options above",
+          "Smaller support team than the LegalZoom-scale players",
+          "Less useful once you need state-specific legal nuance beyond the standard LLC package"
+        ],
+        price: "Starter about $297/yr, all-in (+ state fee); Total Compliance adds ongoing foreign-owner filings",
+        bestFor: "Non-US residents forming a US LLC who need an EIN without an SSN and a path to US banking",
+        verdict: "doola solves a specific, underserved problem well: getting a US LLC, EIN, and bank account as someone who doesn't live in the US and doesn't have a Social Security number. For that exact situation it's arguably the best option on this list, bundling the Mercury banking introduction and the foreign-owner tax filing that general services leave you to figure out alone. US-resident founders should look elsewhere -- it isn't priced to compete on domestic formation."
+      },
+      {
+        name: "Rocket Lawyer",
+        rating: 6,
+        pros: [
+          "Rocket Legal+ membership (about $239.88/yr) includes one LLC formation at no extra charge if you'll also use the legal-document library",
+          "Ongoing access to attorney consultations and a large contract/agreement template library",
+          "7-day free trial available on membership tiers before you commit"
+        ],
+        cons: [
+          "Without membership, formation alone runs about $99.99 + state fee -- more expensive than most of the services above",
+          "The value only works if you actually use the broader legal-document membership, not just the LLC formation",
+          "Registered agent is a separate add-on (roughly $149.99/year) even for members"
+        ],
+        price: "Formation about $99.99 + state fee (non-member); included with Rocket Legal+ membership (about $239.88/yr)",
+        bestFor: "Founders who want ongoing access to a legal-document library and attorney consultations, not just a one-time filing",
+        verdict: "Rocket Lawyer only makes sense if you think of it as a legal-services membership that happens to include an LLC, not an LLC service with extras bolted on. Priced as pure formation, about $99.99 plus a $149.99 registered agent fee is uncompetitive. Priced as an annual membership that also covers contracts, document review, and attorney access for the rest of the year, it can pencil out -- but only for founders who'll genuinely use those extras."
+      }
+    ],
+    conclusion: `The number that separates these seven isn't the formation fee -- most land within $50 of each other once you include the state's charge, which none of them control. It's the registered agent renewal, and it ranges from **Northwest's flat $125/year** to **Swyft's roughly $596/year** if you let it auto-renew at the quarterly rate. Run that math for your specific state before comparing homepage prices.
+
+For most US-based freelancers and small businesses, **Northwest Registered Agent** is the rational default: low formation cost, a flat renewal that doesn't creep, and privacy protection built in rather than sold as an add-on. **ZenBusiness** is worth the extra cost if you want a dashboard nagging you about deadlines instead of tracking them yourself. If you're forming the LLC from outside the US, **doola** solves problems -- an EIN without an SSN, a path to Mercury banking -- that the domestic-focused services simply don't handle.
+
+Whichever service you pick, the LLC itself is step one. Step two is opening a dedicated [business bank account](/reviews/best-business-bank-accounts-freelancers) so your new liability shield actually holds up -- commingling personal and business funds is one of the fastest ways a court can disregard an LLC entirely. And the first invoice you send under the new company name is worth sending as a real invoice, not a text message asking for Venmo: **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) generates a free, professional PDF with your new business name on it in under a minute, no sign-up required.`,
+    faq: [
+      {
+        q: "What is the cheapest LLC formation service in 2026?",
+        a: "Bizee and ZenBusiness both offer a $0 formation plan -- you still pay your state's filing fee, which ranges from $0 to about $500 depending on the state. Northwest Registered Agent's roughly $39 paid tier is the cheapest option with a flat, non-escalating registered agent fee, which usually works out cheaper than the 'free' options once you account for year two."
+      },
+      {
+        q: "Do I actually need a registered agent?",
+        a: "Yes -- every state requires an LLC to name a registered agent with a physical address in the state of formation, available during business hours to receive legal and state mail. You can be your own registered agent for free if you have a suitable address and don't mind it becoming part of the public record; most formation services exist partly to sell you this service instead, typically $100-250 a year."
+      },
+      {
+        q: "ZenBusiness vs Northwest Registered Agent -- which should I pick?",
+        a: "Northwest for the lowest total cost and the most privacy, since it doesn't use your home address on filings by default. ZenBusiness for the easier beginner experience and a compliance dashboard that tracks state deadlines for you. Both are reputable; the difference is price discipline versus hand-holding."
+      },
+      {
+        q: "How much does it cost to form an LLC, total, in the first year?",
+        a: "Budget for three line items: the formation service fee ($0-$299 depending on tier and provider), your state's filing fee ($0-$500, state-set and unavoidable), and registered agent service if you don't act as your own ($100-250/year, sometimes free for year one). A typical US freelancer forming in their home state should expect somewhere between about $50 and $400 all-in for year one, excluding states with unusually high filing fees."
+      },
+      {
+        q: "Can I form an LLC myself without one of these services?",
+        a: "Yes -- every state lets you file the formation document (often called Articles of Organization) directly with the Secretary of State's website, for just the state filing fee. These services are charging for convenience, speed, bundled EIN/operating-agreement paperwork, and registered agent coverage, not for anything you're legally unable to do alone."
+      },
+      {
+        q: "I'm not a US resident -- can I still form a US LLC?",
+        a: "Yes, and it's common for international founders selling to US customers. doola specializes in exactly this: EIN registration without a Social Security number, a US virtual business address, and an introduction to Mercury for US banking. General services like ZenBusiness and Northwest can also form the LLC itself, but non-residents typically hit more friction getting an EIN and a US bank account without a service built around that specific problem."
+      }
+    ]
+  },
+  "best-business-bank-accounts-freelancers": {
+    intro: `A sole proprietor can legally run a business out of a personal checking account. A freelancer with an LLC should not -- and even without one, mixing invoice deposits with rent and groceries turns every tax season into an afternoon of staring at bank statements trying to remember what a $340 charge was for. None of the six accounts below charge you to find out which one fits; the real costs are in minimum balances, wire fees, and how good the built-in bookkeeping actually is once you're using it daily.
+
+We compared these on monthly fees, interest paid on idle cash, how fast you can open an account and start receiving payments, and whether the tax-planning features are a genuine feature or a marketing line.
+
+**Quick answer:** **Bluevine** is the best all-rounder -- no monthly fee and up to 1.30% APY on checking balances most banks pay nothing on. **Found** is the best free option if invoicing and expense tracking built into the bank account matters more than interest. **Novo** is the simplest no-fee account for a solo freelancer who just wants checking with no surprises. **Mercury** is the pick if you're a US LLC that might raise money or needs sophisticated account structuring. **Lili** is built specifically around automatic quarterly-tax set-asides. Full comparison below.`,
+    tools: [
+      {
+        name: "Bluevine",
+        rating: 9,
+        pros: [
+          "No monthly fee and no minimum balance requirement on the standard plan",
+          "Up to 1.30% APY on checking balances (tiered, with qualifying activity) -- rare for a business checking account",
+          "Free incoming wires and ACH, with same-day or next-day deposit options",
+          "Accepts both online transfers and physical check deposit"
+        ],
+        cons: [
+          "The top APY tier requires meeting monthly qualifying activity -- read the fine print on what counts",
+          "No physical branches, an issue if you regularly need to deposit cash",
+          "Bill pay and invoicing tools are more basic than Found's"
+        ],
+        price: "Free (Standard); Plus and Premier tiers add higher APY and more free transactions for a monthly fee",
+        bestFor: "Freelancers who want a no-fee account that actually pays interest on the cash sitting in it",
+        verdict: "Bluevine's pitch is simple and it delivers: zero monthly fee and real interest on a checking balance, which most competitors either charge for or don't offer at all. The qualifying-activity requirement for the top APY tier is worth reading before you count on it, but even the baseline rate beats what a traditional bank pays. For a freelancer who wants a clean, fee-free checking account with a meaningful interest bonus, this is the easiest recommendation on the list."
+      },
+      {
+        name: "Found",
+        rating: 8,
+        pros: [
+          "Completely free, with invoicing, expense tracking, and a tax set-aside feature built directly into the account",
+          "Automatically estimates quarterly tax payments based on your actual income, not just a flat percentage",
+          "Direct integrations with Etsy, PayPal, Uber, and other platforms freelancers already get paid through",
+          "No LLC required -- sole proprietors can open an account immediately"
+        ],
+        cons: [
+          "Found is a fintech, not a bank -- funds are held at a partner bank, which is standard but worth knowing",
+          "Fewer advanced business banking features (no checks, limited bill pay) compared to Mercury or Relay",
+          "Best suited to solo freelancers, less built for a business with employees or complex cash flow"
+        ],
+        price: "Free; optional paid Found Plus tier adds higher-yield savings pockets and additional tools",
+        bestFor: "Solo freelancers and gig workers who want invoicing, expenses, and tax set-asides in one free app",
+        verdict: "Found is less a bank account and more a complete back office built around one: open it, connect your gig platforms, and it starts estimating what you owe the IRS before you ask. That built-in tax discipline is the single best reason to choose it over a plain checking account, especially for freelancers who've been surprised by a quarterly tax bill before. It isn't trying to be a full business bank for a growing company with employees -- it's trying to be the easiest first account for someone who is the whole company."
+      },
+      {
+        name: "Novo",
+        rating: 8,
+        pros: [
+          "No monthly fees, no minimum balance, and no fee-waiver conditions to track",
+          "ATM fees reimbursed up to $7/month, useful since Novo has no branches or ATM network of its own",
+          "Clean, modern interface with built-in invoicing and reserve sub-accounts for savings goals",
+          "Fast online account opening, typically same day"
+        ],
+        cons: [
+          "Does not pay interest on checking balances, unlike Bluevine",
+          "No cash deposit option -- a real limitation for any cash-handling side of a freelance business",
+          "Support is online/email-first with no phone branch network to fall back on"
+        ],
+        price: "Free",
+        bestFor: "Freelancers who want the simplest possible free account with zero fee conditions to monitor",
+        verdict: "Novo's entire appeal is the absence of asterisks -- no monthly fee, no minimum balance, no 'free if you maintain X' condition to accidentally violate. That simplicity is worth something on its own. What you give up is interest on your balance (Bluevine pays real APY for the same $0 fee) and cash deposits. If your freelance business is entirely digital payments and you just want checking that stays out of your way, Novo is a solid, low-drama choice."
+      },
+      {
+        name: "Mercury",
+        rating: 7,
+        pros: [
+          "Built for US-registered LLCs and C-corps, with structuring that scales if you add co-founders or raise money",
+          "No monthly fees, and strong multi-account organization for separating client retainers, taxes, and operating cash",
+          "Fast, well-regarded onboarding even for non-US founders of US entities",
+          "Well-integrated with startup tooling (cap table platforms, accounting software) if you ever need it"
+        ],
+        cons: [
+          "Overbuilt for a single freelancer with simple needs -- the startup-oriented features go unused",
+          "Requires a formal US business entity; sole proprietors without an LLC can't easily open one",
+          "No interest on standard checking balances without opting into a separate treasury or yield product"
+        ],
+        price: "Free for standard business checking; optional paid treasury and higher-yield products",
+        bestFor: "LLC or corp freelancers who might scale into a team, raise money, or need sophisticated sub-accounts",
+        verdict: "Mercury is built for a company that might become bigger than one person, and it shows in the quality of its account structuring and onboarding for a formal entity. For a solo freelancer with straightforward income and expenses, it's more infrastructure than you need -- Found or Novo will feel simpler day to day. But if you've formed an LLC with half an eye on hiring a subcontractor or incorporating further, Mercury's headroom is worth having from day one rather than migrating later."
+      },
+      {
+        name: "Relay",
+        rating: 7,
+        pros: [
+          "Up to 20 individual checking accounts under one login -- genuinely useful for separating client funds, taxes, and payroll",
+          "Low fees on domestic and international wire transfers relative to competitors",
+          "Supports multiple debit cards for team members with individual spending controls",
+          "Strong accounting-software integrations (QuickBooks, Xero) for firms that need clean books"
+        ],
+        cons: [
+          "More built for a small team or agency than a true solo freelancer -- the multi-account depth is underused by one person",
+          "No interest paid on checking balances",
+          "Slightly steeper learning curve to set up the sub-account structure well"
+        ],
+        price: "Free (Relay); paid Relay Pro tier adds more cards, higher transfer limits, and premium support",
+        bestFor: "Freelancers who subcontract, run a small agency, or want many purpose-specific sub-accounts without opening separate banks",
+        verdict: "Relay's multi-account structure is its whole reason to exist, and it solves a real problem for anyone managing money for more than just themselves -- a designer with two subcontractors, a small studio, a consultant running payroll for one employee. A true solo freelancer with one income stream and one tax bucket won't use most of what makes Relay good. If that's you and you outgrow Novo or Bluevine, Relay is where to go next."
+      },
+      {
+        name: "Lili",
+        rating: 7,
+        pros: [
+          "Automatic Tax Bucket sets aside a percentage of every deposit toward quarterly estimated taxes, based on your income pattern",
+          "Free tier (Lili Core) includes a debit card, expense tracking, and the tax set-aside feature",
+          "Paid tiers add invoicing, overdraft protection, and a high-yield savings account",
+          "Built specifically around the self-employed and gig-worker tax cycle, not retrofitted from a general business account"
+        ],
+        cons: [
+          "The most useful bookkeeping and tax tools sit behind paid tiers (roughly $15-55/month)",
+          "Smaller and newer than Bluevine or Mercury, with a less extensive feature set outside its tax focus",
+          "Less suited to a freelancer who already has a tax-savings habit or a separate accountant handling estimates"
+        ],
+        price: "Core $0; Pro about $15/mo; Smart about $35/mo; Premium about $55/mo",
+        bestFor: "Freelancers who have been burned by a quarterly tax bill before and want the set-aside automated",
+        verdict: "Lili's Tax Bucket is the feature that justifies its existence: it watches what comes in and automatically moves a cut toward what you'll owe the IRS, protected from being accidentally spent. For a freelancer with inconsistent income who has ever had to scramble for a tax payment, that single feature can be worth the Pro tier on its own. Freelancers who already have tax-savings discipline, or who'd rather handle that in a separate high-yield account, will get less marginal value from paying for it."
+      }
+    ],
+    conclusion: `None of these six will charge you to open an account, and five of the six charge nothing to use month to month -- so the real decision is which built-in feature you'll actually use. If that's interest on cash you're not spending yet, **Bluevine** pays the most for the least effort. If it's automatic tax discipline, **Found** or **Lili** do that better than a plain checking account ever will. If you're going to subcontract work or eventually hire, **Relay**'s sub-accounts and **Mercury**'s structuring will save you a painful migration later.
+
+One rule holds regardless of which you pick: if you formed an [LLC](/reviews/best-llc-formation-services), open the business account before your first client payment arrives, not after. Depositing a client check into a personal account, even once, is exactly the kind of commingling that can let a court pierce the liability shield the LLC exists to provide.
+
+And once the money is landing somewhere dedicated to the business, send the invoice that earns it the same way -- professionally, with your business name on it, not a payment-app request. **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) builds a free, no-sign-up invoice PDF in under a minute, and pairs naturally with any account on this list -- see the [consulting invoice template](https://invoicequick-phi.vercel.app/invoice-template/consulting) if you bill project-based work.`,
+    faq: [
+      {
+        q: "What is the best free business bank account for freelancers?",
+        a: "Bluevine, Found, and Novo all charge no monthly fee. Bluevine is the strongest all-rounder because it also pays interest on checking balances. Found is the best fit if you want invoicing and automatic tax set-asides built into the free account itself, and Novo is the simplest if you just want fee-free checking with no conditions."
+      },
+      {
+        q: "Do I need an LLC to open a business bank account?",
+        a: "No. Found and Novo, among others, let sole proprietors open a business account using an EIN or in some cases a Social Security number and a DBA, with no formal LLC required. Mercury generally expects a formal US entity. If you've already formed an LLC, bring the formation documents and EIN -- most of these accounts can be opened online in under 15 minutes either way."
+      },
+      {
+        q: "Bluevine vs Found -- which should I choose?",
+        a: "Bluevine for interest on your balance and a straightforward checking account; Found for built-in invoicing and automatic tax-bucket savings aimed specifically at freelancers and gig workers. Many freelancers use Found as the primary operating account for its tax discipline and keep a Bluevine account as a higher-yield parking spot for the same business."
+      },
+      {
+        q: "How much should a freelancer set aside for taxes?",
+        a: "A common starting estimate is 25-30% of net income for federal and self-employment tax, adjusted up in a high-tax state or down if deductions significantly reduce your taxable income -- an accountant can refine this for your situation. Found and Lili both automate the set-aside based on your actual income pattern rather than a flat guess, which is the main reason freelancers choose them over a plain account."
+      },
+      {
+        q: "Can I use Relay or Mercury if I don't have employees yet?",
+        a: "Yes, both work for a solo freelancer, but you'll likely use only a fraction of what they offer. Relay's value is in running many sub-accounts for different clients, taxes, or eventual payroll, and Mercury's value is in entity-level structuring that matters more once you scale. If you're solo today but planning to subcontract or hire within the year, opening one of these early avoids migrating your banking later."
+      },
+      {
+        q: "Is my money safe in a fintech like Found, Novo, or Relay?",
+        a: "These companies are not banks themselves; they partner with FDIC-insured banks that hold the actual deposits, and funds are typically covered up to the standard $250,000 FDIC limit through that partner bank -- the same protection a traditional bank account has. Check each provider's current disclosures for its specific partner bank and insurance details before depositing large balances."
+      }
+    ]
+  },
+  "best-screen-recording-software": {
+    intro: `A two-minute screen recording that shows a client exactly where to click solves in two minutes what a support ticket or a scheduled call would take two days to resolve. The category splits cleanly into three jobs, though, and picking the wrong one means paying for features you'll never open: quick async sharing (record, get a link, done), polished editing (turn a raw recording into a tutorial with callouts and music), and free unlimited capture (no subscription, you edit elsewhere or not at all).
+
+We tested each tool on recording quality, how much editing it actually needs versus does for you, hosting and sharing, and real monthly cost -- not the teaser price before the free plan's limits kick in.
+
+**Quick answer:** **Loom** is the best for quick async video messages you want a shareable link for in seconds. **Camtasia** is the best for polished training videos and courses, with a real timeline editor included. **ScreenPal** is the best value if you want recording, light editing, and hosting for a few dollars a month. **OBS Studio** is the best free option, full stop, if you don't mind a steeper learning curve. **Snagit** is the pick for quick annotated screenshots plus short recordings. Full breakdown below.`,
+    tools: [
+      {
+        name: "Loom",
+        rating: 9,
+        pros: [
+          "Record and get a shareable link in seconds -- the fastest path from screen to sent video in this category",
+          "Automatic transcription and AI-generated summaries on higher plans save the viewer time, not just the recorder",
+          "Viewer-side features (emoji reactions, timestamped comments, view tracking) make it genuinely two-way, not just a video dump",
+          "Works equally well for internal team updates and external client-facing walkthroughs"
+        ],
+        cons: [
+          "Free plan caps individual recordings at 5 minutes, tight for a real walkthrough",
+          "Business plans run from about $15-20/user/month (annual billing), which adds up fast per seat on a team",
+          "Editing tools are built for trimming and basic cleanup, not for building a polished course video"
+        ],
+        price: "Free (capped); Business from about $15/user/mo (annual); Business + AI about $20/user/mo",
+        bestFor: "Fast, async video messages and client walkthroughs where speed-to-send matters more than production polish",
+        verdict: "Loom owns this use case for a reason: nothing else gets you from 'let me just show you' to a sent link faster. The free plan's 5-minute cap will frustrate anyone recording a real walkthrough, so budget for Business if this becomes a daily tool. It isn't trying to be an editing suite, and that focus is exactly why it's the first screen recorder most freelancers should install -- reach for Camtasia or ScreenPal when the output needs to look like a finished product instead of a quick message."
+      },
+      {
+        name: "Camtasia",
+        rating: 8,
+        pros: [
+          "Full timeline editor with callouts, transitions, and effects built in -- no separate editing software needed",
+          "One-time-feeling annual license (from about $180/yr) rather than a per-seat monthly subscription",
+          "Strong for building structured tutorials and course content with chapters and quizzes",
+          "Library of templates and assets included to speed up polished output"
+        ],
+        cons: [
+          "No free plan at all, and no built-in hosting -- you export and upload elsewhere",
+          "Steeper learning curve than Loom or ScreenPal if you just want something quick",
+          "Interface feels dated next to newer, more streamlined tools"
+        ],
+        price: "Essentials from about $180/yr; Create tier from about $249/yr",
+        bestFor: "Course creators and consultants producing polished, structured training videos that need real editing",
+        verdict: "Camtasia is the tool for when the recording is the deliverable, not just a message -- an online course module, a client-facing training library, a product demo with branded callouts. The timeline editor is genuinely capable, closer to a lightweight video editor than a screen recorder with extras bolted on. It's overkill if you just need to show someone a bug; it's the right call if you're building something people will pay to watch."
+      },
+      {
+        name: "ScreenPal",
+        rating: 8,
+        pros: [
+          "Free plan covers recording, light editing, and hosting up to 15 minutes per video",
+          "Paid plans start from about $4/month, the cheapest all-in-one (record + edit + host) option tested",
+          "Simple editor covers trimming, callouts, and basic effects without Camtasia's learning curve",
+          "Built-in hosting and sharing means no separate third-party video host to manage"
+        ],
+        cons: [
+          "4K export and some polish features are paid-only",
+          "Editing depth tops out well below Camtasia's for anyone building complex, branded course content",
+          "Free plan's watermark and limits push most regular users toward a paid tier quickly"
+        ],
+        price: "Free (capped, watermarked on some exports); paid plans from about $4/mo",
+        bestFor: "Freelancers who want recording, basic editing, and hosting in one place for close to the lowest price in the category",
+        verdict: "ScreenPal (formerly Screencast-O-Matic) is the value pick -- at around $4 a month it covers recording, enough editing to look intentional, and hosting, which otherwise means stitching together three separate tools. It won't satisfy anyone who needs Camtasia's depth for serious course production, but for a freelancer who records the occasional tutorial or bug walkthrough and doesn't want a $15+/month Loom seat, it's hard to beat on price-to-feature ratio."
+      },
+      {
+        name: "OBS Studio",
+        rating: 7,
+        pros: [
+          "Completely free and open-source, with no subscription, watermark, or time limit ever",
+          "Professional-grade capture quality, including multi-source scenes, used widely by streamers and video professionals",
+          "Highly customizable with plugins for advanced capture, overlays, and audio routing",
+          "No account, no cloud dependency -- recordings save locally under your control"
+        ],
+        cons: [
+          "No built-in editing -- OBS records, you edit somewhere else entirely",
+          "No hosting or sharing link -- you're on your own for distribution",
+          "Steeper setup curve than any other tool here; the interface assumes some technical comfort"
+        ],
+        price: "Free",
+        bestFor: "Anyone comfortable with a technical setup who wants professional capture quality and zero ongoing cost",
+        verdict: "OBS Studio is proof that the best screen recorder doesn't have to cost anything -- it's free, it's capable enough for professional streamers, and there's no catch. The tradeoff is entirely in convenience: no editor, no hosting, no shareable link, and an interface that rewards fifteen minutes of setup before your first recording looks right. Worth that fifteen minutes if you record often and don't want a subscription; skip it if you want to record and send in under a minute, which is Loom's whole job."
+      },
+      {
+        name: "Snagit",
+        rating: 7,
+        pros: [
+          "Best-in-class for annotated screenshots, not just video -- arrows, callouts, and step numbering in a few clicks",
+          "Short recording capability covers quick walkthroughs without needing a separate video tool",
+          "Low price, from about $3-4/month, or a one-time purchase option in some offers",
+          "Simple, fast interface with almost no learning curve"
+        ],
+        cons: [
+          "Not built for longer recordings or anything resembling a polished tutorial video",
+          "No hosting or sharing link -- exports as a file you distribute yourself",
+          "Overlaps awkwardly with Loom or ScreenPal if video is your primary need rather than screenshots"
+        ],
+        price: "From about $3.25-4/mo, or a one-time option around $63",
+        bestFor: "Documentation-heavy work -- step-by-step guides, bug reports, and annotated screenshots more than long video",
+        verdict: "Snagit solves a slightly different problem than the rest of this list: most of what freelancers need to communicate visually is a single annotated screenshot, not a five-minute video, and Snagit is the fastest tool here for exactly that. Its short-recording mode is a useful bonus, not a reason to buy it on its own. Pair it with Loom or ScreenPal for video and you've covered both halves of visual client communication cheaply."
+      },
+      {
+        name: "Screen Studio",
+        rating: 7,
+        pros: [
+          "Automatically smooths cursor movement and adds polished zoom/pan effects with almost no manual editing",
+          "Produces the most visually premium output of any tool here with minimal effort -- genuinely looks professionally edited by default",
+          "Clean, modern, Mac-native interface",
+          "Fast export built for sharing short, polished product demos and social clips"
+        ],
+        cons: [
+          "Mac-only, which rules it out immediately for Windows or Linux users",
+          "Subscription-only as of 2026 (from about $29/mo or roughly $108/yr) with no one-time purchase for new buyers",
+          "Better suited to short, stylized clips than long-form tutorials or training libraries"
+        ],
+        price: "From about $29/mo or $108/yr",
+        bestFor: "Mac users recording short, polished product demos or social and marketing clips with minimal manual editing",
+        verdict: "Screen Studio's trick is that the automatic cursor-smoothing and zoom effects make a completely unedited recording look like someone spent an hour in an editor on it. For a freelancer making product demo clips or a short feature announcement for social media, that's a genuine time-saver and the output looks more premium than Loom's out of the box. It's Mac-only and not built for long tutorials, so it's a specific tool for a specific, short-form job rather than an everyday screen recorder."
+      },
+      {
+        name: "Vidyard",
+        rating: 6,
+        pros: [
+          "Built specifically for sales and client-facing video -- personalized video messages, viewer analytics, and CRM integrations",
+          "Free tier available for limited uploads and basic use",
+          "Detailed viewer engagement data (who watched, how much, when) that pure recording tools don't offer",
+          "Strong for video-based proposals and follow-ups, not just internal walkthroughs"
+        ],
+        cons: [
+          "Priced and positioned for sales teams, not solo freelancers -- expensive for occasional use",
+          "Recording and editing tools are more basic than Camtasia's or even Loom's",
+          "Most of its value (CRM integration, team analytics) goes unused by a one-person business"
+        ],
+        price: "Free tier; paid from about $59-89/seat/month depending on annual or monthly billing",
+        bestFor: "Freelancers using video heavily in sales outreach or client proposals who want viewer analytics on top",
+        verdict: "Vidyard earns its place on this list for one specific use case: sending a personalized video with a proposal or cold outreach and knowing whether the prospect actually watched it. That analytics layer is genuinely useful for freelancers whose sales process leans on video. For straightforward internal or client walkthroughs, though, its per-seat pricing is hard to justify next to Loom or ScreenPal, which do the recording itself just as well for far less."
+      }
+    ],
+    conclusion: `Match the tool to the job rather than picking one and forcing every recording through it. For the quick "let me just show you" message, **Loom** gets a link into someone's hands fastest. For anything you're building to be watched repeatedly -- a course, a training library, onboarding documentation -- **Camtasia**'s real editor earns its annual fee. And if the budget is zero, **OBS Studio** records at a professional level for free; you'll just need another tool, or a little patience, for editing.
+
+Most freelancers end up using two of these, not one: a fast recorder for internal and support use, and either a light editor (ScreenPal) or a dedicated editing tool (Camtasia) for anything that represents the business publicly. That's a reasonable stack even at the free tier -- Loom or OBS for speed, ScreenPal when it needs to look a little more finished.
+
+If what you're recording is billable -- a paid onboarding walkthrough, a recorded training deliverable, a client-specific tutorial built into the scope of a project -- it's worth invoicing it as its own line item rather than letting it disappear into "miscellaneous hours." **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) is free, needs no sign-up, and the [consulting invoice template](https://invoicequick-phi.vercel.app/invoice-template/consulting) already has a line for deliverables like a recorded training video or documentation set. For capturing more structured notes once the recording's done, see [best AI note-taking apps](/reviews/best-ai-note-taking-apps), and if the job was a live meeting rather than a recording, see [best AI meeting tools](/reviews/best-ai-meeting-tools).`,
+    faq: [
+      {
+        q: "What is the best free screen recording software?",
+        a: "OBS Studio is the best free option overall -- no watermark, no time limit, and professional-grade capture quality, though it has no built-in editor or hosting. Loom's free plan is the easiest to use but caps individual recordings at 5 minutes. ScreenPal's free plan allows up to 15 minutes with light editing and hosting included."
+      },
+      {
+        q: "Loom vs Camtasia -- which should I use?",
+        a: "Loom for quick, async video messages you want to send as a link in seconds -- ideal for client walkthroughs and quick explanations. Camtasia for anything you're building to last, like a course module or a training library, since it includes a real timeline editor with callouts and effects. Many freelancers use both: Loom day-to-day, Camtasia for polished deliverables."
+      },
+      {
+        q: "Is ScreenPal the same as Screencast-O-Matic?",
+        a: "Yes -- Screencast-O-Matic rebranded to ScreenPal. The product still covers recording, basic editing, and hosting at a low monthly price, now under the new name."
+      },
+      {
+        q: "Do I need to pay for screen recording software?",
+        a: "No -- OBS Studio is free with no real limitations and covers most recording needs at a professional quality level. The paid tools on this list add convenience (instant shareable links, built-in editing, hosting) rather than recording capability OBS lacks. Pay when the convenience saves you more time than the subscription costs."
+      },
+      {
+        q: "What's the best screen recorder for Mac?",
+        a: "Screen Studio is the most polished Mac-native option, automatically smoothing cursor movement and adding zoom effects with minimal editing -- but it's Mac-only and subscription-based. Loom, Camtasia, ScreenPal, and OBS Studio all also run well on Mac if you want cross-platform flexibility instead."
+      },
+      {
+        q: "Can I use a screen recording as a billable deliverable?",
+        a: "Yes, and freelancers often under-bill for it. A recorded training video, an onboarding walkthrough, or a documentation set takes real time to plan and record well, and it's work a client can reuse indefinitely -- that's worth pricing as its own line item or fixed-price deliverable rather than folding it into general hours. A free invoice generator like InvoiceQuick lets you add it as a clearly labeled line without needing a bookkeeping subscription."
+      }
+    ]
   }
 };
