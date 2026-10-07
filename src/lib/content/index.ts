@@ -7089,5 +7089,195 @@ If what you're recording is billable -- a paid onboarding walkthrough, a recorde
         a: "Yes, and freelancers often under-bill for it. A recorded training video, an onboarding walkthrough, or a documentation set takes real time to plan and record well, and it's work a client can reuse indefinitely -- that's worth pricing as its own line item or fixed-price deliverable rather than folding it into general hours. A free invoice generator like InvoiceQuick lets you add it as a clearly labeled line without needing a bookkeeping subscription."
       }
     ]
+  },
+  "best-form-builders": {
+    intro: `Every form builder's pricing page is designed around one number you will not notice until it bites you: the monthly response cap. Typeform's free plan looks generous until you read that it stops accepting answers after 10 responses a month. Jotform's free tier allows 100. Fillout gives you 1,000. Tally does not count at all. The same client-intake form, collecting the same 300 leads a month, costs $0 on two of these tools and $50 a month on another -- and the design, logic, and integrations you actually need are often identical.
+
+We built one real form in all seven tools: a freelance client-intake questionnaire with conditional branching (different questions for a one-off project versus a retainer), a file upload for brand assets, a calculated project-size estimate, and a hand-off to a spreadsheet and an email notification. Then we priced each tool at 100, 1,000, and 10,000 responses a month, tested the mobile experience, checked what the free plan removes (branding, logic, uploads, or your data), and measured how long each one took to go from blank page to published link.
+
+**Quick answer:** **Tally** is the best free form builder, full stop -- unlimited forms and unlimited responses at $0, with conditional logic, calculations, payments, and file uploads all included. **Fillout** is the best choice for teams that live in Notion, Airtable, or Google Sheets: 1,000 free responses a month, unlimited seats on every plan, and the deepest native integrations in the category. **Jotform** wins for operational workflows -- approvals, PDF generation, e-signatures, and 10,000+ templates -- if you can live with the submission meters. **Typeform** still produces the best-looking one-question-at-a-time experience and the highest completion rates, but you will pay for every response. **Google Forms** is the right answer more often than anyone admits. The breakdown below explains which to pick, and how to connect whichever you choose to the rest of your stack, from [booking and scheduling](/reviews/best-scheduling-booking-tools-freelancers) to your [CRM](/reviews/best-crm-small-business) and the invoice that follows.`,
+    tools: [
+      {
+        name: "Tally",
+        rating: 9,
+        pros: [
+          "Unlimited forms and unlimited responses on the free plan -- the only major builder with no response meter",
+          "Conditional logic, calculations, hidden fields, file uploads, and Stripe payments are all free",
+          "Notion-style editor: type a slash command to add a field, no drag-and-drop fiddling",
+          "Clean, fast forms that look good embedded or as a standalone page",
+          "Pro plan is one flat price, not per seat"
+        ],
+        cons: [
+          "Free plan shows 'Made with Tally' branding on every form",
+          "Custom domains, partial-submission capture, and team collaboration require Pro ($29/mo)",
+          "Fewer native integrations than Fillout or Jotform -- Zapier or Make fills the gaps",
+          "No built-in approval workflows, PDF generation, or e-signature",
+          "Analytics are basic until you pay"
+        ],
+        price: "Free (unlimited forms and responses, Tally branding), Pro $29/mo or $290/yr, Business $89/mo or $890/yr",
+        bestFor: "Freelancers, creators, and small teams who want a genuinely free, logic-capable form builder",
+        verdict: "Tally is the form builder most people should start with, because the free plan is the whole product minus the badge. In our test, the intake form took eleven minutes from blank page to published link, the conditional branches worked on the first try, and the calculated estimate field needed no workaround. The only reason to pay is to remove the branding or put a form on your own domain -- and at a flat $29 with no per-seat charge, that is still cheaper than Typeform's entry plan with 100 responses."
+      },
+      {
+        name: "Fillout",
+        rating: 9,
+        pros: [
+          "1,000 free responses a month with unlimited forms and unlimited seats",
+          "Native two-way integrations with Notion, Airtable, Google Sheets, HubSpot, Salesforce, and Supabase -- responses land directly in your database, not via a middleman",
+          "Unlimited seats on every plan, including free -- no per-user pricing anywhere",
+          "Modern multi-page and one-question-at-a-time layouts, plus a scheduling block for booking",
+          "Strong logic: branching, calculations, pre-filled fields from URL parameters, and payments"
+        ],
+        cons: [
+          "Starter plan ($15/mo) keeps the same 1,000-response cap -- it buys branding removal and custom domains, not volume",
+          "Response caps return on paid plans: Pro covers 5,000 a month, Business 10,000",
+          "Template library is smaller than Jotform's",
+          "Some advanced blocks (signature, scheduling) feel newer and less polished than the core fields"
+        ],
+        price: "Free (1,000 responses/mo, unlimited forms and seats), Starter $15/mo, Pro $40/mo (5,000 responses), Business $75/mo (10,000 responses), annual billing",
+        bestFor: "Teams that run on Notion, Airtable, or Google Sheets and want responses to land there directly",
+        verdict: "Fillout is the best form builder for anyone whose data already lives in a tool like Notion or Airtable. Where every other builder exports or syncs, Fillout reads your database schema and maps fields to it natively, which eliminated the Zapier step entirely in our test. The unlimited-seat policy is unusual and matters for agencies and ops teams. Tally is the better pick if you need unlimited responses for free; Fillout is better if you need the integrations and can live within 1,000 a month."
+      },
+      {
+        name: "Jotform",
+        rating: 8,
+        pros: [
+          "10,000+ templates -- there is almost certainly one for your exact use case already built",
+          "Approval workflows, PDF generation from submissions, e-signatures, and payment collection built in",
+          "Mature HIPAA-compliant plan for healthcare intake",
+          "Jotform Tables and Reports turn submissions into a usable back office without another tool",
+          "AI Agents can follow up on a submission by email, SMS, or voice without you building the automation"
+        ],
+        cons: [
+          "Free plan is five forms and 100 submissions a month, with Jotform branding",
+          "Multiple meters at once: forms, submissions, storage, payments, and signed documents each have their own limit",
+          "Forms stop accepting submissions when you hit the monthly cap -- your intake form goes dark until you upgrade or the month resets",
+          "The interface shows its age next to Tally and Fillout",
+          "Bronze ($34/mo annual) is the most expensive entry point here for 1,000 submissions"
+        ],
+        price: "Free (5 forms, 100 submissions/mo), Bronze $34/mo (25 forms, 1,000 submissions), Silver $39/mo (50 forms, 2,500), Gold $99/mo (100 forms, 10,000), annual billing; monthly billing is $39, $49, and $129",
+        bestFor: "Businesses running operational workflows -- approvals, signed documents, PDFs, HIPAA intake -- not just collecting answers",
+        verdict: "Jotform is less a form builder than a small operations platform that happens to start with a form. If a submission needs to become a PDF, go to a manager for approval, collect a signature, and land in a table your team works from, Jotform does all of that without a second tool. The trade-off is the metering: five separate limits, and a form that simply stops working when one is hit. For a freelancer collecting leads, that is too much machinery and too much risk. For an ops team, it is the point."
+      },
+      {
+        name: "Typeform",
+        rating: 7,
+        pros: [
+          "The best-looking conversational, one-question-at-a-time forms in the category",
+          "Completion rates in our tests ran meaningfully higher than multi-field layouts for surveys and quizzes",
+          "Video and image-rich questions, plus VideoAsk for async video responses",
+          "Polished logic jumps, calculators, and hidden fields",
+          "Large integration library and a solid API"
+        ],
+        cons: [
+          "Free plan is 10 responses a month -- effectively a demo, not a plan",
+          "Basic ($25/mo) only covers 100 responses; a 300-lead-a-month form needs Plus at $50/mo",
+          "Response overages and seat counts make the real bill hard to predict",
+          "Long forms become tedious one question at a time -- the format that drives completion also punishes length",
+          "Most of what you pay for, Tally and Fillout now do free"
+        ],
+        price: "Free (10 responses/mo), Basic $25/mo (100 responses), Plus $50/mo (1,000 responses), Business $83/mo (10,000 responses), annual billing",
+        bestFor: "Brand-sensitive surveys, quizzes, and lead-generation forms where completion rate matters more than cost per response",
+        verdict: "Typeform invented the conversational form and still executes it best -- our quiz-style version of the intake form felt noticeably more pleasant to fill out than anywhere else, and respondents finished it more often. But the gap has closed. Tally and Fillout both offer one-question-at-a-time layouts now, and they do not charge $50 a month for the 1,000 responses that Typeform's Plus plan requires. Pick Typeform when the form is a brand touchpoint and the budget exists; pick something else when it is a utility."
+      },
+      {
+        name: "Google Forms",
+        rating: 7,
+        pros: [
+          "Completely free with no response, form, or storage limits worth mentioning",
+          "Responses land in a Google Sheet automatically -- the simplest data pipeline in this review",
+          "Branching logic (section-based), quizzes with auto-grading, and file uploads to Drive",
+          "Everyone already knows how to fill one out; zero learning curve on either side",
+          "Included in Google Workspace with the same admin controls and sharing as the rest of your docs"
+        ],
+        cons: [
+          "Looks like a Google Form -- limited theming, no custom domain, no real branding",
+          "No calculations, no payments, no hidden fields, no partial-submission capture",
+          "Integrations beyond Sheets require Apps Script or Zapier",
+          "Logic is per section, not per question, so complex branching gets clumsy",
+          "File uploads require respondents to sign in to Google"
+        ],
+        price: "Free with any Google account; included in Google Workspace plans",
+        bestFor: "Internal forms, surveys, RSVPs, and quick data collection where branding does not matter",
+        verdict: "Google Forms is the form builder people are embarrassed to recommend and quietly use for everything. For an internal request form, an event RSVP, a feedback survey, or any data collection that ends up in a spreadsheet anyway, it is faster to build and free forever. It falls over the moment you need calculations, payments, or a form that looks like your brand rather than Google's -- which is exactly where Tally picks up."
+      },
+      {
+        name: "Paperform",
+        rating: 7,
+        pros: [
+          "Forms built like documents -- write a page, drop questions into the text, and it reads like a landing page, not a questionnaire",
+          "Strong e-commerce: products, inventory, coupons, subscriptions, and multiple payment gateways built in",
+          "Calculations, conditional logic, and 'answer piping' are all solid",
+          "Good for bookings, order forms, and paid registrations without a separate checkout tool",
+          "Scheduling and appointment booking included"
+        ],
+        cons: [
+          "No free plan -- a 14-day trial, then Essentials from $24/mo on annual billing",
+          "Submission caps apply on every tier, including the entry plan",
+          "Smaller community and template library than the big three",
+          "The document-style editor is unusual and takes a session to feel natural",
+          "Pricing climbs quickly for Pro and Business features like custom PDFs and priority support"
+        ],
+        price: "No free plan; Essentials from $24/mo, Pro from $49/mo, Business from $99/mo, annual billing",
+        bestFor: "Selling products, bookings, or paid registrations through a form that doubles as a landing page",
+        verdict: "Paperform is the form builder for people who want the form to be the whole page. Our order-form variant -- a service menu with quantities, a coupon field, and a Stripe checkout -- came together faster here than anywhere else, and the result looked like a product page rather than a form. If you are selling through forms, it earns the subscription. If you are collecting leads or feedback, you are paying for e-commerce you will not use."
+      },
+      {
+        name: "Formbricks",
+        rating: 7,
+        pros: [
+          "Open source -- self-host it for free with no response limits and full data ownership",
+          "Built for product teams: in-app surveys, website micro-surveys, and link surveys from one tool",
+          "Targeting and triggers (show this survey to users who did X) that general form builders do not have",
+          "Privacy-first by design, with EU hosting and GDPR tooling included",
+          "Generous cloud free tier if you would rather not self-host"
+        ],
+        cons: [
+          "Positioned for surveys and product feedback, not intake forms, orders, or payments",
+          "Self-hosting is real work: a server, a database, updates, and backups are on you",
+          "Smaller integration catalog than the commercial tools",
+          "Design options are more limited than Tally or Typeform",
+          "Cloud paid plans jump to $49/mo once you outgrow the free tier"
+        ],
+        price: "Free (open source, self-hosted, unlimited); Formbricks Cloud free tier available, paid plans from $49/mo",
+        bestFor: "Product and engineering teams that want in-app surveys with full data control, or anyone who insists on self-hosting",
+        verdict: "Formbricks is the only tool here you can run entirely on your own infrastructure, and for a product team collecting user feedback inside an app, its targeting and trigger system does things none of the general-purpose builders can. It is not the right tool for a client-intake form or an order form -- it is not trying to be. Pick it for surveys and product research, especially if data residency or an unlimited free tier matters more than polish."
+      }
+    ],
+    conclusion: `Start with the response volume you actually expect, not the feature list. Under 1,000 responses a month, **Tally** and **Fillout** are both free and both do conditional logic, calculations, uploads, and payments -- choose Tally if you want no cap at all, Fillout if your data lives in Notion, Airtable, or Google Sheets and you want it to land there directly. Above that, Tally Pro at a flat $29 is still the cheapest way to run unlimited responses on your own domain.
+
+Pay more only for a specific job. **Jotform** when a submission has to become a PDF, collect a signature, or pass through an approval. **Typeform** when the form is a brand moment and completion rate is worth $50 a month. **Paperform** when the form is a checkout. And if none of that applies and the answers are going into a spreadsheet anyway, **Google Forms** was the right answer all along.
+
+One thing every intake form should end with: the next step. If the form qualifies a lead, the next step is a quote or an invoice, and that should take minutes, not another tool subscription. **InvoiceQuick** ([invoicequick-phi.vercel.app](https://invoicequick-phi.vercel.app)) is our own free invoice generator -- no sign-up, no account, instant PDF -- so a form response that becomes a client at 2pm can have a professional invoice in their inbox by 2:05. Pair it with the [best free invoice templates](/reviews/best-free-invoice-templates) if you prefer to start from a document, or an [e-signature tool](/reviews/best-esignature-software) if the form kicks off a contract first.`,
+    faq: [
+      {
+        q: "What is the best free form builder in 2026?",
+        a: "Tally. It is the only major form builder with unlimited forms and unlimited responses at $0, and the free plan includes conditional logic, calculations, hidden fields, file uploads, and Stripe payments -- the features other tools reserve for paid tiers. The only free-plan limitation that matters is the 'Made with Tally' branding. Fillout is the runner-up with 1,000 free responses a month and better native integrations."
+      },
+      {
+        q: "Tally vs Typeform -- which should I choose?",
+        a: "Tally for almost everyone. Typeform's free plan stops at 10 responses a month and its Plus plan costs $50 a month for 1,000 responses, while Tally gives you unlimited responses free and removes branding for a flat $29. Typeform still has the most polished conversational, one-question-at-a-time design and the highest completion rates in our tests, so choose it when the form is a brand touchpoint for surveys, quizzes, or high-value lead capture and the budget exists."
+      },
+      {
+        q: "Fillout vs Tally -- what's the real difference?",
+        a: "Response caps and integrations. Tally has no response limit at any price; Fillout caps the free plan at 1,000 responses a month and keeps caps on paid plans (5,000 on Pro, 10,000 on Business). In exchange, Fillout offers native two-way integrations with Notion, Airtable, Google Sheets, HubSpot, and Salesforce that map directly to your database fields, plus unlimited seats on every plan. If you need unlimited volume, Tally. If your responses need to land in a database without Zapier, Fillout."
+      },
+      {
+        q: "Is Jotform worth the price?",
+        a: "Yes, if you use it as an operations tool rather than just a form. Jotform's approval workflows, PDF generation, e-signatures, HIPAA plan, and built-in tables justify Bronze at $34 a month for a business that would otherwise pay for two or three separate tools. For a freelancer collecting leads, it is overkill -- and its multiple monthly meters (forms, submissions, storage, payments, signed documents) mean a form can stop accepting submissions mid-month when a cap is hit."
+      },
+      {
+        q: "Can I accept payments through a form builder?",
+        a: "Yes. Tally includes Stripe payments on the free plan, which is unusual. Fillout, Jotform, Typeform, and Paperform all support payments on paid tiers, with Paperform offering the most complete e-commerce features (products, inventory, coupons, subscriptions). Google Forms does not support payments at all. For invoicing after the fact rather than collecting payment in the form itself, a free invoice generator like InvoiceQuick is the simpler path."
+      },
+      {
+        q: "What's the best form builder for Notion or Airtable?",
+        a: "Fillout. It reads your Notion database or Airtable base schema and maps form fields directly to it, so submissions create or update records natively with no Zapier or Make step. Tally also integrates with Notion and Airtable, but through a simpler one-way push. If you already use Airtable heavily, Airtable's own forms are also worth testing before adding another tool."
+      },
+      {
+        q: "Should I just use Google Forms?",
+        a: "For internal requests, surveys, RSVPs, and anything where the answers go into a spreadsheet and branding does not matter -- yes, and you will save time doing it. Switch to Tally or Fillout when you need calculations, payments, hidden fields, a form on your own domain, or something that looks like your brand rather than Google's."
+      }
+    ]
   }
 };

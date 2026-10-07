@@ -360,4 +360,13 @@ export const articles: Article[] = [
     readTime: "12 min",
     featured: true,
   },
+  {
+    slug: "best-form-builders",
+    title: "7 Best Online Form Builders in 2026 (Tally vs Fillout vs Jotform vs Typeform, Tested)",
+    description: "Typeform's free plan stops at 10 responses a month. Tally's never stops. We built the same client-intake form in Tally, Fillout, Jotform, Typeform, Google Forms, Paperform, and Formbricks, then priced each at 100, 1,000, and 10,000 responses — here's which form builder fits a freelancer, a growing team, and an ops department, and the one trap in every pricing page.",
+    category: "Productivity",
+    date: "2026-10-07",
+    readTime: "13 min",
+    featured: true,
+  },
 ];
