@@ -2552,7 +2552,7 @@ We tested five leading video editors across a range of content types — YouTube
           "Limited color grading compared to professional tools",
           "Templates can lead to cookie-cutter content if overused"
         ],
-        price: "Free (watermarked), Pro $7.99/mo or $59.99/year",
+        price: "Free (watermark on some exports); Pro is priced in-app by region, roughly $20/mo at last check -- CapCut publishes no public price list",
         bestFor: "Short-form creators, TikTok/Reels editors, and mobile-first workflows",
         verdict: "CapCut is the fastest way to produce polished short-form videos. The auto-caption quality alone justifies using it. For TikTok, Reels, and YouTube Shorts, nothing else comes close to the speed and quality at this price. For long-form YouTube content or cinematic work, use DaVinci Resolve instead."
       },
@@ -2589,14 +2589,14 @@ We tested five leading video editors across a range of content types — YouTube
         ],
         cons: [
           "Mac only -- no Windows or Linux version",
-          "One-time cost is $299 (higher than annual Premiere subscription for some)",
+          "One-time cost is $299.99 -- about 13 months of Premiere's $22.99/mo single-app plan before it pays off (a $12.99/mo Apple Creator Studio subscription now exists too)",
           "Less color grading capability than DaVinci Resolve",
           "Smaller plugin ecosystem than Premiere",
           "Collaboration limited to same Apple ecosystem"
         ],
-        price: "$299 one-time (90-day free trial)",
+        price: "$299.99 one-time, or $12.99/mo / $129/year via Apple Creator Studio (30-day free trial)",
         bestFor: "Mac users doing YouTube or professional content who want raw speed",
-        verdict: "Final Cut Pro on an M-series Mac is the fastest editing experience available. If you are on a MacBook Pro or Mac Studio and edit regularly, the $299 one-time cost pays for itself quickly compared to a Premiere subscription. The magnetic timeline is genuinely faster once you learn it. Not for cross-platform teams."
+        verdict: "Final Cut Pro on an M-series Mac is the fastest editing experience available. If you are on a MacBook Pro or Mac Studio and edit regularly, the $299.99 one-time cost equals about 13 months of Premiere's single-app plan, and every month after that is free. The magnetic timeline is genuinely faster once you learn it. Not for cross-platform teams."
       },
       {
         name: "Adobe Premiere Pro",
@@ -2609,13 +2609,13 @@ We tested five leading video editors across a range of content types — YouTube
           "Available on Mac and Windows"
         ],
         cons: [
-          "Subscription model only -- $54.99/mo or $599.88/year (significant cost)",
+          "Subscription model only -- from $22.99/mo on an annual plan, more month-to-month, and no one-time purchase",
           "Has become bloated and slower compared to Final Cut Pro on Apple Silicon",
           "Auto-save issues and crashes are a persistent community complaint",
           "Text-based editing is good but not as smooth as Descript",
           "Overkill for most solo creators"
         ],
-        price: "$54.99/mo or $599.88/year (Creative Cloud All Apps: $59.99/mo)",
+        price: "$22.99/mo single app (annual plan, billed monthly); Creative Cloud Pro all-apps $69.99/mo",
         bestFor: "Professional agencies, broadcast teams, and full Creative Cloud users",
         verdict: "Premiere Pro is the right choice if you work in an agency or team that requires cross-platform collaboration and integration with the full Adobe suite. For solo creators, the cost-to-value ratio is poor compared to Final Cut Pro (Mac) or DaVinci Resolve (any platform). Use it when the workflow demands it, not as a default."
       },
@@ -2636,7 +2636,7 @@ We tested five leading video editors across a range of content types — YouTube
           "Pricing gets expensive quickly for heavy users",
           "Limited color grading and audio mastering compared to dedicated tools"
         ],
-        price: "Free (1 hour transcription/mo), Hobbyist $12/mo, Creator $24/mo",
+        price: "Free (60 minutes of media/mo), Hobbyist $16/mo, Creator $24/mo billed annually ($24 and $35 month-to-month)",
         bestFor: "Podcasters, talking-head YouTubers, and course creators",
         verdict: "Descript is the only editor built for the way most creators actually work: record yourself talking, clean it up by editing a document, and export. For podcast videos, course content, and interview-style YouTube, it cuts editing time by 60%+. Do not use it for cinematic work -- it is not built for that. Use it alongside CapCut or DaVinci for a complete workflow."
       }
@@ -4825,7 +4825,7 @@ But step back and ask why you wanted a template in the first place: you needed a
 
 One gap worth flagging in every generic template on this list: none of them know what you do. A blank invoice is the same blank invoice whether you are billing a kitchen remodel or a wedding shoot, so you still have to work out which lines belong on it — and the lines people forget are the ones that cost money, like the dump fee, the permit, the trip charge, or the deposit already paid. If you work in a specific trade, start from a template that already lists them: InvoiceQuick publishes [invoice templates by trade](https://invoicequick-phi.vercel.app/invoice-template) covering plumbing, electrical, HVAC, handyman work, roofing, painting, cleaning, landscaping, auto repair, construction, catering, photography, and web development, each opening the generator with that trade's real billing lines already in place. You still edit the wording and set your own rates — but you are editing a checklist rather than remembering one.
 
-A handful of those pages go further, because the trade's invoice carries lines no generic template has heard of. Where the bill is built from a job or a load, the units are the problem. [Trucking and freight](https://invoicequick-phi.vercel.app/invoice-template/trucking) bills linehaul against the rate confirmation, then fuel surcharge, detention, and lumper fees. [Subcontracting](https://invoicequick-phi.vercel.app/invoice-template/subcontractor) bills schedule-of-values lines with retainage withheld and released, change orders with the approval reference, and backcharges carried rather than absorbed. [Snow removal](https://invoicequick-phi.vercel.app/invoice-template/snow-removal) bills storm dates with the accumulation tier and salt by the pound; [junk removal and hauling](https://invoicequick-phi.vercel.app/invoice-template/junk-removal) bills truck-load fractions, the transfer-station fee by the ton, and the mattress and appliance surcharges. [Pressure washing](https://invoicequick-phi.vercel.app/invoice-template/pressure-washing) bills each surface on its own line by the square foot, names soft wash or pressure so the price and the result make sense, keeps stain treatments separate with the promised result stated, and records pre-existing damage before the water goes on. [Window cleaning](https://invoicequick-phi.vercel.app/invoice-template/window-cleaning) counts panes rather than windows, splits outside from inside and the ground floor from the upper floors, bills screens and tracks as their own lines, and notes failed seals and scratches before the glass is clean enough to show them. [Gutter cleaning](https://invoicequick-phi.vercel.app/invoice-template/gutter-cleaning) bills by the linear foot and the story, counts downspouts flushed and cleared, prices guarded runs on their own line, and records sagging, loose hangers and leaking seams with before-and-after photos, because the customer can't see the work from the ground. [Carpet cleaning](https://invoicequick-phi.vercel.app/invoice-template/carpet-cleaning) states what counts as a room, names the method (a detail carpet warranties ask for), prices stairs by the step and pet urine as a treatment rather than a stain, marks stain work as improvement rather than guaranteed removal, and records wear and bleach spots before the clean makes them visible.
+A handful of those pages go further, because the trade's invoice carries lines no generic template has heard of. Where the bill is built from a job or a load, the units are the problem. [Trucking and freight](https://invoicequick-phi.vercel.app/invoice-template/trucking) bills linehaul against the rate confirmation, then fuel surcharge, detention, and lumper fees. [Subcontracting](https://invoicequick-phi.vercel.app/invoice-template/subcontractor) bills schedule-of-values lines with retainage withheld and released, change orders with the approval reference, and backcharges carried rather than absorbed. [Snow removal](https://invoicequick-phi.vercel.app/invoice-template/snow-removal) bills storm dates with the accumulation tier and salt by the pound; [junk removal and hauling](https://invoicequick-phi.vercel.app/invoice-template/junk-removal) bills truck-load fractions, the transfer-station fee by the ton, and the mattress and appliance surcharges. [Pressure washing](https://invoicequick-phi.vercel.app/invoice-template/pressure-washing) bills each surface on its own line by the square foot, names soft wash or pressure so the price and the result make sense, keeps stain treatments separate with the promised result stated, and records pre-existing damage before the water goes on. [Window cleaning](https://invoicequick-phi.vercel.app/invoice-template/window-cleaning) counts panes rather than windows, splits outside from inside and the ground floor from the upper floors, bills screens and tracks as their own lines, and notes failed seals and scratches before the glass is clean enough to show them. [Gutter cleaning](https://invoicequick-phi.vercel.app/invoice-template/gutter-cleaning) bills by the linear foot and the story, counts downspouts flushed and cleared, prices guarded runs on their own line, and records sagging, loose hangers and leaking seams with before-and-after photos, because the customer can't see the work from the ground. [Carpet cleaning](https://invoicequick-phi.vercel.app/invoice-template/carpet-cleaning) states what counts as a room, names the method (a detail carpet warranties ask for), prices stairs by the step and pet urine as a treatment rather than a stain, marks stain work as improvement rather than guaranteed removal, and records wear and bleach spots before the clean makes them visible. [Freelance writing](https://invoicequick-phi.vercel.app/invoice-template/freelance-writing) bills the word count that was commissioned, each piece by title and assignment number, the rights granted as their own line with a term, and a kill fee for a piece that was accepted and never run.
 
 Where the bill is built from an agreement rather than a job, the problem is showing what is left. [Tutoring and test prep](https://invoicequick-phi.vercel.app/invoice-template/tutoring) lists each session by student, date, and subject, shows a prepaid package as sessions used and remaining, bills a late cancellation under the signed policy, and puts a sibling discount on its own line. [Consulting](https://invoicequick-phi.vercel.app/invoice-template/consulting) draws a monthly retainer down in front of the client — hours included, used, and remaining, with the rollover rule stated — bills a project milestone against the date it was accepted rather than delivered, keeps out-of-scope hours on their own line with the written approval cited, and carries the purchase order number and cost center that accounts payable matches before anyone approves the amount. [Pest control](https://invoicequick-phi.vercel.app/invoice-template/pest-control) has the same problem with a twist: when the plan works, the customer sees nothing. So the invoice numbers each plan visit against the agreement, lists free re-services between visits at zero so the guarantee is visible, carries the treatment record many states require — product, EPA registration number, amount, and applicator license — and bills a termite bond renewal with its coverage and term on the line.
 
