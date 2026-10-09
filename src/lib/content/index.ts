@@ -1111,10 +1111,10 @@ We built real websites on each platform and evaluated them on design quality, ea
           "Less design flexibility than Webflow or WordPress",
           "Editor can feel restrictive for advanced customization",
           "No free plan (only 14-day trial)",
-          "Transaction fees on the Business plan for e-commerce",
+          "2% transaction fee on store sales on the Basic plan (0% from Core up)",
           "Page speed can lag behind minimalist builders like Carrd"
         ],
-        price: "$16/mo (Personal), $23/mo (Business), $27/mo (Commerce Basic)",
+        price: "$19/mo (Basic), $29/mo (Core), $49/mo (Plus), $99/mo (Advanced) billed annually; $25-139/mo month-to-month (14-day free trial)",
         bestFor: "Small businesses and creatives who want a beautiful, professional website without design skills",
         verdict: "Squarespace is our top overall recommendation for most small businesses. The templates are gorgeous, the editing experience is polished, and you get hosting, domains, email marketing, and basic e-commerce in one platform. It is the safest choice for anyone who wants a professional website without hiring a designer."
       },
@@ -1124,7 +1124,7 @@ We built real websites on each platform and evaluated them on design quality, ea
         pros: [
           "Most flexible drag-and-drop editor with pixel-level control",
           "Huge app marketplace with hundreds of add-ons",
-          "AI-powered site builder (ADI) for quick setup",
+          "AI website builder for quick setup",
           "Strong e-commerce and booking features",
           "Free plan available (with Wix branding)",
           "Velo platform for custom code when needed"
@@ -1136,7 +1136,7 @@ We built real websites on each platform and evaluated them on design quality, ea
           "The free plan shows prominent Wix ads",
           "Editor flexibility can lead to messy designs without discipline"
         ],
-        price: "Free (with ads), $17/mo (Light), $29/mo (Core), $36/mo (Business)",
+        price: "Free (with ads), $17/mo (Light, no store), $29/mo (Core), $39/mo (Business), $159/mo (Business Elite) billed annually",
         bestFor: "Small businesses that want maximum customization flexibility and a large app ecosystem",
         verdict: "Wix offers the most design freedom of any mainstream website builder. You can place elements anywhere on the page, which is both its strength and weakness. With discipline, you can create unique designs. Without it, sites can look messy. The app marketplace makes it easy to add functionality."
       },
@@ -1158,7 +1158,7 @@ We built real websites on each platform and evaluated them on design quality, ea
           "Smaller template marketplace compared to Squarespace or Wix",
           "Some features still feel early-stage"
         ],
-        price: "Free (with Framer branding), $5/mo (Mini), $15/mo (Basic), $25/mo (Pro)",
+        price: "Free (with Framer branding, Framer subdomain), $10/mo (Basic), $30/mo (Pro) billed yearly",
         bestFor: "Designers and startups that want high-performance marketing sites with advanced animations",
         verdict: "Framer has emerged as the go-to builder for startups and design-savvy teams. The sites it produces are incredibly fast, the animations are stunning, and the overall quality rivals custom-coded websites. The learning curve is real, but if you have design skills or are willing to learn, Framer produces superior results."
       },
@@ -1180,7 +1180,7 @@ We built real websites on each platform and evaluated them on design quality, ea
           "Design options are more limited than full builders",
           "Not suitable for content-heavy sites"
         ],
-        price: "Free (with Carrd branding), $19/year (Pro Lite), $49/year (Pro Standard)",
+        price: "Free (with Carrd branding), $9/year (Pro Lite, no custom domain), $19/year (Pro Standard), $49/year (Pro Plus)",
         bestFor: "Anyone who needs a simple, fast landing page or link-in-bio page",
         verdict: "Carrd is not trying to compete with Squarespace or Wix. It does one thing -- beautiful single-page sites -- and does it better and cheaper than anyone else. At $19/year, it is practically free. Use Carrd for landing pages, link-in-bio pages, waitlists, and simple portfolios."
       },
@@ -1202,7 +1202,7 @@ We built real websites on each platform and evaluated them on design quality, ea
           "Client billing and handoff workflows need improvement",
           "Hosting is tied to Webflow -- no self-hosting option"
         ],
-        price: "Free (staging only), $14/mo (Basic), $23/mo (CMS), $39/mo (Business)",
+        price: "Free (Starter, webflow.io domain), $15/mo (Basic, no CMS), $25/mo (Premium, adds CMS) billed yearly; e-commerce $29-212/mo",
         bestFor: "Designers and agencies who want full visual control with production-quality code output",
         verdict: "Webflow is the most powerful website builder available, but that power comes with complexity. If you are a designer or developer who wants visual control over every CSS property, Webflow is unmatched. For non-technical users, the learning curve makes Squarespace or Wix better choices."
       },
@@ -4825,7 +4825,7 @@ But step back and ask why you wanted a template in the first place: you needed a
 
 One gap worth flagging in every generic template on this list: none of them know what you do. A blank invoice is the same blank invoice whether you are billing a kitchen remodel or a wedding shoot, so you still have to work out which lines belong on it — and the lines people forget are the ones that cost money, like the dump fee, the permit, the trip charge, or the deposit already paid. If you work in a specific trade, start from a template that already lists them: InvoiceQuick publishes [invoice templates by trade](https://invoicequick-phi.vercel.app/invoice-template) covering plumbing, electrical, HVAC, handyman work, roofing, painting, cleaning, landscaping, auto repair, construction, catering, photography, and web development, each opening the generator with that trade's real billing lines already in place. You still edit the wording and set your own rates — but you are editing a checklist rather than remembering one.
 
-A handful of those pages go further, because the trade's invoice carries lines no generic template has heard of. Where the bill is built from a job or a load, the units are the problem. [Trucking and freight](https://invoicequick-phi.vercel.app/invoice-template/trucking) bills linehaul against the rate confirmation, then fuel surcharge, detention, and lumper fees. [Subcontracting](https://invoicequick-phi.vercel.app/invoice-template/subcontractor) bills schedule-of-values lines with retainage withheld and released, change orders with the approval reference, and backcharges carried rather than absorbed. [Snow removal](https://invoicequick-phi.vercel.app/invoice-template/snow-removal) bills storm dates with the accumulation tier and salt by the pound; [junk removal and hauling](https://invoicequick-phi.vercel.app/invoice-template/junk-removal) bills truck-load fractions, the transfer-station fee by the ton, and the mattress and appliance surcharges. [Pressure washing](https://invoicequick-phi.vercel.app/invoice-template/pressure-washing) bills each surface on its own line by the square foot, names soft wash or pressure so the price and the result make sense, keeps stain treatments separate with the promised result stated, and records pre-existing damage before the water goes on. [Window cleaning](https://invoicequick-phi.vercel.app/invoice-template/window-cleaning) counts panes rather than windows, splits outside from inside and the ground floor from the upper floors, bills screens and tracks as their own lines, and notes failed seals and scratches before the glass is clean enough to show them. [Gutter cleaning](https://invoicequick-phi.vercel.app/invoice-template/gutter-cleaning) bills by the linear foot and the story, counts downspouts flushed and cleared, prices guarded runs on their own line, and records sagging, loose hangers and leaking seams with before-and-after photos, because the customer can't see the work from the ground. [Carpet cleaning](https://invoicequick-phi.vercel.app/invoice-template/carpet-cleaning) states what counts as a room, names the method (a detail carpet warranties ask for), prices stairs by the step and pet urine as a treatment rather than a stain, marks stain work as improvement rather than guaranteed removal, and records wear and bleach spots before the clean makes them visible. [Freelance writing](https://invoicequick-phi.vercel.app/invoice-template/freelance-writing) bills the word count that was commissioned, each piece by title and assignment number, the rights granted as their own line with a term, and a kill fee for a piece that was accepted and never run.
+A handful of those pages go further, because the trade's invoice carries lines no generic template has heard of. Where the bill is built from a job or a load, the units are the problem. [Trucking and freight](https://invoicequick-phi.vercel.app/invoice-template/trucking) bills linehaul against the rate confirmation, then fuel surcharge, detention, and lumper fees. [Subcontracting](https://invoicequick-phi.vercel.app/invoice-template/subcontractor) bills schedule-of-values lines with retainage withheld and released, change orders with the approval reference, and backcharges carried rather than absorbed. [Snow removal](https://invoicequick-phi.vercel.app/invoice-template/snow-removal) bills storm dates with the accumulation tier and salt by the pound; [junk removal and hauling](https://invoicequick-phi.vercel.app/invoice-template/junk-removal) bills truck-load fractions, the transfer-station fee by the ton, and the mattress and appliance surcharges. [Pressure washing](https://invoicequick-phi.vercel.app/invoice-template/pressure-washing) bills each surface on its own line by the square foot, names soft wash or pressure so the price and the result make sense, keeps stain treatments separate with the promised result stated, and records pre-existing damage before the water goes on. [Window cleaning](https://invoicequick-phi.vercel.app/invoice-template/window-cleaning) counts panes rather than windows, splits outside from inside and the ground floor from the upper floors, bills screens and tracks as their own lines, and notes failed seals and scratches before the glass is clean enough to show them. [Gutter cleaning](https://invoicequick-phi.vercel.app/invoice-template/gutter-cleaning) bills by the linear foot and the story, counts downspouts flushed and cleared, prices guarded runs on their own line, and records sagging, loose hangers and leaking seams with before-and-after photos, because the customer can't see the work from the ground. [Carpet cleaning](https://invoicequick-phi.vercel.app/invoice-template/carpet-cleaning) states what counts as a room, names the method (a detail carpet warranties ask for), prices stairs by the step and pet urine as a treatment rather than a stain, marks stain work as improvement rather than guaranteed removal, and records wear and bleach spots before the clean makes them visible. [Freelance writing](https://invoicequick-phi.vercel.app/invoice-template/freelance-writing) bills the word count that was commissioned, each piece by title and assignment number, the rights granted as their own line with a term, and a kill fee for a piece that was accepted and never run. [Appliance repair](https://invoicequick-phi.vercel.app/invoice-template/appliance-repair) puts the model and serial number on every ticket, shows the diagnostic fee and its credit against the repair as separate lines, lists parts by part number, carries a special-order deposit as a credit, and writes the labor warranty down.
 
 Where the bill is built from an agreement rather than a job, the problem is showing what is left. [Tutoring and test prep](https://invoicequick-phi.vercel.app/invoice-template/tutoring) lists each session by student, date, and subject, shows a prepaid package as sessions used and remaining, bills a late cancellation under the signed policy, and puts a sibling discount on its own line. [Consulting](https://invoicequick-phi.vercel.app/invoice-template/consulting) draws a monthly retainer down in front of the client — hours included, used, and remaining, with the rollover rule stated — bills a project milestone against the date it was accepted rather than delivered, keeps out-of-scope hours on their own line with the written approval cited, and carries the purchase order number and cost center that accounts payable matches before anyone approves the amount. [Pest control](https://invoicequick-phi.vercel.app/invoice-template/pest-control) has the same problem with a twist: when the plan works, the customer sees nothing. So the invoice numbers each plan visit against the agreement, lists free re-services between visits at zero so the guarantee is visible, carries the treatment record many states require — product, EPA registration number, amount, and applicator license — and bills a termite bond renewal with its coverage and term on the line.
 
