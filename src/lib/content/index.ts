@@ -1958,7 +1958,7 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
         name: "Fathom",
         rating: 10,
         pros: [
-          "100% free with no artificial limits on recordings or transcripts",
+          "Free plan with unlimited recordings and transcripts",
           "Best-in-class summaries organized by topic with clear action items",
           "Works seamlessly with Zoom, Google Meet, and Microsoft Teams",
           "Instantly shareable highlight clips for key moments",
@@ -1966,12 +1966,12 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
         ],
         cons: [
           "Limited to hosted video call platforms -- no in-person meeting support",
-          "Advanced CRM features require paid plan",
+          "CRM field sync, deal views and coaching scorecards require the Business plan",
           "Transcript editing is basic compared to Otter.ai"
         ],
-        price: "Free forever plan; Fathom Team Edition from $19/user/mo",
+        price: "Free (unlimited recordings and transcripts); Premium $16/mo, Team $15/user/mo, Business $25/user/mo billed annually ($20, $19 and $34 month-to-month)",
         bestFor: "Freelancers and consultants who want the best free AI meeting notes",
-        verdict: "Fathom is the most impressive free tool in this category by a wide margin. The summaries it generates are genuinely useful -- organized by discussion topic, with action items pulled out clearly. If you are on calls regularly and paying nothing is important, Fathom is your answer."
+        verdict: "Fathom is the most impressive free tool in this category by a wide margin. The summaries it generates are genuinely useful -- organized by discussion topic, with action items pulled out clearly. If you are on calls regularly and paying nothing is important (the free plan has unlimited recordings, while the fuller summaries and action items sit on paid plans), Fathom is your answer."
       },
       {
         name: "Otter.ai",
@@ -1984,11 +1984,11 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
           "OtterPilot joins meetings automatically on your behalf"
         ],
         cons: [
-          "Free plan capped at 300 transcription minutes per month",
+          "Free plan capped at 300 transcription minutes per month and 30 minutes per meeting",
           "AI chat features can occasionally misinterpret context",
           "Interface has become more cluttered with recent updates"
         ],
-        price: "Free (300 min/month); $16.99/mo (Pro); $30/user/mo (Business)",
+        price: "Free (300 min/month, 30 min per meeting); Pro from $8.33/user/mo billed annually ($16.99 month-to-month list price); Business $19.99/user/mo annually ($30 month-to-month)",
         bestFor: "Teams that need real-time transcription and deep transcript search",
         verdict: "Otter.ai pioneered this category and still does many things better than any competitor. The live transcription is accurate enough to read along in real time, and searching months of meeting history in seconds is genuinely powerful. A strong choice for teams with heavy meeting loads."
       },
@@ -2005,9 +2005,9 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
         cons: [
           "Free plan stores only 800 minutes of transcripts",
           "Summaries sometimes miss nuanced context in technical discussions",
-          "Pricing increases steeply at the Business tier"
+          "Video recording, conversation intelligence and team analytics sit on the Business tier"
         ],
-        price: "Free (limited storage); $18/seat/mo (Pro); $29/seat/mo (Business)",
+        price: "Free (800 min of storage per seat); Pro $10/seat/mo and Business $19/seat/mo billed annually ($18 and $29 month-to-month)",
         bestFor: "Sales teams that want call intelligence alongside transcription",
         verdict: "Fireflies.ai shines brightest for sales-oriented workflows. The call scorecards, talk-time breakdowns, and conversation analytics give sales managers real insight into how their team performs on calls. For freelancers focused on client management, this is overkill -- but for teams actively selling, it pays for itself."
       },
@@ -2019,14 +2019,14 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
           "Native integrations with HubSpot and Salesforce for deal tracking",
           "Clean, modern interface that is easy to navigate",
           "Story feature for sharing curated moments with your team",
-          "Good free plan with reasonable limits for individuals"
+          "Free seats can view, share and ask questions of meetings recorded by paid seats"
         ],
         cons: [
           "Less accurate transcription than Otter.ai in noisy environments",
           "Limited to Zoom (Google Meet support is newer and less polished)",
           "AI summaries are shorter and less detailed than Fathom or Fireflies"
         ],
-        price: "Free (25 recordings); $19/seat/mo (Starter); $39/seat/mo (Business)",
+        price: "Free (view-only seats; cannot record); Starter listed at $19/seat/mo (some Grain pages cite $15); Business and Enterprise pricing on request",
         bestFor: "Teams that want to share and repurpose key meeting moments",
         verdict: "Grain's standout feature is how easy it makes sharing highlights from long recordings. If you regularly present meeting feedback to clients, create onboarding content from calls, or want a shareable clip of a key insight, Grain's Story feature is unmatched. The transcription quality trails the top picks, but for video-forward teams it is a strong option."
       },
@@ -2034,7 +2034,7 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
         name: "tl;dv",
         rating: 8,
         pros: [
-          "Generous free plan with unlimited recordings and transcripts",
+          "Free plan with unlimited meetings and transcripts (AI notes on the free plan are capped)",
           "AI-generated meeting reports in multiple templates (standup, interview, sales)",
           "Smart timestamps that let you jump to specific topics instantly",
           "Multilingual transcription in 30+ languages",
@@ -2045,9 +2045,9 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
           "CRM integrations limited to paid plans",
           "Interface is functional but less polished than Fathom or Grain"
         ],
-        price: "Free (unlimited recordings); $29/user/mo (Pro); $59/user/mo (Business)",
+        price: "Free (unlimited recordings; capped AI notes); Pro around $18/user/mo billed annually; Business and Enterprise pricing on request (check tldv.io for current rates)",
         bestFor: "International teams and anyone needing multilingual transcription",
-        verdict: "tl;dv earns its place for two reasons: the unlimited free tier is genuinely unlimited (not just a trial), and the multilingual support is the best in this category. If you run calls in multiple languages or want a free solution without worrying about minute caps, tl;dv is worth serious consideration."
+        verdict: "tl;dv earns its place for two reasons: the free tier records and transcribes without minute caps (only the AI notes are limited), and the multilingual support is the best in this category. If you run calls in multiple languages or want a free solution without worrying about minute caps, tl;dv is worth serious consideration."
       },
       {
         name: "Notion AI Meeting Notes",
@@ -2057,24 +2057,24 @@ We spent six weeks testing the leading AI meeting assistants with real client ca
           "No additional tool to manage if your team is already on Notion",
           "Automatically links meeting notes to related projects and pages",
           "AI summaries follow Notion's clean formatting conventions",
-          "Included in the Notion AI add-on -- no separate subscription"
+          "Included in the Notion Business plan -- no separate subscription"
         ],
         cons: [
-          "Requires Notion AI add-on ($10/user/mo on top of existing Notion plan)",
+          "Full AI Meeting Notes require the Notion Business plan ($20/member/mo listed); Free and Plus get only a limited trial",
           "Transcription accuracy is lower than dedicated tools",
           "Limited action item tracking compared to Fathom or Fireflies",
-          "No real-time transcription -- processed after the call"
+          "Notion advertises real-time transcription, but it is newer and less proven than dedicated tools"
         ],
-        price: "Requires Notion AI add-on at $10/user/mo",
+        price: "Included in Notion Business ($20/member/mo listed); limited trial on Free and Plus",
         bestFor: "Teams already deeply embedded in Notion who want minimal tool sprawl",
-        verdict: "If your team lives in Notion and the idea of another app creates friction, the native meeting notes feature is a reasonable choice. The transcription is not best-in-class, but having summaries automatically attached to the right Notion project -- with no context switching -- has real workflow value. For teams not already paying for Notion AI, the dedicated tools are a better value."
+        verdict: "If your team lives in Notion and the idea of another app creates friction, the native meeting notes feature is a reasonable choice. The transcription is not best-in-class, but having summaries automatically attached to the right Notion project -- with no context switching -- has real workflow value. For teams not already on Notion Business, the dedicated tools are a better value."
       }
     ],
     conclusion: `If you only remember one thing from this guide: start with Fathom. It is free, it produces the most useful summaries in the category, and it takes ten minutes to set up. There is no downside to trying it on your next call.
 
 For teams with heavy sales workflows or call analytics needs, Fireflies.ai offers a level of intelligence that goes beyond simple transcription. Otter.ai remains the best choice for teams that want live transcription and need to search a deep archive of meetings.
 
-If multilingual support matters or you want a genuinely unlimited free tier, tl;dv deserves a spot on your shortlist. And if your team is all-in on Notion, the native AI meeting notes feature keeps your workflow consolidated at a reasonable price.
+If multilingual support matters or you want a free tier without minute caps, tl;dv deserves a spot on your shortlist. And if your team is all-in on Notion, the native AI meeting notes feature keeps your workflow consolidated at a reasonable price.
 
 The broader shift happening here is significant: in 2026, running meetings without AI assistance means manually doing work that software can do better and faster. Adopting one of these tools is not a luxury -- it is a competitive advantage.`,
     faq: [
@@ -2096,7 +2096,7 @@ The broader shift happening here is significant: in 2026, running meetings witho
       },
       {
         q: "What is the best free AI meeting tool?",
-        a: "Fathom is the best free option for most users -- unlimited recordings, high-quality summaries, and no hidden limits. tl;dv is the best free choice for international teams needing multilingual support. Otter.ai's free plan is solid but caps out at 300 minutes per month, which limits it for heavy users."
+        a: "Fathom is the best free option for most users -- unlimited recordings and transcripts, plus high-quality summaries. tl;dv is the best free choice for international teams needing multilingual support. Otter.ai's free plan is solid but caps out at 300 minutes per month, which limits it for heavy users."
       }
     ]
   },
