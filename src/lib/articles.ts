@@ -369,4 +369,13 @@ export const articles: Article[] = [
     readTime: "13 min",
     featured: true,
   },
+  {
+    slug: "best-payroll-software-small-business",
+    title: "7 Best Payroll Software for Small Business in 2026 (Gusto vs OnPay vs QuickBooks vs Patriot)",
+    description: "Payroll is the one tool where a mistake costs more than the subscription. We compared Gusto, OnPay, Patriot, QuickBooks Payroll, Square Payroll, Roll by ADP, and Rippling on what you actually pay at 5 and 15 people, what each one files for you, and when to switch before W-2 season.",
+    category: "Finance",
+    date: "2026-10-12",
+    readTime: "13 min",
+    featured: true,
+  },
 ];

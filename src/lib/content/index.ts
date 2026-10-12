@@ -7354,5 +7354,185 @@ One thing every intake form should end with: the next step. If the form qualifie
         a: "For internal requests, surveys, RSVPs, and anything where the answers go into a spreadsheet and branding does not matter -- yes, and you will save time doing it. Switch to Tally or Fillout when you need calculations, payments, hidden fields, a form on your own domain, or something that looks like your brand rather than Google's."
       }
     ]
-  }
+  },
+  "best-payroll-software-small-business": {
+    intro: `Payroll is the one piece of software where a mistake costs more than the subscription. A late federal deposit is a penalty that starts at 2% of the amount and climbs to 10% or more. A W-2 filed wrong in January turns into amended forms and an unhappy employee in March. A worker set up as a 1099 contractor who should have been a W-2 employee is a question from your state labor department you do not want. The right payroll tool files and pays the taxes for you, sends year-end forms on time, and makes the number in each paycheck easy to explain.
+
+Most small businesses look for payroll at the same two moments: when they hire their first employee, and in the fourth quarter, when seasonal hires arrive and W-2 season is close. If you are reading this in October or November, the timing matters -- switching providers mid-quarter means two systems for the same quarter's tax filings, so the cleanest switch is before January 1.
+
+We compared seven payroll services on what a small business actually pays: the monthly base fee, the per-person fee, what each plan files for you, and what costs extra. All prices below were checked against each provider's pricing page or, where the provider does not publish prices, against current third-party quotes, in October 2026. Payroll vendors run frequent promotions (50% off for three months is common), so we list the regular price and note the promotion.
+
+**Quick answer:** **Gusto** is the best payroll software for most small businesses -- full-service tax filing in all 50 states, a clean employee app, and benefits and hiring tools that grow with you. **OnPay** is the best value: one plan at $49 a month plus $6 per person, with the HR tools and multi-state filing that cost extra on Gusto. **Patriot Payroll** is the cheapest real payroll service, from $17 a month. **QuickBooks Payroll** is the right pick if your books already live in QuickBooks Online. **Square Payroll** fits restaurants and shops already on Square, and its contractor-only plan has no base fee. The breakdown below shows the monthly cost at 5 and 15 people, and how payroll connects to the rest of your money stack, from your [business bank account](/reviews/best-business-bank-accounts-freelancers) to your [accounting software](/reviews/best-accounting-software-freelancers).`,
+    tools: [
+      {
+        name: "Gusto",
+        rating: 9,
+        pros: [
+          "Full-service payroll: federal, state, and local tax filing and payment, plus W-2s and 1099s, on every plan",
+          "Unlimited payroll runs at no extra charge, including off-cycle bonus and correction runs",
+          "Employee self-service app for pay stubs, W-2s, PTO, and onboarding paperwork",
+          "Health insurance, 401(k), and workers' comp can all be added inside the same account",
+          "Contractor Only plan for businesses that pay 1099 workers but have no employees yet"
+        ],
+        cons: [
+          "Simple plan is single-state only -- an employee in a second state pushes you to Plus at $80/mo + $12/person",
+          "Time tracking, PTO policies, and next-day direct deposit are Plus features",
+          "Per-person fee doubles from Simple to Plus, so growing teams feel it fast",
+          "Phone support is limited on the lower plans"
+        ],
+        price: "Contractor Only $35/mo + $6/contractor, Simple $49/mo + $6/person, Plus $80/mo + $12/person, Premium by quote. 5 people on Simple: about $79/mo; 15 people: about $139/mo",
+        bestFor: "Small businesses hiring their first employees that want payroll, benefits, and onboarding in one place",
+        verdict: "Gusto is the default recommendation because it removes the part of payroll that keeps owners up at night: it calculates, files, and pays every tax for you and sends year-end forms without being asked. Setup asks plain-language questions instead of tax-form jargon, and employees get a real app instead of emailed PDFs. The catch is the plan ladder. Simple works until you hire in a second state or need time tracking, and then the bill jumps. If you are single-state and under 15 people, Simple is hard to beat. If you are already multi-state, price OnPay first."
+      },
+      {
+        name: "OnPay",
+        rating: 9,
+        pros: [
+          "One plan, one price: $49/mo + $6 per person paid, with no tiers to outgrow",
+          "Multi-state payroll, unlimited runs, and full tax filing included at that price",
+          "HR tools (onboarding, document storage, PTO tracking) included rather than upsold",
+          "Strong fit for unusual pay setups: farms, restaurants with tips, nonprofits, and S-corp owner salaries",
+          "First month free after setup"
+        ],
+        cons: [
+          "Smaller brand and smaller integration list than Gusto or QuickBooks",
+          "Employee mobile experience is web-based rather than a polished native app",
+          "Fewer built-in hiring tools (job posts, offer letters) than Gusto Plus",
+          "Benefits are brokered through partners rather than one in-house marketplace"
+        ],
+        price: "$49/mo + $6 per worker paid that month (one plan). 5 people: about $79/mo; 15 people: about $139/mo. First month free",
+        bestFor: "Businesses with employees in more than one state, or with tips, agricultural, or nonprofit pay rules",
+        verdict: "OnPay matches Gusto Simple's price and includes what Gusto charges Plus rates for: multi-state filing and PTO tracking. At 15 people across two states, OnPay is about $139 a month where Gusto Plus is about $260. You give up some polish and the larger app ecosystem. For a business that just wants accurate payroll at a predictable price, OnPay is the best value in the category."
+      },
+      {
+        name: "Patriot Payroll",
+        rating: 8,
+        pros: [
+          "The lowest regular price for real payroll software: Basic from $17/mo + $4 per worker",
+          "Full Service plan ($37/mo + $5 per worker) files and pays federal, state, and local taxes for you",
+          "Pairs with Patriot's low-cost accounting software if you want both from one vendor",
+          "US-based support is included on every plan",
+          "30-day free trial, and frequent half-price promotions for the first months"
+        ],
+        cons: [
+          "Basic plan calculates taxes but you file and deposit them yourself -- easy to get wrong",
+          "Interface is functional rather than modern",
+          "No built-in benefits marketplace; health insurance and retirement plans come from outside",
+          "Fewer integrations than Gusto, OnPay, or QuickBooks"
+        ],
+        price: "Basic Payroll $17/mo + $4/worker (you file taxes), Full Service Payroll $37/mo + $5/worker (taxes filed for you). 5 people on Full Service: about $62/mo; 15 people: about $112/mo. 30-day free trial",
+        bestFor: "Very small, cost-sensitive businesses that want full-service payroll for the lowest monthly bill",
+        verdict: "Patriot is the cheapest payroll service we would actually recommend, and the Full Service plan does the important part -- tax filing and payment -- for well under Gusto's price. Skip the Basic plan unless you already know how to make federal and state tax deposits on schedule; the money it saves is small next to one late-deposit penalty. Pick Patriot when cost matters more than an employee app or benefits."
+      },
+      {
+        name: "QuickBooks Payroll",
+        rating: 8,
+        pros: [
+          "Payroll entries post straight into QuickBooks Online -- no export, no mapping, no reconciliation step",
+          "Same-day or next-day direct deposit on the higher tiers",
+          "Tax penalty protection on the higher tiers: QuickBooks pays the penalty if its filing is wrong",
+          "Time tracking included on the Premium tier",
+          "Your accountant almost certainly already knows the system"
+        ],
+        cons: [
+          "Now sold as a bundle with a QuickBooks Online plan, so the real cost depends on your accounting tier",
+          "Per-employee fee ($6.50 to $10/mo) is higher than Gusto Simple or OnPay",
+          "Promotional pricing makes the regular price hard to read on the pricing page",
+          "Little reason to choose it if you do not use QuickBooks for your books"
+        ],
+        price: "Bundled with QuickBooks Online: $6.50/employee/mo on the standard payroll tier, $10/employee/mo on Premium, plus a base that depends on the QuickBooks plan; 50% off for the first 3 months is a common promotion",
+        bestFor: "Businesses already keeping their books in QuickBooks Online",
+        verdict: "If your bookkeeping is in QuickBooks Online, QuickBooks Payroll removes the most error-prone step in small-business payroll: getting wages, taxes, and benefits into the books correctly. That alone can be worth the higher per-employee fee. If you do not use QuickBooks, there is no reason to start here -- Gusto and OnPay both sync to QuickBooks anyway, at lower prices."
+      },
+      {
+        name: "Square Payroll",
+        rating: 8,
+        pros: [
+          "Contractor-only plan has no base fee: $6 per contractor paid, $0 in months you pay no one",
+          "Imports hours and tips straight from Square POS timecards",
+          "Full-service tax filing and year-end forms included",
+          "Simple setup for hourly teams and shift workers",
+          "Employees can get paid instantly to a Square Cash App card"
+        ],
+        cons: [
+          "Best value only if you already use Square for payments or point of sale",
+          "Benefits and HR tools are thinner than Gusto or OnPay",
+          "One plan for employees -- no lower tier for very small teams",
+          "Reporting is basic"
+        ],
+        price: "Employees and contractors: $35/mo + $6/person paid. Contractors only: $6/contractor paid, no base fee. 5 people: about $65/mo; 15 people: about $125/mo",
+        bestFor: "Restaurants, cafes, and retail shops already running on Square, and businesses that only pay contractors",
+        verdict: "Square Payroll is the obvious pick for any business whose staff already clock in on Square: hours and tips flow into payroll without retyping, which is where hourly payroll errors usually start. Its contractor-only plan is also the cheapest way to pay and file 1099s for a handful of freelancers -- you only pay in months you actually pay someone. Outside the Square ecosystem, Gusto or OnPay give you more for similar money."
+      },
+      {
+        name: "Roll by ADP",
+        rating: 7,
+        pros: [
+          "ADP's tax filing behind a simple mobile-first app",
+          "Run payroll by chatting with the app -- no menus to learn",
+          "Clear published pricing, unlike ADP's larger RUN product",
+          "Unlimited payroll runs and full-service tax filing"
+        ],
+        cons: [
+          "Built for very small teams; you will outgrow it as HR needs grow",
+          "Fewer integrations and reports than ADP RUN or Gusto",
+          "Benefits and HR features are limited",
+          "ADP's larger RUN product is quote-only (third-party quotes start near $79/mo + $4/employee) and often adds year-end and add-on fees"
+        ],
+        price: "$39/mo + $5 per employee or contractor paid. 5 people: about $64/mo; 15 people: about $114/mo",
+        bestFor: "Owners of very small businesses who want ADP's reliability and prefer to run payroll from a phone",
+        verdict: "Roll is the easiest way to get ADP-backed tax filing without sitting through an ADP sales call. It is cheaper than Gusto at most small team sizes and the chat-style interface really is simple. It is a starting point rather than a long-term home: once you need benefits, HR tools, or deeper reports, you will move to ADP RUN or another provider. Get a written quote before choosing RUN, and ask about year-end W-2 fees."
+      },
+      {
+        name: "Rippling",
+        rating: 7,
+        pros: [
+          "Payroll, HR, devices, app accounts, and IT access managed from one employee record",
+          "Strong for distributed and international teams, including global payroll",
+          "Deep automation: a new hire can get payroll, laptop, and software accounts from one form",
+          "Scales from a few dozen to thousands of employees"
+        ],
+        cons: [
+          "Quote-based pricing; the platform starts near $8/user/mo + a $35-$40 base before payroll is added",
+          "Annual contracts and implementation fees are common",
+          "More system than a 5-person business needs",
+          "Costs build as you add modules"
+        ],
+        price: "Quote-based. Platform from about $8/user/mo + $35-$40/mo base; payroll is an added module. Annual contract typical",
+        bestFor: "Growing companies (roughly 20+ people) that want payroll, HR, and IT in one system",
+        verdict: "Rippling is the most capable system on this list and the wrong choice for most of its readers. If you are hiring fast, have people in several states or countries, and are tired of setting up each new hire in five different places, Rippling solves a real problem. If you have eight employees and one location, you will pay for modules you never use. Revisit it when headcount and complexity make Gusto or OnPay feel small."
+      }
+    ],
+    conclusion: `For most small businesses, the choice comes down to **Gusto** or **OnPay**. They cost the same at the entry level -- about $79 a month for five people. Choose Gusto if you want the best employee app and plan to add health insurance and 401(k) through the same account. Choose OnPay if you have employees in more than one state or unusual pay rules, because it includes what Gusto charges Plus prices for.
+
+If cost is the deciding factor, **Patriot Full Service** files your taxes for about $62 a month at five people. If your books live in QuickBooks Online, **QuickBooks Payroll** is worth its higher per-employee fee for the clean bookkeeping. If you only pay contractors, **Square Payroll's** contractor plan costs nothing in months you pay no one.
+
+Whatever you pick, switch before January 1 if you can, so one provider files the whole year's W-2s. Pay payroll from a dedicated [business bank account](/reviews/best-business-bank-accounts-freelancers), and if part of your team is paid by the hour, a [time tracking tool](/reviews/best-time-tracking-tools-freelancers) that exports to payroll removes the most common source of paycheck errors.`,
+    faq: [
+      {
+        q: "What is the cheapest payroll software for a small business?",
+        a: "Patriot Payroll Basic starts at $17 a month plus $4 per worker, but you file and pay taxes yourself. The cheapest full-service option, where taxes are filed and paid for you, is Patriot Full Service at $37 a month plus $5 per worker. If you only pay contractors, Square Payroll's contractor plan has no base fee at all -- $6 per contractor in months you pay someone."
+      },
+      {
+        q: "Is Gusto or OnPay better?",
+        a: "At the entry level they cost the same: $49 a month plus $6 per person. Gusto has the better employee app and a more complete benefits marketplace. OnPay includes multi-state payroll and HR tools in its single plan, which Gusto only offers on Plus at $80 a month plus $12 per person. If all your employees are in one state, Gusto Simple is a great pick. If they are in several, OnPay is usually much cheaper."
+      },
+      {
+        q: "What does full-service payroll mean?",
+        a: "Full-service payroll means the provider calculates, files, and pays your federal, state, and local payroll taxes on your behalf, and prepares year-end W-2s and 1099s. Basic or self-service payroll only calculates the amounts and leaves the filing and deposits to you. For most small businesses, full service is worth the few extra dollars a month, because a single late tax deposit can cost more than a year of the difference."
+      },
+      {
+        q: "Can I switch payroll providers in the middle of the year?",
+        a: "Yes. The new provider will ask for your year-to-date payroll totals so W-2s are correct. The simplest time to switch is at the start of a quarter, and the cleanest is January 1, so one provider files the full year. If you switch mid-quarter, expect to give the new provider more detailed records and double-check the first quarterly filing."
+      },
+      {
+        q: "Do I need payroll software if I only pay contractors?",
+        a: "Not strictly, but it helps. You need each contractor's W-9 on file and must file a 1099-NEC for anyone paid $600 or more in a year (for payments made in 2026 and later the threshold rises to $2,000, so confirm the figure for your tax year with your preparer). Contractor-only plans from Gusto ($35 a month plus $6 per contractor) or Square ($6 per contractor, no base fee) handle payments, W-9 collection, and 1099 filing automatically."
+      },
+      {
+        q: "How much does ADP payroll cost for a small business?",
+        a: "ADP's main small-business product, RUN, is quote-based; third-party quotes in 2026 start around $79 a month plus $4 per employee, before add-ons such as time tracking and year-end form fees. ADP's newer Roll app has published pricing: $39 a month plus $5 per person paid. Get a written quote that includes year-end fees before you sign."
+      }
+    ]
+  },
 };
