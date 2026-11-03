@@ -4570,192 +4570,227 @@ Whichever you pick, remember the proposal is only half the job — the other hal
     ]
   },
   "best-ai-note-taking-apps": {
-    intro: `For years, note-taking apps were just faster paper — a place to dump text and hope you'd find it again. In 2026 that's changed. The best note apps now read what you write, link it to everything related, surface the right note before you go looking for it, and answer questions across your whole library. The note app stopped being a filing cabinet and started being a thinking partner.
+    intro: `For years, note-taking apps were just faster paper: a place to dump text and hope you'd find it again. In 2026 that has changed. The best note apps now read what you write, link it to everything related, surface the right note before you go looking for it, and answer questions across your whole library. The note app stopped being a filing cabinet and started being a thinking partner.
 
-We spent six weeks running every major AI note app through the same real knowledge work: capturing meeting takeaways, building a research dossier from a dozen articles, journaling daily, and trying to actually *find and reuse* what we'd saved three weeks later. We weren't impressed by demo magic — we cared about what survives contact with a busy week and a messy brain.
+We ran every major AI note app through the same real knowledge work: capturing meeting takeaways, building a research dossier from a dozen articles, journaling daily, and trying to actually find and reuse what we'd saved three weeks later. We judged each tool on capture friction (how fast an idea gets in), AI quality (linking, summarizing, and search that's actually right), retrieval (can you get it back out), pricing, and privacy.
 
-We judged each tool on capture friction (how fast an idea gets in), AI quality (linking, summarizing, and search that's actually right), retrieval (can you get it back out), pricing, and privacy.
+**The features matter less than three questions most reviews skip.** First, where do your notes live: on a server you rent, or in files on your own computer? Second, what does the free plan actually cap: AI questions, new notes, meeting history, or nothing? Third, is the AI included in the price you see, or is it a trial that pushes you up a tier? Notion's headline Plus plan, for example, includes only a trial of Notion AI; the full AI tools sit on Business.
 
-**Quick answer:** **Notion AI** wins for most people — it's the one workspace where notes, docs, and tasks live together with AI on top. **Mem** is the best capture-first app for people who hate organizing. **NotebookLM** is the best free pick and the best for synthesizing research. **Obsidian** is unbeatable for power users who want their notes local, private, and theirs forever. **Granola** is the best hybrid if most of your notes come out of meetings. The full breakdown below explains which one fits how *you* think — and if your notes turn into client work, how to get from "meeting wrapped" to "invoice sent" the same day.`,
+**Where your notes live:** Obsidian and the new Reflect keep notes as Markdown files in a folder you choose, so they survive the app. Notion, Mem, Granola, Tana, and NotebookLM keep your notes in their cloud. **What the free plan caps:** NotebookLM (now called Gemini Notebook) gives 100 notebooks with 50 sources each; Mem allows 25 new notes and 25 AI messages a month; Granola and Tana keep 30 days of meeting history; Obsidian personal use is free without limits; Reflect is free on Mac. **Whether AI is included:** Notion Free and Plus get a trial; Obsidian and Reflect use AI through your own API key or plugins, billed by the AI provider; the rest include metered AI on every plan.
+
+Prices and free-plan limits below were checked on each vendor's own pricing page on November 3, 2026. Where a page didn't show a figure, we say so rather than guess. Confirm at checkout.
+
+**Quick answer:** **Notion AI** wins for most people: notes, docs, and tasks live in one workspace, with the full AI tools on Business at $20 per member a month. **NotebookLM** is the best free pick and the best for turning a pile of sources into cited answers. **Obsidian** is the pick if you want your notes local, private, and yours forever, free for personal use with Sync from $4 a month. **Granola** is best if most of your notes come out of meetings ($14 per user a month for unlimited history). **Mem** is the best capture-first app for people who hate organizing, from $9 a month. **Tana** is for power users who want notes that behave like a database, and the new open-source **Reflect** is a free, local daily notebook on Mac. If you're torn between the two most popular picks, our [Notion vs Obsidian](/reviews/notion-vs-obsidian) comparison goes deeper, and our [AI meeting tools](/reviews/best-ai-meeting-tools) and [AI research tools](/reviews/best-ai-research-tools) guides cover the jobs on either side of your notes.`,
     tools: [
       {
         name: "Notion AI",
         rating: 9,
         pros: [
-          "Notes, docs, databases, and tasks live in one workspace — AI works across all of it",
+          "Notes, docs, databases, and tasks live in one workspace, so the AI works across all of it",
+          "Business adds Notion Agent, AI Meeting Notes, and Enterprise Search (labeled beta) on top of your pages",
           "Ask a question and it answers from your own pages, not the open web",
-          "Auto-summarize, rewrite, translate, and generate action items inline",
           "Huge template ecosystem and a genuinely pleasant interface",
-          "Connects to Slack, Google Drive, and more so AI can search those too"
+          "Enterprise adds zero data retention with the AI model providers, for companies with strict data rules"
         ],
         cons: [
-          "Real AI usage requires the Business plan — Free and Plus get only trial-level access",
+          "Free and Plus include only a trial of Notion AI, so the real price for everyday AI is the $20 Business plan",
+          "Custom Agents are metered separately: free to try, then $10 per 1,000 monthly Notion credits",
           "Can feel heavy if all you want is a quick scratchpad",
-          "Performance slows on very large workspaces",
           "Your notes live in Notion's cloud, not on your machine"
         ],
-        price: "Free tier (trial AI); Plus $10/seat/mo; Business $20/seat/mo (AI included)",
+        price: "Free (trial of Notion AI); Plus $10/member/mo (trial of Notion AI); Business $20/member/mo (Notion Agent, AI Meeting Notes, Enterprise Search); Enterprise custom. Yearly billing saves up to 20%",
         bestFor: "People who want one workspace for notes, docs, and projects with AI on top",
-        verdict: "Notion AI is the safest pick for most knowledge workers because the AI isn't bolted on — it reads across everything you already keep in Notion. Ask 'what did we decide about pricing?' and it answers from your actual pages. The catch is that meaningful AI is a Business-tier feature, so the real cost is $20/seat, not the headline $10. If you already run your work life in Notion, that's an easy yes."
-      },
-      {
-        name: "Mem",
-        rating: 8,
-        pros: [
-          "Capture-first: type anything and it auto-tags, auto-links, and files itself",
-          "Mem 2.0 (2026) surfaces related notes as you write — almost zero manual organizing",
-          "Fast, frictionless capture from desktop, mobile, and keyboard shortcuts",
-          "Smart search that understands meaning, not just keywords",
-          "Great for people who never stick to a folder system"
-        ],
-        cons: [
-          "Less structured than Notion — not built for databases or project tracking",
-          "Auto-organization is great until you want precise manual control",
-          "Smaller ecosystem and fewer integrations than the big players",
-          "Cloud-only; no local-first option"
-        ],
-        price: "Free tier available; Pro around $12–15/mo (billed annually)",
-        bestFor: "Idea-led thinkers who want capture without the chore of organizing",
-        verdict: "Mem is the closest thing to notes that organize themselves. If you've abandoned every folder system you ever built, Mem removes the step you always skip — it links and tags for you, then resurfaces the right note when it's relevant. It won't replace a structured workspace, but as a frictionless second brain it's the most genuinely AI-native app on this list."
+        verdict: "Notion AI is the safest pick for most knowledge workers because the AI isn't bolted on: it reads across everything you already keep in Notion. Ask what you decided about pricing and it answers from your actual pages. The catch is in the plan table. Free and Plus get only a trial of Notion AI, and the agent, meeting notes, and workspace search are Business features, so budget $20 per member a month, not the headline $10. Notion's pricing page lists those figures per member per month and says yearly billing saves up to 20 percent, so check which billing period your checkout shows. If you already run your work life in Notion, that's an easy yes."
       },
       {
         name: "NotebookLM",
         rating: 9,
         pros: [
-          "Completely free, with no meaningful usage caps for most people",
-          "Best-in-class at synthesizing many sources into grounded, cited answers",
-          "Every answer links back to the exact source passage — minimal hallucination",
-          "Audio Overview turns your notes into a podcast-style summary you can listen to",
-          "Backed by Google's models, so the reasoning quality is excellent"
+          "Free Standard plan includes 100 notebooks with up to 50 sources each, enough for most students and researchers",
+          "Best-in-class at synthesizing many sources into grounded answers that cite the passage they came from",
+          "Audio Overview turns your sources into a podcast-style summary you can listen to",
+          "Paid Google AI plans raise the limits (Plus 200 notebooks and 100 sources each; Pro 500 and 300) without changing apps",
+          "Backed by Google's Gemini models"
         ],
         cons: [
           "Built for understanding sources, not for daily capture or quick notes",
-          "No real task management, journaling, or networked-note features",
+          "No real task management, journaling, or linked-note features",
+          "Google has renamed it Gemini Notebook, and its help page labels the limits as subject to change",
           "Your material lives in Google's cloud",
           "Less useful if you don't have documents to analyze"
         ],
-        price: "Free (paid Plus tier via Google One for higher limits)",
+        price: "Free (Standard: 100 notebooks, 50 sources per notebook); higher limits with Google AI Plus (price not shown on Google's plans page when checked), Pro $19.99/mo, or Ultra $99.99/mo",
         bestFor: "Research, study, and turning a pile of documents into clear answers",
-        verdict: "NotebookLM is the best free tool here, full stop — but it's a research partner, not a notebook. Drop in articles, PDFs, and your own notes, and it answers questions with citations pointing to the exact source. For students, analysts, and anyone synthesizing a body of material, nothing else comes close at $0. Pair it with a capture app like Mem or Notion for the day-to-day."
+        verdict: "NotebookLM is the best free tool here, but it's a research partner, not a notebook. Drop in articles, PDFs, and your own notes, and it answers questions with citations pointing to the exact source. Google now calls it Gemini Notebook, and the old notebooklm.google.com address redirects there, but the product does the same job. The free Standard plan's 100 notebooks and 50 sources per notebook cover most people; Google AI Pro at $19.99 a month raises that to 500 notebooks and 300 sources each and bundles other Google AI features. Pair it with a capture app like Mem, Notion, or Obsidian for the day-to-day."
       },
       {
         name: "Obsidian",
         rating: 8,
         pros: [
-          "Local-first: your notes are plain Markdown files on your own machine, forever",
-          "Maximum privacy — nothing leaves your device unless you choose to sync",
+          "Local-first: your notes are plain Markdown files on your own machine, readable by any text editor",
+          "Free for personal use without limits, per Obsidian's pricing page",
+          "Nothing leaves your device unless you choose to sync",
           "Powerful linked-note graph for building a real personal knowledge base",
-          "Huge plugin ecosystem, including AI plugins you control",
-          "Free for personal use, with no lock-in — your notes outlive the app"
+          "Huge plugin ecosystem, including AI plugins you choose and control"
         ],
         cons: [
-          "AI isn't native — you add it via community plugins and your own API key",
+          "AI isn't native: you add it through community plugins, usually with your own API key and the AI provider's charges",
           "Steeper setup than turnkey cloud apps",
-          "Sync across devices is a paid add-on",
-          "Commercial use requires a paid license"
+          "Official Sync is a paid add-on ($4 a month billed yearly, $5 month to month)",
+          "You assemble the experience yourself, which some people enjoy and others abandon"
         ],
-        price: "Free for personal use; Sync ~$4/mo; commercial license $50/yr",
+        price: "Free for personal use (no limits); Sync $4/user/mo billed yearly or $5 monthly; Publish $8/site/mo yearly or $10 monthly; optional commercial license $50/user/yr",
         bestFor: "Power users and privacy-minded note-takers who want to own their data",
-        verdict: "Obsidian is for people who want their second brain to be truly theirs. Because notes are local Markdown files, you're never hostage to a subscription or a shutdown, and you bolt on exactly the AI you want via plugins. The tradeoff is effort — you assemble the experience instead of getting it out of the box. For everyone who values ownership and privacy over convenience, it's worth it."
+        verdict: "Obsidian is for people who want their second brain to be truly theirs. Because notes are local Markdown files, you're never hostage to a subscription or a shutdown, and you add exactly the AI you want through plugins. The pricing is unusually honest: personal use is free without limits, Sync is $4 a month on a yearly plan, and the $50-a-year commercial license is now optional, not required for work use. The tradeoff is effort: you build the experience instead of getting it out of the box. For anyone who values ownership and privacy over convenience, it's worth it."
       },
       {
         name: "Granola",
         rating: 8,
         pros: [
           "Augments your own notes instead of dropping a bot into the call",
-          "Records device audio directly — no meeting-bot joining the room",
-          "Merges your sparse typed notes with a full AI transcript into clean output",
-          "Excellent for action items and follow-ups straight from a conversation",
-          "Minimal, fast interface that stays out of the way"
+          "Merges your sparse typed notes with the meeting transcript into clean, readable notes",
+          "Free Basic plan has no cap on the number of meetings and includes AI chat across meetings",
+          "Business adds pre-meeting briefs, follow-up emails, API access, and Notion, HubSpot, Attio, Affinity, and Zapier integrations",
+          "Desktop, iOS, Android, and Apple Watch apps on every plan"
         ],
         cons: [
-          "Free plan caps note history (around 25 notes), pushing regular users to paid",
-          "Built around meetings — weaker as a general-purpose knowledge base",
-          "Best on Mac; other platforms are less mature",
+          "Free plan keeps only 30 days of meeting history, which pushes regular users to the $14 plan",
+          "Built around meetings, so it's weaker as a general-purpose knowledge base",
+          "Free plan integrates with Slack only",
           "Cloud-based processing"
         ],
-        price: "Free (limited history); Business $14/user/mo; Enterprise $35/user/mo",
+        price: "Basic free (unlimited meetings, 30 days of history); Business $14/user/mo (unlimited history); Enterprise $35/user/mo. Page doesn't state monthly vs yearly billing",
         bestFor: "People whose notes mostly come out of meetings and calls",
-        verdict: "Granola nails a specific job: you jot a few words during a call, and it weaves them together with the full transcript into notes that read like you actually wrote them. Because it captures device audio there's no awkward bot in the room. If most of your notes are meeting notes, Granola is the best on this list — just know the free tier's history cap is designed to move you to the $14 plan. For a broader meeting-tool comparison, see our [best AI meeting tools](/reviews/best-ai-meeting-tools) guide."
+        verdict: "Granola nails a specific job: you jot a few words during a call, and it weaves them together with the transcript into notes that read like you actually wrote them, without a bot joining the room. The free Basic plan is genuinely usable, with no meeting cap and AI chat included, but it only keeps 30 days of history, which is the line designed to move you to Business at $14 per user a month. If most of your notes are meeting notes, Granola is the best on this list. For tools built only for recording and transcribing calls, see our AI meeting tools guide linked in the introduction."
       },
       {
-        name: "Reflect",
-        rating: 7,
+        name: "Mem",
+        rating: 8,
         pros: [
-          "Beautiful, fast, networked note-taking with daily-notes at the center",
-          "Built-in AI assistant for summarizing, rewriting, and brainstorming",
-          "Backlinks and a clean graph for connecting ideas over time",
-          "End-to-end encryption — strong privacy for a cloud app",
-          "Frictionless daily journaling and capture habit"
+          "Capture-first: type anything and it tags, links, and files itself",
+          "Surfaces related notes as you write, with almost no manual organizing",
+          "Voice Mode captures a meeting or a spoken thought inside any note (3 hours a month free)",
+          "Capture from outside the app by email or channels such as WhatsApp",
+          "Great for people who never stick to a folder system"
         ],
         cons: [
-          "Subscription-only, with no free tier",
-          "More opinionated and minimal than flexible workspaces like Notion",
-          "Smaller plugin and template ecosystem",
-          "Not built for heavy project or database work"
+          "Free plan is tight: 25 new notes and 25 AI messages a month",
+          "Big price jump from Plus ($9) to Pro ($29), and Pro is where routines and connections start",
+          "Pricing page lists monthly prices only, with no yearly discount shown",
+          "Less structured than Notion, and not built for databases or project tracking"
         ],
-        price: "Around $10/mo (no free plan; free trial available)",
-        bestFor: "Daily journalers who want a fast, private, networked thinking tool",
-        verdict: "Reflect is the connoisseur's daily notebook — fast, encrypted, and built around the daily note, with AI that helps you think rather than just transcribe. It's narrower than Notion and costs money from day one, but for people who want a calm, beautiful place to write and link ideas every day, it earns its keep. If journaling and idea-connection are your core use, it's a delight."
+        price: "Free (25 new notes, 25 AI messages, 3 Voice Mode hours a month); Plus $9/mo; Pro $29/mo; higher-usage Pro tiers $49 to $199/mo",
+        bestFor: "Idea-led thinkers who want capture without the chore of organizing",
+        verdict: "Mem is the closest thing to notes that organize themselves. If you've abandoned every folder system you ever built, Mem removes the step you always skip: it links and tags for you, then resurfaces the right note when it matters. Know the meters before you commit. Every plan, including paid ones, caps new notes and AI messages each month: 25 on Free, 50 on Plus at $9, and 100 on Pro at $29, with bigger Pro tiers above that. Plus is enough for a light habit; heavy capturers should do the math against their actual note count."
       },
       {
         name: "Tana",
         rating: 8,
         pros: [
-          "Structure-first: every note can be a typed 'node' with fields and queries",
+          "Structure-first: every note can be a typed item with fields and queries",
           "Supertags turn freeform notes into a flexible database on the fly",
           "AI commands generate, tag, and structure content automatically",
-          "Voice capture that auto-files into the right structure",
+          "Free forever plan includes meeting notes with unlimited meetings under fair use",
           "Extremely powerful for building custom workflows around your notes"
         ],
         cons: [
-          "Real learning curve — the most complex app on this list",
-          "Overkill for people who just want to jot things down",
-          "Pricing is higher and less straightforward than simpler tools",
+          "Real learning curve: the most complex app on this list",
+          "Free plan includes roughly 50 AI queries, keeps 30 days of meeting history, and connects one calendar",
+          "Integrations and full MCP access are paid-only",
           "Can become a productivity project in itself"
         ],
-        price: "Free tier available; Pro around $10/mo (billed annually), higher tiers for teams",
+        price: "Free (about 50 AI queries, 30 days of meeting history, 1 calendar); Pro $15/member/mo billed yearly; Business from $35/member/mo billed yearly (via sales)",
         bestFor: "Power users who want their notes to behave like a programmable database",
-        verdict: "Tana is what you reach for when Notion isn't structured enough and Obsidian isn't queryable enough. Supertags let any note become a database entry, and AI helps you tag and structure as you go — so your notes become a living system, not a pile. The power comes with a learning curve, so it's best for people who genuinely want to engineer their second brain. For everyone else, it's more than you need."
+        verdict: "Tana is what you reach for when Notion isn't structured enough and Obsidian isn't queryable enough. Supertags let any note become a database entry, and AI helps you tag and structure as you go, so your notes become a living system instead of a pile. Pro is $15 per member a month on yearly billing, and Tana sells top-up AI credits that don't expire if you run past your allowance. The power comes with a learning curve, so it's best for people who genuinely want to engineer their second brain. For everyone else, it's more than you need."
+      },
+      {
+        name: "Reflect",
+        rating: 7,
+        pros: [
+          "Now open source, with daily notes, backlinks, and fast search at the center",
+          "Notes are local Markdown files in a folder you choose, synced through iCloud Drive or Git",
+          "Free on Mac with no subscription required",
+          "Optional AI uses your own API key, and requests go directly to your provider",
+          "Notes you mark private are excluded from AI access"
+        ],
+        cons: [
+          "iPhone and iPad need a paid subscription ($9.99 a month or $99 a year on the App Store)",
+          "The open-source rebuild is new; the original app continues as Reflect Classic",
+          "AI costs are separate, billed by whichever AI provider you connect",
+          "More minimal than flexible workspaces like Notion, and not built for project or database work"
+        ],
+        price: "Free on Mac; iPhone/iPad subscription $9.99/mo or $99/yr (App Store listing linked from Reflect's site); AI via your own API key, billed by the provider",
+        bestFor: "Mac users who want a fast, local, private daily notebook",
+        verdict: "Reflect has changed more than any app on this list. The company rebuilt it as an open-source app that stores notes as local Markdown files, made it free on Mac, and moved the AI to your own API key. That makes it a lighter, prettier alternative to Obsidian for daily journaling, with the same ownership benefit. The original cloud app now continues as Reflect Classic, and Reflect says Classic is still maintained. Mobile is where you pay: the iPhone and iPad app costs $9.99 a month or $99 a year. Because the new app is so recent, export a backup of your notes folder before you rely on it."
       }
     ],
-    conclusion: `The best AI note-taking app depends entirely on how you think and where your notes come from.
+    conclusion: `The best AI note-taking app depends on how you think, where your notes come from, and whether you want to own the files.
 
-- **Best overall:** **Notion AI** — one workspace for notes, docs, and tasks with AI that reads across all of it (just budget for the Business tier).
-- **Best free pick:** **NotebookLM** — unbeatable for turning sources into cited, grounded answers, at $0.
-- **Best for capture-without-organizing:** **Mem** — it tags, links, and files for you so you never touch a folder.
-- **Best for ownership and privacy:** **Obsidian** — local Markdown files you control forever, with AI you add on your terms.
-- **Best for meeting-heavy work:** **Granola** — your scrappy notes plus a full transcript, no bot in the room.
-- **Best daily notebook:** **Reflect** — fast, encrypted, networked journaling with built-in AI.
-- **Best for power users:** **Tana** — notes that behave like a programmable database.
+**Best overall: Notion AI.** One workspace for notes, docs, and tasks, with AI that reads across all of it. Budget for Business at $20 per member a month, because Free and Plus include only a trial of the AI.
 
-A practical rule: pick based on your single biggest pain. If organizing is the chore you always skip, get Mem. If you drown in source material, NotebookLM is free and excellent. If you live in meetings, Granola. If you want one tool to run your whole work life, Notion AI. And if you never want to lose your notes to a shutdown or a price hike, Obsidian.
+**Best free pick: NotebookLM.** Now called Gemini Notebook, it turns sources into cited, grounded answers, and the free plan's 100 notebooks with 50 sources each are plenty for most people.
 
-One last thing for freelancers and consultants: a lot of these notes are really billable work in disguise. The moment a call wraps and your AI notes spit out the action items and scope, that's your cue to bill. **InvoiceQuick** (invoicequick-phi.vercel.app) is free, needs no sign-up or credit card, and turns those notes into a professional invoice PDF in under 60 seconds — so "great meeting" becomes "paid" without losing a day to admin.`,
+**Best for ownership and privacy: Obsidian.** Local Markdown files you control forever, free for personal use, with AI you add on your own terms.
+
+**Best for meeting-heavy work: Granola.** Your scrappy notes plus the transcript, no bot in the room. Free works, but only keeps 30 days of history.
+
+**Best for capture without organizing: Mem.** It tags, links, and files for you. Watch the monthly note and message caps on every plan.
+
+**Best for power users: Tana.** Notes that behave like a programmable database, from $15 per member a month on yearly billing.
+
+**Best free daily notebook on Mac: Reflect.** The open-source rebuild keeps notes local and is free on Mac; mobile is a subscription.
+
+A practical rule: pick based on your single biggest pain. If organizing is the chore you always skip, get Mem. If you drown in source material, NotebookLM is free and excellent. If you live in meetings, Granola. If you want one tool to run your whole work life, Notion AI. And if you never want to lose your notes to a shutdown or a price hike, Obsidian or Reflect. If what you really need is help drafting from your notes rather than storing them, our [AI writing tools](/reviews/best-ai-writing-tools) and [AI chatbots](/reviews/best-ai-chatbots) guides cover that side.
+
+One last thing for freelancers and consultants: a lot of these notes are billable work in disguise. The moment a call wraps and your AI notes produce the action items and scope, that's your cue to bill. [InvoiceQuick](https://invoicequick-phi.vercel.app) is free, needs no sign-up or credit card, and turns those notes into a professional invoice PDF in under 60 seconds, so "great meeting" becomes "paid" without losing a day to admin.`,
     faq: [
       {
         q: "What is the best AI note-taking app in 2026?",
-        a: "For most people, Notion AI is the best all-around choice because it combines notes, documents, databases, and tasks in a single workspace, then layers AI that can answer questions and summarize across everything you've stored — not just the open web. That said, there's no universal winner. If you want the best free option, NotebookLM is exceptional at synthesizing sources into cited answers. If organizing is the step you always skip, Mem auto-tags and links your notes for you. And if you care most about owning your data, Obsidian keeps everything as local Markdown files. Choose based on your biggest pain point rather than the longest feature list."
+        a: "For most people, Notion AI, because it combines notes, documents, databases, and tasks in one workspace and layers AI that answers questions and summarizes across everything you've stored. Budget for the Business plan ($20 per member a month), since Free and Plus include only a trial of Notion AI. There's no universal winner, though. NotebookLM is the best free option for synthesizing sources, Mem tags and links your notes for you, Granola is best for meeting notes, and Obsidian keeps everything as local files you own. Choose based on your biggest pain point rather than the longest feature list."
       },
       {
         q: "What is the best free AI note-taking app?",
-        a: "NotebookLM is the best genuinely free AI note tool in 2026 — it has no meaningful caps for most users and excels at turning a pile of documents into clear, cited answers, with each response linking back to the exact source passage so you can trust it. Obsidian is also free for personal use and gives you a powerful local knowledge base, though its AI features come from community plugins you set up yourself. Notion, Mem, Granola, and Tana all offer free tiers too, but their AI is mostly trial-level or capped, designed to move you onto a paid plan once you rely on it. For zero-cost AI that actually delivers, start with NotebookLM."
+        a: "NotebookLM (now called Gemini Notebook). Its free Standard plan includes 100 notebooks with up to 50 sources each, and every answer cites the passage it came from. Obsidian is also free for personal use without limits and gives you a powerful local knowledge base, though its AI comes from plugins you set up yourself. Reflect is free on Mac. Notion, Mem, Granola, and Tana have free plans too, but they cap the AI or the history: Notion Free gets a trial of the AI, Mem allows 25 new notes and 25 AI messages a month, and Granola and Tana keep 30 days of meeting history."
+      },
+      {
+        q: "Is NotebookLM still free, and why is it called Gemini Notebook now?",
+        a: "Yes, it's still free. Google has renamed NotebookLM to Gemini Notebook, and the old address redirects to the new one. The free Standard plan includes 100 notebooks and 50 sources per notebook. Paying for a Google AI plan raises the limits: Plus allows 200 notebooks and 100 sources each, and Pro, at $19.99 a month, allows 500 notebooks and 300 sources each. Google's help page labels these limits as subject to change, so check it if you're near a cap."
+      },
+      {
+        q: "Is Notion AI included in the Plus plan?",
+        a: "Only as a trial. Notion's pricing page lists a trial of Notion AI on both Free and Plus. Notion Agent, AI Meeting Notes, and Enterprise Search (labeled beta) come with Business at $20 per member a month, and Custom Agents are metered separately at $10 per 1,000 monthly Notion credits after a free trial. If AI is the reason you're choosing Notion, compare against the Business price, not the $10 Plus price."
+      },
+      {
+        q: "Notion or Obsidian: which is better for AI notes?",
+        a: "Notion if you want AI that works out of the box across a shared workspace; Obsidian if you want to own your notes and choose your own AI. Notion's AI is built in but lives in Notion's cloud and needs the Business plan for the full set. Obsidian stores notes as local Markdown files, is free for personal use, and gets AI through community plugins, usually with your own API key. Many people use Notion for team projects and Obsidian for private thinking. Our [Notion vs Obsidian](/reviews/notion-vs-obsidian) comparison covers the full tradeoff."
+      },
+      {
+        q: "Which AI note apps keep my notes on my own computer?",
+        a: "Obsidian and the new open-source Reflect. Both store notes as Markdown files in a folder you choose, so you can open them in any text editor and they outlive the app. Obsidian syncs through its paid Sync add-on or a method you set up yourself; Reflect syncs through iCloud Drive or Git. Notion, Mem, Granola, Tana, and NotebookLM all keep your notes on their servers. If you want local files plus AI, both Obsidian and Reflect let you connect your own AI provider, and you pay that provider directly."
       },
       {
         q: "Are AI note-taking apps safe for private or confidential notes?",
-        a: "It depends on the app's architecture. Cloud-first tools like Notion, Mem, Granola, and NotebookLM store and process your notes on their servers, which is convenient but means you're trusting their security and policies — fine for most work, but worth checking before storing highly sensitive material. If privacy is paramount, Obsidian is the strongest choice because your notes are plain files stored locally on your own device, and nothing leaves your machine unless you opt into sync. Reflect is a good middle ground: it's cloud-based but end-to-end encrypted. Always review whether a tool uses your content to train its models, and avoid putting regulated or client-confidential data into any tool you haven't vetted."
+        a: "It depends on where the notes live and what the AI does with them. Cloud tools like Notion, Mem, Granola, Tana, and NotebookLM store and process your notes on their servers, which is fine for most work but means you're trusting their security and policies. Notion's Enterprise plan adds zero data retention with its AI model providers; its other plans list 30-day retention. Local-first apps are the strongest choice for privacy: Obsidian keeps notes on your device unless you opt into sync, and Reflect lets you mark notes private so the AI can't read them. Always check whether a tool uses your content to train models, and keep regulated or client-confidential data out of any tool you haven't vetted."
       },
       {
         q: "What's the difference between an AI note app and an AI meeting tool?",
-        a: "AI meeting tools (like Otter, Fireflies, and Fathom) are built specifically to join or record calls, transcribe them, and produce meeting summaries and action items — that's their whole job. AI note-taking apps are broader: they're where you capture, organize, connect, and retrieve all kinds of knowledge, of which meetings are just one source. Some apps blur the line — Granola, for example, captures meeting audio and merges it with your own notes, sitting between the two categories. If almost all your notes come from meetings, a dedicated meeting tool may serve you better; if you need a home for ideas, research, and projects too, a note app is the right base. See our best AI meeting tools guide for the meeting-specific picks."
+        a: "AI meeting tools such as Otter, Fireflies, and Fathom are built to join or record calls, transcribe them, and produce summaries and action items; that's their whole job. AI note-taking apps are broader: they're where you capture, organize, connect, and retrieve all kinds of knowledge, of which meetings are one source. Granola sits between the two, capturing meeting audio and merging it with your own notes, and Notion Business and Tana now include meeting notes too. If almost all your notes come from meetings, a dedicated tool may serve you better; see our [best AI meeting tools](/reviews/best-ai-meeting-tools) guide."
+      },
+      {
+        q: "How much do the paid AI note apps cost over a year?",
+        a: "On the prices we checked, a year of Notion Business is about $240 per member at the listed $20 a month, Granola Business is $168 per user at $14 a month, Tana Pro is $180 per member on yearly billing, Mem Plus is $108 and Mem Pro $348, Google AI Pro (which raises NotebookLM's limits) is about $240, and Reflect's iPhone and iPad subscription is $99. Obsidian Sync is $48 on yearly billing, and Obsidian itself costs nothing for personal use. If you connect your own AI provider to Obsidian or Reflect, add that provider's usage charges."
       },
       {
         q: "Can AI note-taking apps replace my second brain or PKM system?",
-        a: "Increasingly, yes — but the best results come from matching the app to how you actually work. The old 'second brain' approach required disciplined manual linking and tagging; modern AI apps automate much of that. Mem auto-links and surfaces related notes so the system maintains itself, Tana lets you build a structured, queryable knowledge base, and Obsidian gives power users a networked graph they fully control. The key shift is that capture and retrieval are now AI-assisted, so you spend less time filing and more time thinking. Just don't over-engineer it: pick one app, use it daily, and let the AI handle organization rather than building an elaborate system you won't maintain."
+        a: "Increasingly, yes, if you match the app to how you work. The old second-brain approach needed disciplined manual linking and tagging; modern AI apps automate much of it. Mem links and surfaces related notes so the system maintains itself, Tana lets you build a structured, queryable knowledge base, and Obsidian gives power users a linked graph they fully control. Capture and retrieval are now AI-assisted, so you spend less time filing and more time thinking. Don't over-engineer it: pick one app, use it daily, and let the AI handle organization rather than building an elaborate system you won't maintain."
+      },
+      {
+        q: "Should I use a note app or an AI research tool for research?",
+        a: "Use both for different stages. AI research tools search the web and pull together sources you don't have yet; NotebookLM works only on the sources you give it, which is why its answers stay grounded and cited. A common workflow is to find sources with a research tool, load the best ones into NotebookLM to ask questions, and keep your conclusions in your everyday note app. Our [AI research tools](/reviews/best-ai-research-tools) guide compares the tools for the finding stage."
       },
       {
         q: "How do I turn my meeting notes into an invoice?",
-        a: "If your notes are billable work — client calls, consulting sessions, project scoping — the fastest workflow is to bill straight from the action items your AI notes produce. As soon as a meeting wraps and you have the summary and next steps, you already have your invoice line items. InvoiceQuick (invoicequick-phi.vercel.app) is free, requires no sign-up or credit card, and turns those notes into a clean, professional invoice PDF in under 60 seconds. Mirror your notes' scope in the line items so the client sees exactly what they're paying for, and send it the same day to keep momentum — the longer you wait after the work, the longer you wait to get paid."
+        a: "If your notes are billable work, such as client calls, consulting sessions, or project scoping, bill straight from the action items your AI notes produce. As soon as a meeting wraps and you have the summary and next steps, you already have your invoice line items. [InvoiceQuick](https://invoicequick-phi.vercel.app) is free, requires no sign-up or credit card, and turns those notes into a professional invoice PDF in under 60 seconds. Mirror your notes' scope in the line items so the client sees exactly what they're paying for, and send it the same day: the longer you wait after the work, the longer you wait to get paid."
       }
     ]
   },
