@@ -213,183 +213,245 @@ The best project management tool is the one your team will actually use consiste
   },
 
   "best-invoicing-software": {
-    intro: `You finished the work. Now you have to bill for it — and if you are still rebuilding the same invoice in Word every month, re-typing the client's address, and hand-adding the line items so the total is right, you are paying a tax on your own money. Freelancers lose an average of 4 hours a month to invoicing busywork, and the wrong tool doubles it. The right invoicing software makes that time disappear: it generates a professional invoice, sends the reminder, and tracks who has paid, so the only thing left for you is the billable work itself.
+    intro: `You finished the work. Now you have to bill for it. If you are still rebuilding the same invoice in Word every month, retyping the client's address and adding up line items by hand, you are paying a tax on your own money. Good invoicing software makes that job small: it builds a clean invoice, reminds the client when it's late, and shows you who has paid.
 
-**Quick answer:** For most freelancers, **InvoiceQuick** is the best free pick — no sign-up, no watermark, 0% payment fees, and a send-ready PDF in about 60 seconds. **FreshBooks** ($17/month) is worth paying for if you bill by the hour and want time tracking wired straight into the invoice. **Wave** is the best free choice when you also need real bookkeeping in the same tool. If you invoice in multiple currencies, **Zoho Invoice** is the strongest free option, and **PayPal Invoicing** is a fine backup when your client just wants to pay in one click. The full breakdown below explains why — and exactly which one fits your situation.
+**Quick answer:** **InvoiceQuick** (our sister product) is the fastest free way to get a clean invoice PDF out the door: no sign-up, no watermark, no invoice cap. **Zoho Invoice** is the most complete free invoicing app, with recurring invoices, automatic reminders, and a client portal, up to 500 invoices a year. **Wave** is the best free pick if you also want bookkeeping in the same place. **Invoice Ninja** is the best free option for a small client list that wants a full app, and **FreshBooks** ($23 a month, or $20.70 a month billed yearly) is worth paying for if you bill by the hour. **Square Invoices** and **PayPal Invoicing** cost nothing to send and charge only when a client pays, and **QuickBooks Solopreneur** makes sense if you want taxes and invoices in one Intuit account.
 
-We tested 12 invoicing tools head-to-head in 2026, sending real invoices to real clients, timing every step from sign-up to paid invoice, and measuring the hidden costs the marketing pages do not advertise. Five tools made the cut. Each is the right answer for a specific kind of freelancer or small business — and getting the match wrong is the difference between a 30-second monthly task and a Sunday-afternoon spreadsheet session.
+**At a glance:** The money in invoicing hides in two places, the monthly plan and the payment fee. Four tools here are free to use with real limits: InvoiceQuick (no cap, but no built-in card payments), Zoho Invoice (500 invoices a year, 2 users), Wave Starter (unlimited invoices, higher card fee), and Invoice Ninja (5 clients). Square, PayPal, and QuickBooks' free tier cost nothing up front and make their money on each payment. FreshBooks has no free plan. If your clients pay by card, the processing fee will usually cost you more over a year than any subscription on this list, so read the fee line before the feature list.
 
-Already know you want free invoicing? Our [full free-invoicing-software comparison](https://invoicequick-phi.vercel.app/blog/best-free-invoicing-software-small-business) breaks down the three kinds of "free" and the hidden costs each one carries. If you just need a one-off invoice right now with no account, see our [best free invoice generators](/reviews/best-free-invoice-generators) roundup instead — and if you would rather download an editable file, our [best free invoice templates](/reviews/best-free-invoice-templates) guide covers Google Docs, Word, and Excel. Billing hourly? Pair whichever tool you pick with one of the [best time-tracking tools for freelancers](/reviews/best-time-tracking-tools-freelancers) so your hours flow straight onto the invoice.`,
+Every price and limit below was checked on the vendor's own pricing page on November 4, 2026, in US dollars. Several vendors run launch discounts (FreshBooks takes 80% off for 4 months, QuickBooks 50% off for 3), so we list the regular price and mention the promo separately. Where a page was unclear or contradicted itself, we say so. Confirm at checkout, because these numbers change often and some vary by country.
+
+Need just one invoice right now with no account? Our [best free invoice generators](/reviews/best-free-invoice-generators) roundup covers that job, and if you'd rather fill in a file, see the [best free invoice templates](/reviews/best-free-invoice-templates) for Google Docs, Word, and Excel. Billing by the hour? Pair whichever tool you pick with one of the [best time-tracking tools for freelancers](/reviews/best-time-tracking-tools-freelancers).`,
     tools: [
       {
         name: "InvoiceQuick",
         rating: 9,
         pros: [
-          "Completely free with no hidden limits, invoice caps, or paywalls",
-          "0% payment fees -- you keep 100% of what you bill (no per-invoice skim)",
-          "Clean, modern interface that generates invoices in under a minute",
-          "No account required -- start invoicing immediately",
-          "Professional-looking templates with no watermark on the free tier",
-          "Instant PDF export and email delivery"
+          "Free plan has no invoice cap, no watermark, and needs no credit card",
+          "No sign-up needed to create and download an invoice; an optional account saves history and templates",
+          "0% payment fees: your client pays you directly, so InvoiceQuick never takes a cut",
+          "Multi-currency on the free plan (USD, EUR, GBP, CAD, AUD, JPY, MXN, BRL, INR, CHF) plus your logo on every PDF",
+          "A send-ready PDF in about a minute"
         ],
         cons: [
-          "Fewer integrations than premium tools like FreshBooks",
-          "No built-in payment processing (uses external payment links)",
-          "Limited reporting compared to full accounting suites",
-          "Newer tool, so a smaller support community than long-established suites"
+          "No built-in card or bank payment processing, so you add your own payment details or link",
+          "Recurring invoices, auto-numbering, payment tracking, and a client database are Pro features ($9 a month)",
+          "No bookkeeping, expense tracking, or time tracking",
+          "Made by the team behind ToolsRated, so weigh our rating with that in mind",
+          "Its pricing page lists sign-up as 'Email only' while the homepage says no sign-up is required; the generator itself works without an account"
         ],
-        price: "Free forever; Pro $9/mo; Business $29/mo",
-        bestFor: "Freelancers who want fast, free, professional invoicing with zero friction — and a clear upgrade path once retainer volume grows",
-        verdict: "InvoiceQuick is our top pick for freelancers who need to create and send professional invoices without paying for software. The interface is refreshingly simple, and you can have your first invoice out in under 60 seconds. No sign-up, no trial period, no credit card -- just a genuinely free invoicing tool that gets the job done. The pricing is unusually honest about when each tier earns its keep: the free plan stays free (unlimited invoices, no watermarks, no caps), and the upgrade trigger is explicit — once you hit 5+ retainer or recurring clients, Pro ($9/mo) automates the cadence and pays for itself in the first week. Below that threshold, the free duplicate-previous-invoice workflow runs about 20 seconds per client per month. Business ($29/mo) only kicks in if you have a team or need API access. Try it at invoicequick-phi.vercel.app, and see invoicequick-phi.vercel.app/pricing for the full Free vs Pro vs Business breakdown by use case."
+        price: "Free (unlimited invoices, no watermark); Pro $9/mo billed monthly; Business $29/mo billed monthly (5 users, API, Zapier)",
+        bestFor: "Freelancers who want a clean invoice PDF fast without an account or a payment fee",
+        verdict: "InvoiceQuick does one job well: it turns your line items into a professional invoice PDF in about a minute, with no sign-up, no watermark, and no cap on how many you make. Because it doesn't process payments, it can't skim a percentage of what you bill, which is the most common hidden cost in this category. The tradeoff is the same fact seen from the other side: there is no pay-by-card button unless you add your own link, and the free plan doesn't send recurring invoices or track who has paid. Pro at $9 a month adds recurring invoices, auto-numbering, payment tracking, and a client database; Business at $29 a month is for teams of up to 5. We make it, so test it against Zoho Invoice or Wave with the same invoice and judge for yourself."
       },
       {
-        name: "FreshBooks",
+        name: "Zoho Invoice",
         rating: 9,
         pros: [
-          "Polished, intuitive interface built specifically for freelancers",
-          "Excellent time tracking tied directly to invoices",
-          "Built-in payment processing with credit card and ACH options",
-          "Automated late payment reminders that actually recover revenue",
-          "Strong expense tracking and receipt scanning"
+          "Free for small businesses, with no paid tier on the invoice app itself",
+          "Recurring invoices, automatic payment reminders, quotes, and a self-service client portal on the free plan",
+          "Time logging and expense recording built in",
+          "Accepts online payments through connected payment gateways",
+          "iOS and Android apps, and it links to Zoho CRM and Zoho Books if you grow"
         ],
         cons: [
-          "No free tier -- billing starts at $17/month with only a trial",
-          "Pricing starts at $17/month and increases with clients",
-          "Limited to 5 billable clients on the Lite plan",
-          "Advanced reporting requires the Premium tier",
-          "Not suitable as a full accounting solution for larger businesses"
+          "Capped at 500 invoices a year, 2 users, and 3 projects",
+          "Setup has more screens and settings than simpler tools",
+          "Payment gateway fees are set by the gateway you connect, not by Zoho",
+          "The pricing page doesn't spell out multi-currency on the free plan; the mobile app listing says you can invoice in a customer's currency, so test it if you bill abroad"
         ],
-        price: "$17/mo (Lite), $30/mo (Plus), $55/mo (Premium)",
-        bestFor: "Freelancers and consultants who need time tracking plus invoicing",
-        verdict: "FreshBooks is the best paid invoicing tool for freelancers who bill by the hour. The integration between time tracking, project management, and invoicing is seamless, and the automated payment reminders genuinely help you get paid faster."
+        price: "Free (500 invoices/yr, 2 users, 3 projects); no paid Zoho Invoice plan listed (Zoho points larger needs to Zoho Billing). Gateway fees extra",
+        bestFor: "Freelancers who want recurring billing, reminders, and a client portal without paying a subscription",
+        verdict: "Zoho Invoice is the most complete free invoicing app we tested. Recurring invoices, automatic reminders, quotes, a client portal, and time logging are all on the free plan, which is unusual. The limits are real but generous for a solo business: 500 invoices a year works out to about 40 a month. The catch is a busier interface than InvoiceQuick or Wave, and online payments run through a gateway you connect, so the card fee depends on that gateway. Earlier versions of this guide said 1,000 invoices a year; Zoho's pricing page now says 500."
       },
       {
         name: "Wave",
         rating: 8,
         pros: [
-          "Free invoicing and accounting with no user or invoice limits",
-          "Built-in accounting features (double-entry bookkeeping)",
-          "Receipt scanning via mobile app",
-          "Direct bank connections for transaction importing",
-          "Professional invoice templates"
+          "Starter plan is free with unlimited estimates, invoices, bills, and bookkeeping records",
+          "Real double-entry bookkeeping next to your invoices",
+          "Bank payments (ACH) cost 1% with a $1 minimum",
+          "Pro adds automatic late-payment reminders (3, 7, and 14 days after the due date) and bank auto-import",
+          "Pro waives the 60-cent fixed card fee on your first 10 card payments each month"
         ],
         cons: [
-          "Payment processing fees are higher than competitors (2.9% + $0.60)",
-          "Customer support is limited on the free plan",
-          "Interface feels dated compared to FreshBooks or InvoiceQuick",
-          "Payroll features are only available in US and Canada"
+          "Card payments on Starter cost 2.9% + $0.60 (Amex 3.4% + $0.60), a higher fixed fee than Square or Stripe",
+          "Automatic reminders and bank auto-import are Pro features ($19 a month or $190 a year)",
+          "Receipt scanning is a paid add-on ($11/mo on Starter, $8/mo on Pro); one table on the page contradicts this",
+          "Wave's pricing page still shows a Pro promotion whose footnote says it ended January 6, 2026"
         ],
-        price: "Free (invoicing and accounting), paid add-ons for payroll and payments",
-        bestFor: "Freelancers who want free invoicing combined with basic accounting",
-        verdict: "Wave is a strong choice if you want invoicing and accounting in one free tool. The accounting features set it apart from simpler invoicing apps, though the interface is not as polished as newer alternatives."
+        price: "Starter free; Pro $19/mo billed monthly or $190/yr billed yearly. Cards 2.9% + $0.60 (Pro: no fixed fee on first 10 a month); ACH 1% ($1 min)",
+        bestFor: "Freelancers who want free invoicing and real bookkeeping in one tool",
+        verdict: "Wave is still the best free pick when you want your invoices and your books in the same place. Starter covers unlimited invoices and bookkeeping at no cost, which is enough for most solo businesses. Wave earns its money on payments: 2.9% plus 60 cents per card payment on Starter, so a $500 invoice paid by card costs you $15.10. Pro at $19 a month adds automatic reminders, bank auto-import, and drops the 60-cent fee on your first 10 card payments each month. Earlier versions of this guide put Pro at $16; it's $19 monthly or $190 a year today."
       },
       {
-        name: "Zoho Invoice",
+        name: "Invoice Ninja",
         rating: 8,
         pros: [
-          "Generous free plan with up to 1,000 invoices per year",
-          "Part of the massive Zoho ecosystem (CRM, books, projects)",
-          "Multi-currency and multi-language support for international freelancers",
-          "Client portal where customers can view and pay invoices",
-          "Workflow automations for recurring invoices and reminders"
+          "Free forever plan with unlimited invoices for up to 5 clients",
+          "Pro removes the client limit for $14 a month, or $140 a year (two months free)",
+          "Full app on the free plan: recurring invoices with auto-billing, a client payment portal, and online payments through gateways you connect",
+          "A self-hosted edition is available for people who want to run it on their own server",
+          "Enterprise pricing scales by user count, from $18 a month for 1 to 2 users"
         ],
         cons: [
-          "Interface has a steeper learning curve than simpler tools",
-          "Integration with non-Zoho apps can be clunky",
-          "Mobile app is functional but not the smoothest experience",
-          "Design of invoice templates is less modern than competitors"
+          "Free plan is limited to 5 clients",
+          "Free invoices carry 'Created by Invoice Ninja' branding; removing it is a Pro feature",
+          "More settings to work through than a simple generator",
+          "Card fees depend on the payment gateway you connect"
         ],
-        price: "Free (up to 1,000 invoices/year), paid plans through Zoho Books starting at $15/mo",
-        bestFor: "Freelancers already using Zoho products or needing multi-currency invoicing",
-        verdict: "Zoho Invoice is a capable free option, especially if you operate internationally or already use other Zoho tools. The free tier is genuinely generous. However, standalone users may find the interface more complex than necessary."
+        price: "Free (5 clients, unlimited invoices); Pro $14/mo billed monthly or $140/yr billed yearly; Enterprise from $18/mo (1-2 users)",
+        bestFor: "Freelancers with a handful of regular clients who want a full invoicing app for free",
+        verdict: "Invoice Ninja is the free option that feels most like paid software. Under its 5-client limit you get unlimited invoices, recurring billing with auto-billing, a client payment portal, and online payments. Past 5 clients, Pro at $14 a month or $140 a year is one of the cheaper paid plans here, and it also removes the Invoice Ninja branding from your invoices. If you like the idea of owning your setup, there is a self-hosted edition too; we priced the hosted plans only."
+      },
+      {
+        name: "FreshBooks",
+        rating: 8,
+        pros: [
+          "Unlimited time tracking on every plan, flowing straight into invoices",
+          "Automated recurring invoices on every plan",
+          "Polished app with strong expense tracking and receipt capture",
+          "Built-in card and bank payments: 2.9% + $0.30 per card payment, 1% for bank transfers",
+          "Yearly billing takes 10% off the monthly rate"
+        ],
+        cons: [
+          "No free plan, only a trial and a launch discount",
+          "Lite allows only 5 billable clients; Plus allows 50",
+          "Prices have risen: Lite is now $23 a month, up from the $17 we listed before",
+          "Extra team members cost $11 a month each, and Advanced Payments is a $20 a month add-on"
+        ],
+        price: "Lite $23/mo, Plus $43/mo, Premium $70/mo billed monthly; yearly $248.40, $464.40, $756 (about $20.70, $38.70, $63 a month). Select custom. 80% off for 4 months on new plans",
+        bestFor: "Freelancers and consultants who bill by the hour and want time tracking wired into invoices",
+        verdict: "FreshBooks is still the most polished paid tool for hourly billing: track time, drop it on an invoice, and let the reminders chase the client. It has also become noticeably more expensive. Lite is $23 a month and only covers 5 billable clients, so most growing freelancers end up on Plus at $43 a month. Paying yearly brings those to about $20.70 and $38.70 a month. The 80%-off-for-4-months offer makes the first few months cheap, but budget for the regular price, because that is what you pay from month five."
+      },
+      {
+        name: "Square Invoices",
+        rating: 8,
+        pros: [
+          "No monthly fee on Square Free; you pay only when a client pays",
+          "Bank transfer (ACH) payments on invoices cost 1% with a $1 minimum",
+          "Same account runs in-person card payments if you also sell face to face",
+          "Square Plus lowers the online card rate and caps ACH fees at $10, and adds payment schedules and custom templates",
+          "Square Plus has a free 30-day trial"
+        ],
+        cons: [
+          "Card payments on invoices cost 3.3% + 30 cents on Square Free, higher than Stripe-based tools",
+          "Square Plus is $49 a month per location, a big step up from the $20 Invoices Plus plan some older reviews still quote",
+          "Cards issued outside the US add 1.5%",
+          "Keying in a card or charging a saved card costs 3.5% + 15 cents"
+        ],
+        price: "Square Free $0/mo (cards 3.3% + 30c, ACH 1% with $1 min); Square Plus $49/mo per location (cards 2.9% + 30c, ACH capped at $10); Premium $149/mo",
+        bestFor: "Freelancers who already use Square or take some payments in person",
+        verdict: "Square Invoices is a sensible free choice if you already run Square for in-person sales: invoices and card payments land in one account and there's no monthly fee. On invoices, though, card payments cost 3.3% plus 30 cents on the free plan, so steer larger clients to the 1% bank-transfer option. Square folded its invoice upgrade into the general Square Plus plan at $49 a month per location; that only pays off if you put roughly $12,000 or more a month through cards."
       },
       {
         name: "PayPal Invoicing",
         rating: 7,
         pros: [
-          "Clients can pay instantly via PayPal or credit card",
-          "No monthly fee -- you only pay per transaction",
-          "Most clients already have PayPal, reducing payment friction",
-          "Built-in payment tracking and invoice status",
-          "Easy to send invoices via link or email"
+          "Free to create and send invoices; no monthly fee",
+          "Clients can pay by PayPal, Venmo, card, Pay Later, or bank",
+          "Bank payments (ACH) cost 1%, capped at $10",
+          "Most clients already know how to pay with PayPal"
         ],
         cons: [
-          "Transaction fees are relatively high (2.99% + $0.49 per invoice)",
-          "Invoice templates are basic and not very customizable",
-          "Limited expense tracking and reporting",
-          "No time tracking or project management features",
-          "PayPal holds can freeze your funds without warning"
+          "Card payments on invoices cost 2.99% + $0.49, and PayPal-balance payments cost more (3.49% + $0.49)",
+          "International invoices add 1.5% on top, plus a 3% to 4% currency conversion spread",
+          "Basic templates and reporting; no time tracking or bookkeeping",
+          "Account holds can delay access to your money"
         ],
-        price: "Free to send, 2.99% + $0.49 per paid invoice",
-        bestFor: "Freelancers who want the fastest path to getting paid online",
-        verdict: "PayPal Invoicing works best for freelancers who want simplicity and whose clients already use PayPal. The invoicing features are basic, but the low barrier to entry and instant payment capability make it a decent option for occasional invoicing."
+        price: "Free to send. Card payments 2.99% + $0.49; PayPal and Venmo 3.49% + $0.49; Pay Later 4.99% + $0.49; ACH 1% (max $10); +1.5% international",
+        bestFor: "Occasional invoices to clients who prefer to pay with PayPal",
+        verdict: "PayPal Invoicing is the lowest-effort way to get paid online if your clients already use PayPal, but it is the most expensive per payment on this list. A $1,000 invoice paid with a PayPal balance costs you $35.39, and international clients add 1.5% plus conversion. Earlier versions of this guide quoted only the 2.99% card rate; that rate applies to cards and wallets, while payments from a PayPal account cost 3.49%. Use it as a backup payment option, not your main invoicing system."
+      },
+      {
+        name: "QuickBooks Solopreneur",
+        rating: 7,
+        pros: [
+          "Free tier with income and expense tracking, top 3 reports, and 1 contractor",
+          "Lite plan adds unlimited invoices, receipts, and mileage, plus app integrations",
+          "Optional expert-assisted tax filing through TurboTax, paid only when you file",
+          "Clear path up to QuickBooks Online if your business grows"
+        ],
+        cons: [
+          "Free tier sends only 2 invoices a month unless you qualify for and turn on QuickBooks Payments",
+          "Lite is $20 a month after a 3-month 50%-off promotion",
+          "Full QuickBooks Online is much more: Simple Start $38, Essentials $85 a month",
+          "Single-user only, built for one-person businesses"
+        ],
+        price: "Free (2 invoices/mo, unlimited with QuickBooks Payments); Lite $20/mo (50% off for 3 months); QuickBooks Online Simple Start $38/mo, Essentials $85/mo",
+        bestFor: "One-person businesses that want invoices, expenses, and tax prep in one Intuit account",
+        verdict: "QuickBooks Solopreneur is the Intuit option for people who mainly want their taxes sorted and invoices on the side. The free tier is real, but it caps you at 2 invoices a month unless you turn on QuickBooks Payments, which is how Intuit makes its money. Lite at $20 a month removes the invoice limit. Earlier versions of this guide said QuickBooks started at $20 and Essentials at about $40; Essentials is now $85 a month, so for invoicing alone the rest of this list is cheaper."
       }
     ],
-    conclusion: `For freelancers on a budget, InvoiceQuick is the clear winner -- it is completely free, requires no account, and produces professional invoices in seconds. If you need more features like time tracking, expense management, and automated reminders, FreshBooks is worth the monthly investment.
+    conclusion: `The right invoicing tool depends on how you get paid and how many clients you bill.
 
-Wave is the best option if you want free invoicing combined with real accounting capabilities. Zoho Invoice is ideal for international freelancers or those already in the Zoho ecosystem. PayPal Invoicing works in a pinch but should not be your primary invoicing tool if you send more than a few invoices per month.
+**Best for a fast free invoice: InvoiceQuick.** No sign-up, no watermark, no cap, and no cut of your payments. Add Pro at $9 a month when you need recurring invoices. (We make it, so check it against the others.)
 
-The bottom line: do not waste time with spreadsheets and Word documents. Any of these tools will save you hours each month and help you look more professional to clients. If you want the shortest path from "work finished" to "invoice sent," start with [InvoiceQuick](https://invoicequick-phi.vercel.app) — it is free, needs no sign-up, and produces a send-ready PDF in about a minute — then add a real [accounting tool](/reviews/best-accounting-software-freelancers) on the books side once your volume grows.`,
+**Best free invoicing app: Zoho Invoice.** Recurring invoices, reminders, and a client portal at no cost, up to 500 invoices a year.
+
+**Best free with bookkeeping: Wave.** Free invoices and books on Starter; Pro is $19 a month or $190 a year for reminders and bank import.
+
+**Best free for a small client list: Invoice Ninja.** Full features for up to 5 clients; Pro is $14 a month or $140 a year.
+
+**Best paid for hourly work: FreshBooks.** Time tracking feeds invoices on every plan, from $23 a month, or about $20.70 a month billed yearly.
+
+**Best if you take in-person payments: Square Invoices.** No monthly fee; push clients toward the 1% bank-transfer option.
+
+**Best backup payment link: PayPal Invoicing.** Easy for clients, costly for you, especially across borders.
+
+**Best for taxes plus invoices: QuickBooks Solopreneur.** Lite at $20 a month removes the free tier's 2-invoice limit.
+
+A simple rule: if your clients pay by card, compare the payment fee before the subscription price. On $5,000 a month of card payments, the gap between 2.9% and 3.3% is $240 a year, more than most of these plans cost. If you want to cut fees further, our [payment processors for freelancers](/reviews/best-payment-processors-freelancers) guide compares the rates side by side. And once your books matter as much as your invoices, add a real [accounting tool](/reviews/best-accounting-software-freelancers).
+
+If you just want the shortest path from finished work to a sent invoice, [InvoiceQuick](https://invoicequick-phi.vercel.app) is free, needs no sign-up, and gives you a send-ready PDF in about a minute.`,
     faq: [
       {
         q: "Is ToolsRated connected to InvoiceQuick?",
-        a: "Yes. InvoiceQuick is made by the same people who run ToolsRated, and we rank it first for freelancers who want a free, no-account invoice generator. That is a real conflict of interest, so here is how to check us: open InvoiceQuick and one of the alternatives above, make the same invoice in both, and compare the PDF, the time it took, and what each one asked you for before you could download. If you need bookkeeping or time tracking in the same tool, one of the other tools here will serve you better — InvoiceQuick doesn't do either.",
+        a: "Yes. InvoiceQuick is made by the same people who run ToolsRated, and we rank it first for freelancers who want a fast, free invoice PDF without an account. That is a real conflict of interest, so here is how to check us: make the same invoice in InvoiceQuick and in one of the alternatives above, then compare the PDF, the time it took, and what each one asked for before you could download. If you need built-in card payments, bookkeeping, or time tracking, another tool here will serve you better, because InvoiceQuick doesn't do those."
       },
       {
         q: "What is the best completely free invoicing software?",
-        a: "InvoiceQuick is the best free option for most freelancers — no account, no invoice cap, no watermarks, no credit card. Wave Starter is the better choice if you also need bookkeeping in the same tool, though Wave Pro is $16/mo for recurring billing and ACH (almost 2× InvoiceQuick Pro at $9/mo). Zoho Invoice is genuinely free with recurring billing and a 1,000-client database, but caps at 500 invoices/year and is best when you are already inside the Zoho ecosystem. Bonsai has no free tier ($19–$79/mo per user) and only makes sense if you are also using its proposals, CRM, contracts, and tasks. For a 10-row side-by-side comparison of all four — price, invoice cap, watermarks, branding, recurring, multi-currency, client DB, per-user pricing, and sign-up friction — see invoicequick-phi.vercel.app/pricing."
-      },
-      {
-        q: "Is free invoicing software safe to use?",
-        a: "Yes, reputable free invoicing tools are safe — but the word \"free\" is not a security rating, so check two things before you trust one with client data. First, confirm the site uses HTTPS and a clear privacy policy that says it does not sell your data (a legitimate free tool like InvoiceQuick or Wave makes money on optional paid tiers, not by selling your contacts). Second, avoid tools that force you to hand over bank credentials or payment-processing access just to generate a PDF; a plain invoice generator never needs that. The genuinely risky move is not the software — it is putting sensitive data like your Social Security Number on the invoice itself, since those PDFs get forwarded around client inboxes."
-      },
-      {
-        q: "Do free invoice tools put a watermark on your invoices?",
-        a: "Some do, and it is the most common \"catch\" in free invoicing. Older or ad-supported generators stamp a small logo or \"Made with [tool]\" line on the PDF unless you pay to remove it, which looks unprofessional to a client. The tools we recommend do not: InvoiceQuick, Wave, and Zoho Invoice all produce clean, unbranded invoices on their free tiers. Before you send your first real invoice, always download a test PDF and check the header, footer, and margins for any branding you did not add — it is easier to catch before a client sees it than after."
-      },
-      {
-        q: "Can I use free invoicing software for taxes and 1099s?",
-        a: "Yes. The invoices you send are valid records of income for tax time regardless of whether the tool was free, and any of the tools above let you export or save PDFs you can hand to an accountant. What free invoicing software does not do is file your taxes or issue 1099s for you — a 1099-NEC is issued by your client to you (or by you to a subcontractor you paid $600+), not generated from your invoicing app. For categorizing expenses and preparing the books your accountant needs, pair your invoicing tool with dedicated [accounting software for freelancers](/reviews/best-accounting-software-freelancers), or use an all-in-one like Wave that keeps invoices and bookkeeping in the same place."
+        a: "It depends on what free has to cover. **InvoiceQuick** has no invoice cap, no watermark, and no account, but no built-in card payments or recurring invoices on the free plan. **Zoho Invoice** is free with recurring invoices, reminders, and a client portal, up to 500 invoices a year and 2 users. **Wave** Starter is free with unlimited invoices and bookkeeping, and charges 2.9% + $0.60 when a client pays by card. **Invoice Ninja** is free for up to 5 clients. Bonsai and HoneyBook have no free plan, only trials."
       },
       {
         q: "What is the catch with free invoicing tools?",
-        a: "There is almost always a catch — the trick is knowing where it hides so you can pick a tool where it does not hurt you. The four common ones are: a watermark or branding on the output, a cap on how many invoices you can send before it asks for money, a payment processor that quietly skims 2.9–3% of every dollar a client pays, and a \"free trial\" that is really a paid plan with a countdown. Wave, for example, is free to invoice but charges 2.9% + $0.60 on card payments; PayPal has no monthly fee but takes 2.99% + $0.49 per paid invoice. InvoiceQuick is the outlier where free genuinely means free — no watermark, no invoice cap, and 0% payment fees because it hands you a payment link instead of processing the money and taking a cut. Read the pricing and the payment-fee fine print before you commit, not after your first client pays."
+        a: "There is almost always one, so pick a tool where it doesn't hurt you. The common catches are a cap (Zoho Invoice stops at 500 invoices a year, Invoice Ninja at 5 clients, the QuickBooks free tier at 2 invoices a month without QuickBooks Payments), branding on the invoice (Invoice Ninja's free plan), and payment fees, which is where most free tools make their money: Wave charges 2.9% + $0.60 per card payment, Square 3.3% + 30 cents, PayPal 2.99% + $0.49 for cards and 3.49% + $0.49 for PayPal balances. InvoiceQuick charges no payment fee because it doesn't process payments; your client pays you directly."
       },
       {
-        q: "How do online invoicing tools help me get paid faster?",
-        a: "Invoicing software reduces payment delays by enabling online payments (credit card, ACH, PayPal), sending automatic reminders for overdue invoices, and making it easy for clients to pay with one click. Most freelancers report getting paid 2-3x faster after switching from manual invoices. If your work also involves signed contracts or SOWs before billing, pairing an invoicing tool with [e-signature software](/reviews/best-esignature-software) closes the loop from signed deal to sent invoice without a manual handoff."
+        q: "How much does invoicing software really cost per year?",
+        a: "Add the plan price to a year of payment fees. On prices checked November 4, 2026: FreshBooks Lite is $276 a year billed monthly or $248.40 billed yearly, and Plus is $516 or $464.40. Wave Pro is $228 billed monthly or $190 yearly. Invoice Ninja Pro is $140 a year. InvoiceQuick Pro is $108 a year. Zoho Invoice, Wave Starter, Square Free, and PayPal have no subscription. Now the fees: 120 invoices of $1,000 a year paid by card cost about $3,647 in PayPal card fees, $4,247 if paid from PayPal balances, $3,996 on Square Free, and $3,552 on Wave Starter. Steering clients to bank transfer (1% on Wave, Square, and PayPal, capped at $10 on PayPal and Square Plus) cuts that sharply."
+      },
+      {
+        q: "Which invoicing tool has the lowest payment fees?",
+        a: "For card payments, FreshBooks (2.9% + $0.30) and Square Plus (2.9% + 30 cents, but $49 a month) are the lowest of the tools here; Wave Pro also drops its 60-cent fixed fee on your first 10 card payments a month. For bank transfers, PayPal and Square Plus cap the fee at $10, which makes them cheap for large invoices. The lowest fee of all is none: InvoiceQuick doesn't touch the payment, so a client who pays by bank transfer to your account costs you nothing. Our [payment processors for freelancers](/reviews/best-payment-processors-freelancers) guide compares Stripe, Square, PayPal, and others in more detail."
+      },
+      {
+        q: "Can I use free invoicing software for recurring billing?",
+        a: "Yes, on some. Zoho Invoice sends recurring invoices on its free plan, and FreshBooks includes automated recurring invoices on every paid plan. Invoice Ninja supports recurring billing within its 5-client free limit. On InvoiceQuick, recurring invoices are a Pro feature ($9 a month); on the free plan, duplicate last month's invoice and change the month, which takes seconds for a few retainer clients. Whatever you use, name the month on the invoice ('Monthly retainer, November 2026'), state the hours or deliverables, and put your overage rate on the invoice. InvoiceQuick's [retainer billing guide](https://invoicequick-phi.vercel.app/blog/recurring-invoices-for-freelancers) walks through the setup."
       },
       {
         q: "Do I need invoicing software or full accounting software?",
-        a: "If you just need to send invoices and track payments, a dedicated invoicing tool like InvoiceQuick or FreshBooks is sufficient. If you also need to track expenses, manage taxes, and generate financial reports, consider Wave or Zoho Invoice which include accounting features."
+        a: "If you only need to send invoices and see who has paid, an invoicing tool is enough. If you also need to categorize expenses, reconcile bank accounts, and hand clean books to an accountant at tax time, you need accounting too. Wave and QuickBooks Solopreneur do both in one place; FreshBooks covers invoices, expenses, and time well. Many freelancers pair a simple invoicing tool with a separate accounting app. Our [best accounting software for freelancers](/reviews/best-accounting-software-freelancers) guide covers that side."
       },
       {
-        q: "Can I use invoicing software for recurring billing?",
-        a: "Yes. FreshBooks, Wave, and Zoho Invoice all support fully automated recurring invoices that send at set intervals — ideal for retainer clients, subscription services, or any engagement billed on a fixed cadence. The standard pattern is to bill on the 1st of the month in advance, name the month explicitly on the invoice (\"Monthly retainer — May 2026\"), spell out reserved hours or deliverables, and put the overage rate on the invoice itself so there is no surprise the first time the client exceeds scope. On InvoiceQuick's free tier, duplicate last month's retainer invoice and update the month name — about 20 seconds per client per month, which is genuinely all you need for 1–5 retainer clients. InvoiceQuick Pro ($9/month) automates the cadence entirely with a 5-day pre-due reminder, which is the single highest-leverage retainer workflow you can build (see invoicequick-phi.vercel.app/blog/recurring-invoices-for-freelancers for the full retainer billing guide)."
+        q: "Which invoicing tool is best for international clients?",
+        a: "InvoiceQuick bills in 10 currencies on its free plan (USD, EUR, GBP, CAD, AUD, JPY, MXN, BRL, INR, and CHF) and adds no payment fee. Zoho Invoice's app listing says you can invoice customers in their own language and currency, though its pricing page doesn't spell this out, so test it first. Be careful with PayPal for cross-border work: international invoices add 1.5% to the base fee, and currency conversion adds a 3% to 4% spread. Square also adds 1.5% for cards issued outside the US. If you are VAT-registered, check that the tool shows your VAT number and your client's on every invoice."
       },
       {
-        q: "How much does invoicing software actually cost per year?",
-        a: "The advertised price is rarely the full price. FreshBooks Lite is $17/month ($204/year) but limits you to 5 billable clients — most freelancers hit that cap within 90 days and upgrade to Plus ($30/month = $360/year). QuickBooks Online starts at $20/month ($240/year) and the Essentials tier most freelancers actually need is $40+/month ($480/year). PayPal Invoicing has no monthly fee but charges 2.99% + $0.49 per paid invoice — for a freelancer sending 10 invoices/month at $1,000 each, that is ~$4,247/year in fees. Wave is free for invoicing but charges 2.9% + $0.60 per credit-card payment processed through their system. InvoiceQuick is the only tool on this list where free actually means free — no per-invoice fee, no payment-processing markup, no hidden cap. The real cost of your invoicing tool is what you pay over 12 months including payment fees, not what the homepage says."
+        q: "Are Bonsai and HoneyBook worth it just for invoicing?",
+        a: "Usually not. Both are all-in-one client platforms that bundle proposals, contracts, scheduling, and invoicing, priced to match. Bonsai runs $15, $25, $39, or $59 per user a month billed monthly ($9, $19, $29, or $49 billed yearly), with a 7-day trial and no free plan. HoneyBook is $29, $49, or $109 a month billed yearly, with higher monthly-billing prices shown, and a free trial; its page lists card fees both as 'from 2.7% + 10 cents' and '2.9% + 25 cents', so confirm the rate for your account. They make sense if you'd use the proposals and contracts too; our [best proposal software for freelancers](/reviews/best-proposal-software-freelancers) guide compares them on that job."
       },
       {
-        q: "Which invoicing tool is best for international clients and multi-currency invoices?",
-        a: "InvoiceQuick and Zoho Invoice both support 50+ currencies on the free tier with no per-invoice surcharge. FreshBooks supports multi-currency but only on the Plus tier ($30/month) and above. Avoid PayPal Invoicing as a primary tool for international work — cross-border fees stack on top of the base 2.99% and can erode 4–6% per invoice once currency conversion is factored in. For VAT-registered freelancers invoicing EU clients, make sure your tool lets you display your VAT number and the client's VAT number on every invoice (all four free tools above support this; some legacy template-based generators do not). If you bill clients in 3+ currencies regularly, also confirm the tool lets you set per-client default currencies so you are not changing the setting on every invoice."
+        q: "Is free invoicing software safe to use?",
+        a: "Reputable free tools are safe, but free is not a security rating. Check that the site uses HTTPS and has a privacy policy saying it doesn't sell your data; tools like Zoho, Wave, and InvoiceQuick make money from paid plans or payment fees, not from your client list. Be wary of any tool that asks for bank login details just to make a PDF. The bigger risk is what you put on the invoice: never include your Social Security number, because invoice PDFs get forwarded around client inboxes. Use an EIN instead, which the IRS issues free."
       },
       {
-        q: "Do I need a tax ID or EIN to send a professional invoice?",
-        a: "No. US freelancers operating as sole proprietors do not need to put an EIN on every invoice — clients collect your tax ID via a W-9 form for 1099 reporting, not from the invoice itself. Including your Social Security Number on invoices is actually a security risk (those PDFs often get forwarded internally) and should be avoided. If you have an EIN (free to obtain from the IRS in 10 minutes), you can include it to look more professional and make corporate AP departments' bookkeeping easier. Outside the US, the rules differ: EU freelancers who are VAT-registered must include their VAT number, and UK/Canada have similar requirements. All five invoicing tools above let you save your tax ID once and apply it to every invoice automatically."
+        q: "How do I get a signed contract and an invoice without double work?",
+        a: "Get the scope signed first, then build the invoice from it. Zoho Invoice (quotes) and Wave (estimates) both let you send a price for approval before you invoice, so the numbers carry over. If you need a legally signed agreement rather than a clicked-accept quote, pair your invoicing tool with [e-signature software](/reviews/best-esignature-software) and copy the signed scope into your line items, so the invoice matches what the client agreed to."
       },
       {
-        q: "When should I upgrade from a free invoicing tool to a paid plan?",
-        a: "Three triggers signal that a paid tier is worth the money. First, you have 5+ retainer or recurring clients — at that volume, manually duplicating last month's invoice starts leaking revenue (missed sends, wrong month names, forgotten reminders), and Pro/automation pays for itself in the first prevented mistake. Second, you need built-in time tracking that flows directly into invoice line items — FreshBooks is genuinely the best at this and worth the $17/month for any freelancer billing hourly. Third, you are spending more than 30 minutes per month on invoicing admin (creating invoices, chasing payments, following up on late invoices) — at that point, the time savings from automated reminders and a client portal easily justifies a $9–$17/month tool. Below those thresholds, a free tier like InvoiceQuick or Wave covers the entire workflow."
-      },
-      {
-        q: "How do I write a payment reminder email when an invoice is overdue?",
-        a: "Most overdue invoices are honest oversights, not refusals, so a calm escalating sequence usually works: a friendly nudge three days before the due date, a gentle reminder the day after it goes overdue, a firmer follow-up at 1-2 weeks, and a final notice at 3-4 weeks that references your late-fee policy. Always re-attach the invoice, keep the tone polite, and put the invoice number and amount in the subject line ('Invoice #1042 — now 14 days overdue') so it actually gets opened. Tools like FreshBooks automate this entire sequence; on a free tool you send the reminders manually. For five copy-paste reminder email templates — from polite nudge to firm final notice — plus the ideal cadence, see invoicequick-phi.vercel.app/blog/invoice-payment-reminder-email-templates."
-      },
-      {
-        q: "What should I do if a client flat-out refuses to pay an invoice?",
-        a: "First, rule out the common causes: an invoice lost in a busy inbox, a missing PO number, or an approval stuck in the client's accounts-payable cycle. Send a clear written reminder that restates the amount, due date, and agreed scope, and attach the original invoice plus any signed contract or statement of work. If that fails, escalate in writing with a firm payment deadline and your stated late-fee policy, then consider pausing further work, a formal demand letter, or small-claims court for larger amounts. Prevention beats collection: take a deposit on big projects, put payment terms and late fees on every invoice, and keep your signed agreements organized. Our full guide walks through the exact escalation steps at invoicequick-phi.vercel.app/blog/client-wont-pay-invoice."
+        q: "What should I do if a client won't pay an invoice?",
+        a: "Start by ruling out simple causes: a lost email, a missing PO number, or an approval stuck in the client's payables process. Send a calm reminder that restates the invoice number, amount, and due date, and attach the invoice and any signed agreement. If that fails, follow up in writing with a firm deadline and your late-fee policy, then consider pausing work, a formal demand letter, or small-claims court. Automatic reminders (Zoho Invoice free, Wave Pro, FreshBooks) handle the early nudges for you. InvoiceQuick has [reminder email templates](https://invoicequick-phi.vercel.app/blog/invoice-payment-reminder-email-templates) and a step-by-step [guide for clients who won't pay](https://invoicequick-phi.vercel.app/blog/client-wont-pay-invoice)."
       }
     ]
   },
