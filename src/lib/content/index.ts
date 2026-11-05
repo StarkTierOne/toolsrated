@@ -1372,7 +1372,7 @@ Below: side-by-side comparison, full reviews, and the FAQ section that answers w
           "Bank reconciliation could be smoother",
           "Advanced reporting requires Premium plan"
         ],
-        price: "$17/mo (Lite), $30/mo (Plus), $55/mo (Premium)",
+        price: "$23/mo (Lite), $43/mo (Plus), $70/mo (Premium) billed monthly; introductory discounts are common",
         bestFor: "Service-based freelancers who bill by the hour and want the easiest setup",
         verdict: "FreshBooks is the best accounting tool for freelancers who hate accounting. The interface is intuitive, the time tracking is excellent, and you can go from zero to sending your first invoice in under 15 minutes. If you sell services (consulting, design, development), FreshBooks is built for you."
       },
@@ -1477,7 +1477,7 @@ Whatever you choose, start tracking your finances now. The pain of setting up ac
       },
       {
         q: "How much should a freelancer expect to pay for accounting software?",
-        a: "Nothing, if you start with Wave. For paid options, expect $15-30/month for a solid solo freelancer plan (QuickBooks Simple Start, FreshBooks Lite, Xero Early). Full-service bookkeeping like Bench starts at $299/month but includes a human bookkeeper. The right spend depends on your revenue -- if you are earning over $5,000/month, accounting software pays for itself in time saved and tax deductions found."
+        a: "Nothing, if you start with Wave. For paid options, expect $20-40/month for a solid solo freelancer plan (QuickBooks Simple Start, FreshBooks Lite, Xero Early). Full-service bookkeeping like Bench starts at $299/month but includes a human bookkeeper. The right spend depends on your revenue -- if you are earning over $5,000/month, accounting software pays for itself in time saved and tax deductions found."
       },
       {
         q: "What accounting reports do I actually need as a freelancer?",
@@ -5978,11 +5978,11 @@ So we tested the leading options the way a working freelancer actually uses them
         ],
         cons: [
           "Receipt scanning is a paid add-on (~$8/mo), not part of the free plan -- read the fine print",
-          "Bank feed automation requires Wave Pro (~$16/mo)",
+          "Bank feed automation requires Wave Pro ($19/mo)",
           "No native mileage tracking, a real gap for freelancers who drive",
           "Reporting is solid but shallower than dedicated accounting platforms"
         ],
-        price: "Starter free forever; Pro ~$16/mo; receipt scanning ~$8/mo add-on",
+        price: "Starter free forever; Pro $19/mo; receipt scanning add-on $11/mo on Starter, $8/mo on Pro",
         bestFor: "Freelancers who want free accounting, invoicing, and expense tracking in a single ledger",
         verdict: "Wave is the most generous free product in small-business finance, and the fact that expenses and invoices share one ledger means you get a real profit-and-loss statement without paying anyone. Just go in clear-eyed: the free plan tracks expenses, but *scanning* receipts is an $8/mo add-on. Budget for it, or pair free Wave with free Expensify for capture."
       },
@@ -6079,7 +6079,7 @@ And close the loop on the money side: tracked expenses only become income when t
       },
       {
         q: "Is there a genuinely free expense tracker for freelancers?",
-        a: "Yes, two. Expensify's individual plan includes unlimited SmartScan receipt scanning at no cost, which makes it the strongest free option purely for capture. Wave's Starter plan is free forever and includes unlimited expense tracking, unlimited invoicing, and real double-entry accounting with profit-and-loss reports -- but note the catch: receipt *scanning* on Wave is a paid add-on of roughly $8/month, and bank feed automation requires Wave Pro (~$16/mo). Zoho Expense also offers a usable free tier for a single user. A popular combination is running free Expensify for receipt capture alongside free Wave for accounting and invoicing, which covers the whole workflow without spending anything -- at the cost of maintaining two systems."
+        a: "Yes, two. Expensify's individual plan includes unlimited SmartScan receipt scanning at no cost, which makes it the strongest free option purely for capture. Wave's Starter plan is free forever and includes unlimited expense tracking, unlimited invoicing, and real double-entry accounting with profit-and-loss reports -- but note the catch: receipt *scanning* on Wave is a paid add-on ($11/month on Starter, $8 on Pro), and bank feed automation requires Wave Pro ($19/mo). Zoho Expense also offers a usable free tier for a single user. A popular combination is running free Expensify for receipt capture alongside free Wave for accounting and invoicing, which covers the whole workflow without spending anything -- at the cost of maintaining two systems."
       },
       {
         q: "How much money do freelancers actually lose by not tracking expenses?",
@@ -6645,7 +6645,7 @@ Notice what decides it: not which company you sign up with, but what's printed o
       },
       {
         q: "How much do payment processors really charge on a $1,000 invoice?",
-        a: "As of September 2026, for a US client: Stripe card $29.30, Stripe ACH $5 (capped), Square online card $33.30, Square ACH $10, PayPal invoice $35.39, Melio card $29 or ACH $0, plain ACH or Zelle $0. For an international client paying $1,000 from Europe: Wise about $4-6 to convert with no receiving fee; Stripe by international card around $54 including conversion; PayPal roughly $50 in transaction fees plus $30-40 in currency spread. The takeaway is that the fee on a given invoice varies from $0 to over $90 depending on the rail, not the amount -- which is why offering a bank option on the invoice matters more than which processor you sign up with."
+        a: "As of September 2026, for a US client: Stripe card $29.30, Stripe ACH $5 (capped), Square online card $33.30, Square ACH $10, PayPal invoice $30.39 by card or $35.39 from a PayPal balance, Melio card $29 or ACH $0, plain ACH or Zelle $0. For an international client paying $1,000 from Europe: Wise about $4-6 to convert with no receiving fee; Stripe by international card around $54 including conversion; PayPal roughly $50 in transaction fees plus $30-40 in currency spread. The takeaway is that the fee on a given invoice varies from $0 to over $90 depending on the rail, not the amount -- which is why offering a bank option on the invoice matters more than which processor you sign up with."
       },
       {
         q: "Can I pass payment processing fees to my clients?",
